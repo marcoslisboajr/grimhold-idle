@@ -4,6 +4,17 @@ MMO idle de navegador em dark fantasy, **em produção** em [grimholdidle.com](h
 
 <p align="center"><img src="media/login.jpg" width="640" alt="Tela de entrada do Grimhold Idle"></p>
 
+<table>
+<tr>
+<td><img src="media/cacada.png" alt="Caçada com equipamento e barra de magias"><br><sub>Caçada, equipamento e barra de magias</sub></td>
+<td><img src="media/chefes-globais.png" alt="Resultados dos chefes globais"><br><sub>Resultados dos chefes globais</sub></td>
+</tr>
+<tr>
+<td><img src="media/profissoes.png" alt="Profissões e fila de tarefas"><br><sub>18 profissões com fila de tarefas</sub></td>
+<td><img src="media/skills.png" alt="Skills e combate"><br><sub>Skills de combate e de coleta</sub></td>
+</tr>
+</table>
+
 > **Vitrine de código.** Este repositório mostra o código do jogo. As artes, ícones, sprites e músicas são de pacotes licenciados (veja [CREDITS.md](CREDITS.md)) e **não estão incluídos**, então o cliente roda sem imagens. O desenvolvimento acontece num repositório privado (~890 commits desde outubro de 2026).
 
 ## Stack
