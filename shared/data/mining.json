@@ -1,0 +1,21 @@
+[
+  {"id": "copper_vein", "name": "Veio de Cobre", "region": "Ravina Selvagem", "level": 1, "intervalMs": 3000, "xp": 364, "item": "copper_ore"},
+  {"id": "tin_vein", "name": "Veio de Estanho", "region": "Ravina Selvagem", "level": 1, "intervalMs": 3000, "xp": 364, "item": "tin_ore"},
+  {"id": "rune_stone_vein", "name": "Veio de Pedra Rúnica", "region": "Ravina Selvagem", "level": 1, "intervalMs": 3000, "xp": 303, "item": "rune_stone"},
+  {"id": "iron_vein", "name": "Veio de Ferro", "region": "Catacumbas de Ashfen", "level": 15, "intervalMs": 4000, "xp": 707, "item": "iron_ore"},
+  {"id": "quartz_vein", "name": "Veio de Quartzo", "region": "Ravina Selvagem", "level": 20, "intervalMs": 4500, "xp": 808, "item": "gem_sapphire", "drops": [{"item": "gem_sapphire", "weight": 45}, {"item": "gem_emerald", "weight": 40}, {"item": "gem_ruby", "weight": 13}, {"item": "gem_diamond", "weight": 2}]},
+  {"id": "silver_vein", "name": "Veio de Prata", "region": "Ravina Selvagem", "level": 20, "intervalMs": 4300, "xp": 768, "item": "silver_ore"},
+  {"id": "coal_seam", "name": "Camada de Carvão", "region": "Catacumbas de Ashfen", "level": 30, "intervalMs": 5000, "xp": 1010, "item": "coal"},
+  {"id": "gold_vein", "name": "Veio de Ouro", "region": "Catacumbas de Ashfen", "level": 35, "intervalMs": 5300, "xp": 1172, "item": "gold_ore"},
+  {"id": "mithril_vein", "name": "Veio de Mithril", "region": "Minas de Kharzul", "level": 40, "intervalMs": 6000, "xp": 1515, "item": "mithril_ore"},
+  {"id": "gem_rock", "name": "Rocha de Gemas", "region": "Minas de Kharzul", "level": 48, "intervalMs": 6200, "xp": 1656, "item": "gem_sapphire", "drops": [{"item": "gem_sapphire", "weight": 50}, {"item": "gem_emerald", "weight": 30}, {"item": "gem_ruby", "weight": 15}, {"item": "gem_diamond", "weight": 5}]},
+  {"id": "pure_rune_vein", "name": "Veio de Pedra Rúnica Pura", "region": "Minas de Kharzul", "level": 50, "intervalMs": 6500, "xp": 1919, "item": "pure_rune_stone"},
+  {"id": "adamant_vein", "name": "Veio de Adamantita", "region": "Fenda Vulcânica", "level": 55, "intervalMs": 7000, "xp": 2222, "item": "adamant_ore"},
+  {"id": "runite_vein", "name": "Veio de Runita", "region": "Minas de Kharzul", "level": 65, "intervalMs": 7500, "xp": 2666, "item": "runite_ore"},
+  {"id": "orichalcum_vein", "name": "Veio de Oricalco", "region": "Fenda Vulcânica", "level": 75, "intervalMs": 8500, "xp": 3737, "item": "orichalcum_ore"},
+  {"id": "luminite_vein", "name": "Veio de Luminita", "region": "Cavernas de Cristal", "level": 85, "intervalMs": 9500, "xp": 5090, "item": "luminite_ore"},
+  {"id": "deep_geode", "name": "Geodo Profundo", "region": "Cavernas de Cristal", "level": 90, "intervalMs": 10000, "xp": 5858, "item": "gem_ruby", "drops": [{"item": "gem_sapphire", "weight": 20}, {"item": "gem_emerald", "weight": 20}, {"item": "gem_ruby", "weight": 35}, {"item": "gem_diamond", "weight": 25}]},
+  {"id": "dragonite_vein", "name": "Veio de Dragonita", "region": "Fenda Vulcânica", "level": 95, "intervalMs": 10500, "xp": 6767, "item": "dragonite_ore"},
+  {"id": "starmetal_vein", "name": "Veio Estelar", "region": "Picos Celestes", "level": 105, "intervalMs": 11500, "xp": 8686, "item": "starmetal_ore"},
+  {"id": "primordial_vein", "name": "Veio Primordial", "region": "Coração do Vazio", "level": 115, "intervalMs": 12500, "xp": 10908, "item": "primordial_ore"}
+]

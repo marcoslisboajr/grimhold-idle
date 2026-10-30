@@ -1,0 +1,3682 @@
+[
+  {
+    "id": "bronze_bar",
+    "name": "Barra de Bronze",
+    "level": 1,
+    "intervalMs": 3000,
+    "xp": 78,
+    "inputs": {
+      "copper_ore": 1,
+      "tin_ore": 1
+    },
+    "output": "bronze_bar"
+  },
+  {
+    "id": "bronze_sword",
+    "name": "Espada de Bronze",
+    "level": 1,
+    "intervalMs": 4000,
+    "xp": 122,
+    "inputs": {
+      "bronze_bar": 1
+    },
+    "output": "bronze_sword"
+  },
+  {
+    "id": "bronze_mace",
+    "name": "Maça de Bronze",
+    "level": 1,
+    "intervalMs": 4000,
+    "xp": 122,
+    "inputs": {
+      "bronze_bar": 1
+    },
+    "output": "bronze_mace"
+  },
+  {
+    "id": "bronze_helmet",
+    "name": "Elmo de Bronze",
+    "level": 3,
+    "intervalMs": 4000,
+    "xp": 122,
+    "inputs": {
+      "bronze_bar": 1
+    },
+    "output": "bronze_helmet"
+  },
+  {
+    "id": "bronze_shield",
+    "name": "Escudo de Bronze",
+    "level": 5,
+    "intervalMs": 4000,
+    "xp": 244,
+    "inputs": {
+      "bronze_bar": 2
+    },
+    "output": "bronze_shield"
+  },
+  {
+    "id": "bronze_boots",
+    "name": "Botas de Bronze",
+    "level": 6,
+    "intervalMs": 4000,
+    "xp": 122,
+    "inputs": {
+      "bronze_bar": 1
+    },
+    "output": "bronze_boots"
+  },
+  {
+    "id": "bronze_legs",
+    "name": "Calças de Bronze",
+    "level": 8,
+    "intervalMs": 4000,
+    "xp": 244,
+    "inputs": {
+      "bronze_bar": 2
+    },
+    "output": "bronze_legs"
+  },
+  {
+    "id": "bronze_armor",
+    "name": "Armadura de Bronze",
+    "level": 10,
+    "intervalMs": 4000,
+    "xp": 368,
+    "inputs": {
+      "bronze_bar": 3
+    },
+    "output": "bronze_armor"
+  },
+  {
+    "id": "iron_bar",
+    "name": "Barra de Ferro",
+    "level": 15,
+    "intervalMs": 4000,
+    "xp": 239,
+    "inputs": {
+      "iron_ore": 2
+    },
+    "output": "iron_bar"
+  },
+  {
+    "id": "iron_sword",
+    "name": "Espada de Ferro",
+    "level": 15,
+    "intervalMs": 5000,
+    "xp": 368,
+    "inputs": {
+      "iron_bar": 1
+    },
+    "output": "iron_sword"
+  },
+  {
+    "id": "iron_mace",
+    "name": "Maça de Ferro",
+    "level": 15,
+    "intervalMs": 5000,
+    "xp": 368,
+    "inputs": {
+      "iron_bar": 1
+    },
+    "output": "iron_mace"
+  },
+  {
+    "id": "iron_helmet",
+    "name": "Elmo de Ferro",
+    "level": 17,
+    "intervalMs": 5000,
+    "xp": 368,
+    "inputs": {
+      "iron_bar": 1
+    },
+    "output": "iron_helmet"
+  },
+  {
+    "id": "iron_shield",
+    "name": "Escudo de Ferro",
+    "level": 19,
+    "intervalMs": 5000,
+    "xp": 740,
+    "inputs": {
+      "iron_bar": 2
+    },
+    "output": "iron_shield"
+  },
+  {
+    "id": "iron_boots",
+    "name": "Botas de Ferro",
+    "level": 20,
+    "intervalMs": 5000,
+    "xp": 368,
+    "inputs": {
+      "iron_bar": 1
+    },
+    "output": "iron_boots"
+  },
+  {
+    "id": "iron_legs",
+    "name": "Calças de Ferro",
+    "level": 22,
+    "intervalMs": 5000,
+    "xp": 740,
+    "inputs": {
+      "iron_bar": 2
+    },
+    "output": "iron_legs"
+  },
+  {
+    "id": "iron_armor",
+    "name": "Armadura de Ferro",
+    "level": 24,
+    "intervalMs": 5000,
+    "xp": 1108,
+    "inputs": {
+      "iron_bar": 3
+    },
+    "output": "iron_armor"
+  },
+  {
+    "id": "steel_bar",
+    "name": "Barra de Aço",
+    "level": 30,
+    "intervalMs": 5000,
+    "xp": 370,
+    "inputs": {
+      "iron_ore": 1,
+      "coal": 2
+    },
+    "output": "steel_bar"
+  },
+  {
+    "id": "steel_sword",
+    "name": "Espada de Aço",
+    "level": 30,
+    "intervalMs": 6000,
+    "xp": 532,
+    "inputs": {
+      "steel_bar": 1
+    },
+    "output": "steel_sword"
+  },
+  {
+    "id": "steel_mace",
+    "name": "Maça de Aço",
+    "level": 30,
+    "intervalMs": 6000,
+    "xp": 532,
+    "inputs": {
+      "steel_bar": 1
+    },
+    "output": "steel_mace"
+  },
+  {
+    "id": "crypt_key",
+    "name": "Chave da Cripta",
+    "level": 30,
+    "intervalMs": 6000,
+    "xp": 1790,
+    "inputs": {
+      "ashfen_medal": 3,
+      "steel_bar": 1
+    },
+    "output": "crypt_key"
+  },
+  {
+    "id": "steel_helmet",
+    "name": "Elmo de Aço",
+    "level": 32,
+    "intervalMs": 6000,
+    "xp": 532,
+    "inputs": {
+      "steel_bar": 1
+    },
+    "output": "steel_helmet"
+  },
+  {
+    "id": "steel_shield",
+    "name": "Escudo de Aço",
+    "level": 34,
+    "intervalMs": 6000,
+    "xp": 1064,
+    "inputs": {
+      "steel_bar": 2
+    },
+    "output": "steel_shield"
+  },
+  {
+    "id": "steel_boots",
+    "name": "Botas de Aço",
+    "level": 35,
+    "intervalMs": 6000,
+    "xp": 532,
+    "inputs": {
+      "steel_bar": 1
+    },
+    "output": "steel_boots"
+  },
+  {
+    "id": "minotaur_key",
+    "name": "Chave do Labirinto",
+    "level": 35,
+    "intervalMs": 6000,
+    "xp": 1790,
+    "inputs": {
+      "iron_bar": 2,
+      "steel_bar": 1,
+      "coal": 3
+    },
+    "output": "minotaur_key"
+  },
+  {
+    "id": "steel_legs",
+    "name": "Calças de Aço",
+    "level": 37,
+    "intervalMs": 6000,
+    "xp": 1064,
+    "inputs": {
+      "steel_bar": 2
+    },
+    "output": "steel_legs"
+  },
+  {
+    "id": "steel_armor",
+    "name": "Armadura de Aço",
+    "level": 39,
+    "intervalMs": 6000,
+    "xp": 1598,
+    "inputs": {
+      "steel_bar": 3
+    },
+    "output": "steel_armor"
+  },
+  {
+    "id": "mithril_bar",
+    "name": "Barra de Mithril",
+    "level": 40,
+    "intervalMs": 6000,
+    "xp": 554,
+    "inputs": {
+      "mithril_ore": 1,
+      "coal": 2
+    },
+    "output": "mithril_bar"
+  },
+  {
+    "id": "mithril_sword",
+    "name": "Espada de Mithril",
+    "level": 40,
+    "intervalMs": 7000,
+    "xp": 851,
+    "inputs": {
+      "mithril_bar": 1
+    },
+    "output": "mithril_sword"
+  },
+  {
+    "id": "mithril_mace",
+    "name": "Maça de Mithril",
+    "level": 40,
+    "intervalMs": 7000,
+    "xp": 851,
+    "inputs": {
+      "mithril_bar": 1
+    },
+    "output": "mithril_mace"
+  },
+  {
+    "id": "mithril_helmet",
+    "name": "Elmo de Mithril",
+    "level": 42,
+    "intervalMs": 7000,
+    "xp": 851,
+    "inputs": {
+      "mithril_bar": 1
+    },
+    "output": "mithril_helmet"
+  },
+  {
+    "id": "mithril_shield",
+    "name": "Escudo de Mithril",
+    "level": 44,
+    "intervalMs": 7000,
+    "xp": 1704,
+    "inputs": {
+      "mithril_bar": 2
+    },
+    "output": "mithril_shield"
+  },
+  {
+    "id": "abyssal_bar",
+    "name": "Barra Abissal",
+    "level": 45,
+    "intervalMs": 6000,
+    "xp": 740,
+    "inputs": {
+      "steel_bar": 1,
+      "sea_pearl": 1
+    },
+    "output": "abyssal_bar"
+  },
+  {
+    "id": "abyssal_sword",
+    "name": "Espada Abissal",
+    "level": 45,
+    "intervalMs": 7000,
+    "xp": 1064,
+    "inputs": {
+      "abyssal_bar": 1
+    },
+    "output": "abyssal_sword"
+  },
+  {
+    "id": "abyssal_mace",
+    "name": "Maça Abissal",
+    "level": 45,
+    "intervalMs": 7000,
+    "xp": 1064,
+    "inputs": {
+      "abyssal_bar": 1
+    },
+    "output": "abyssal_mace"
+  },
+  {
+    "id": "mithril_boots",
+    "name": "Botas de Mithril",
+    "level": 45,
+    "intervalMs": 7000,
+    "xp": 851,
+    "inputs": {
+      "mithril_bar": 1
+    },
+    "output": "mithril_boots"
+  },
+  {
+    "id": "abyssal_helmet",
+    "name": "Elmo Abissal",
+    "level": 47,
+    "intervalMs": 7000,
+    "xp": 1064,
+    "inputs": {
+      "abyssal_bar": 1
+    },
+    "output": "abyssal_helmet"
+  },
+  {
+    "id": "mithril_legs",
+    "name": "Calças de Mithril",
+    "level": 47,
+    "intervalMs": 7000,
+    "xp": 1704,
+    "inputs": {
+      "mithril_bar": 2
+    },
+    "output": "mithril_legs"
+  },
+  {
+    "id": "abyssal_shield",
+    "name": "Escudo Abissal",
+    "level": 49,
+    "intervalMs": 7000,
+    "xp": 2130,
+    "inputs": {
+      "abyssal_bar": 2
+    },
+    "output": "abyssal_shield"
+  },
+  {
+    "id": "mithril_armor",
+    "name": "Armadura de Mithril",
+    "level": 49,
+    "intervalMs": 7000,
+    "xp": 2555,
+    "inputs": {
+      "mithril_bar": 3
+    },
+    "output": "mithril_armor"
+  },
+  {
+    "id": "abyssal_boots",
+    "name": "Botas Abissais",
+    "level": 50,
+    "intervalMs": 7000,
+    "xp": 887,
+    "inputs": {
+      "abyssal_bar": 1
+    },
+    "output": "abyssal_boots"
+  },
+  {
+    "id": "abyssal_legs",
+    "name": "Calças Abissais",
+    "level": 52,
+    "intervalMs": 7000,
+    "xp": 1775,
+    "inputs": {
+      "abyssal_bar": 2
+    },
+    "output": "abyssal_legs"
+  },
+  {
+    "id": "abyssal_armor",
+    "name": "Armadura Abissal",
+    "level": 54,
+    "intervalMs": 7000,
+    "xp": 2662,
+    "inputs": {
+      "abyssal_bar": 3
+    },
+    "output": "abyssal_armor"
+  },
+  {
+    "id": "adamant_bar",
+    "name": "Barra de Adamantita",
+    "level": 55,
+    "intervalMs": 7000,
+    "xp": 829,
+    "inputs": {
+      "adamant_ore": 1,
+      "coal": 3
+    },
+    "output": "adamant_bar"
+  },
+  {
+    "id": "adamant_sword",
+    "name": "Espada de Adamantita",
+    "level": 55,
+    "intervalMs": 7000,
+    "xp": 1066,
+    "inputs": {
+      "adamant_bar": 1
+    },
+    "output": "adamant_sword"
+  },
+  {
+    "id": "adamant_mace",
+    "name": "Maça de Adamantita",
+    "level": 55,
+    "intervalMs": 7000,
+    "xp": 1066,
+    "inputs": {
+      "adamant_bar": 1
+    },
+    "output": "adamant_mace"
+  },
+  {
+    "id": "adamant_helmet",
+    "name": "Elmo de Adamantita",
+    "level": 57,
+    "intervalMs": 7000,
+    "xp": 1066,
+    "inputs": {
+      "adamant_bar": 1
+    },
+    "output": "adamant_helmet"
+  },
+  {
+    "id": "adamant_shield",
+    "name": "Escudo de Adamantita",
+    "level": 59,
+    "intervalMs": 7000,
+    "xp": 2129,
+    "inputs": {
+      "adamant_bar": 2
+    },
+    "output": "adamant_shield"
+  },
+  {
+    "id": "dragon_key",
+    "name": "Chave Dracônica",
+    "level": 60,
+    "intervalMs": 8000,
+    "xp": 3290,
+    "inputs": {
+      "abyssal_bar": 2,
+      "dark_essence": 3,
+      "coal": 5
+    },
+    "output": "dragon_key"
+  },
+  {
+    "id": "adamant_boots",
+    "name": "Botas de Adamantita",
+    "level": 60,
+    "intervalMs": 7000,
+    "xp": 1066,
+    "inputs": {
+      "adamant_bar": 1
+    },
+    "output": "adamant_boots"
+  },
+  {
+    "id": "adamant_legs",
+    "name": "Calças de Adamantita",
+    "level": 62,
+    "intervalMs": 7000,
+    "xp": 2129,
+    "inputs": {
+      "adamant_bar": 2
+    },
+    "output": "adamant_legs"
+  },
+  {
+    "id": "adamant_armor",
+    "name": "Armadura de Adamantita",
+    "level": 64,
+    "intervalMs": 7000,
+    "xp": 3196,
+    "inputs": {
+      "adamant_bar": 3
+    },
+    "output": "adamant_armor"
+  },
+  {
+    "id": "iron_axe",
+    "name": "Machado de Ferro",
+    "level": 16,
+    "intervalMs": 5000,
+    "xp": 740,
+    "inputs": {
+      "iron_bar": 2,
+      "logs": 1
+    },
+    "output": "iron_axe"
+  },
+  {
+    "id": "steel_axe",
+    "name": "Machado de Aço",
+    "level": 31,
+    "intervalMs": 6000,
+    "xp": 1064,
+    "inputs": {
+      "steel_bar": 2,
+      "logs": 1
+    },
+    "output": "steel_axe"
+  },
+  {
+    "id": "mithril_axe",
+    "name": "Machado de Mithril",
+    "level": 41,
+    "intervalMs": 7000,
+    "xp": 1704,
+    "inputs": {
+      "mithril_bar": 2,
+      "oak_logs": 1
+    },
+    "output": "mithril_axe"
+  },
+  {
+    "id": "abyssal_axe",
+    "name": "Machado Abissal",
+    "level": 46,
+    "intervalMs": 7000,
+    "xp": 2130,
+    "inputs": {
+      "abyssal_bar": 2,
+      "oak_logs": 1
+    },
+    "output": "abyssal_axe"
+  },
+  {
+    "id": "adamant_axe",
+    "name": "Machado de Adamantita",
+    "level": 56,
+    "intervalMs": 7000,
+    "xp": 2129,
+    "inputs": {
+      "adamant_bar": 2,
+      "oak_logs": 1
+    },
+    "output": "adamant_axe"
+  },
+  {
+    "id": "frost_key",
+    "name": "Chave Glacial",
+    "level": 85,
+    "intervalMs": 9000,
+    "xp": 3790,
+    "inputs": {
+      "abyssal_bar": 3,
+      "frost_crystal": 4,
+      "coal": 6
+    },
+    "output": "frost_key"
+  },
+  {
+    "id": "infernal_key",
+    "name": "Chave Infernal",
+    "level": 100,
+    "intervalMs": 10000,
+    "xp": 4220,
+    "inputs": {
+      "adamant_bar": 3,
+      "infernal_core": 3,
+      "coal": 8
+    },
+    "output": "infernal_key"
+  },
+  {
+    "id": "void_key",
+    "name": "Chave do Vazio",
+    "level": 115,
+    "intervalMs": 12000,
+    "xp": 7430,
+    "inputs": {
+      "adamant_bar": 4,
+      "void_shard": 4,
+      "coal": 10
+    },
+    "output": "void_key"
+  },
+  {
+    "id": "crystal_key",
+    "name": "Chave Cristalina",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 7430,
+    "inputs": {
+      "adamant_bar": 4,
+      "black_diamond": 4,
+      "crystal_heart": 2,
+      "coal": 10
+    },
+    "output": "crystal_key"
+  },
+  {
+    "id": "necro_key",
+    "name": "Chave da Necrópole",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 7430,
+    "inputs": {
+      "adamant_bar": 4,
+      "royal_bandage": 4,
+      "soul_gem": 2,
+      "coal": 10
+    },
+    "output": "necro_key"
+  },
+  {
+    "id": "astral_key",
+    "name": "Chave Astral",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 7430,
+    "inputs": {
+      "adamant_bar": 4,
+      "stardust": 4,
+      "astral_tome": 2,
+      "coal": 10
+    },
+    "output": "astral_key"
+  },
+  {
+    "id": "chaos_key",
+    "name": "Chave do Caos",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 7430,
+    "inputs": {
+      "adamant_bar": 4,
+      "chaos_fragment": 4,
+      "divine_ichor": 2,
+      "coal": 10
+    },
+    "output": "chaos_key"
+  },
+  {
+    "id": "goblin_key",
+    "name": "Chave do Salão Goblin",
+    "level": 5,
+    "intervalMs": 6250,
+    "xp": 670,
+    "inputs": {
+      "bronze_bar": 2,
+      "goblin_ear": 3
+    },
+    "output": "goblin_key"
+  },
+  {
+    "id": "orc_key",
+    "name": "Chave da Fortaleza Orc",
+    "level": 12,
+    "intervalMs": 6600,
+    "xp": 1020,
+    "inputs": {
+      "bronze_bar": 2,
+      "orc_tusk": 3
+    },
+    "output": "orc_key"
+  },
+  {
+    "id": "medusa_key",
+    "name": "Chave do Covil da Medusa",
+    "level": 20,
+    "intervalMs": 7000,
+    "xp": 2080,
+    "inputs": {
+      "iron_bar": 2,
+      "lizard_scale": 3
+    },
+    "output": "medusa_key"
+  },
+  {
+    "id": "forge_key",
+    "name": "Chave da Forja dos Ciclopes",
+    "level": 42,
+    "intervalMs": 8100,
+    "xp": 3330,
+    "inputs": {
+      "steel_bar": 2,
+      "coal": 4
+    },
+    "output": "forge_key"
+  },
+  {
+    "id": "count_key",
+    "name": "Chave da Cripta do Conde",
+    "level": 60,
+    "intervalMs": 9000,
+    "xp": 3780,
+    "inputs": {
+      "mithril_bar": 2,
+      "bat_wing": 4,
+      "coal": 6
+    },
+    "output": "count_key"
+  },
+  {
+    "id": "knight_key",
+    "name": "Chave do Salão Caído",
+    "level": 78,
+    "intervalMs": 9900,
+    "xp": 4160,
+    "inputs": {
+      "abyssal_bar": 2,
+      "cursed_iron": 4,
+      "coal": 7
+    },
+    "output": "knight_key"
+  },
+  {
+    "id": "eye_key",
+    "name": "Chave da Câmara do Olho",
+    "level": 95,
+    "intervalMs": 10750,
+    "xp": 4530,
+    "inputs": {
+      "adamant_bar": 2,
+      "beholder_eye": 4,
+      "coal": 8
+    },
+    "output": "eye_key"
+  },
+  {
+    "id": "furnace_key",
+    "name": "Chave da Fornalha",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 7430,
+    "inputs": {
+      "adamant_bar": 2,
+      "ash_ember": 4,
+      "coal": 10
+    },
+    "output": "furnace_key"
+  },
+  {
+    "id": "frostgiant_key",
+    "name": "Chave do Trono de Gelo",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 7430,
+    "inputs": {
+      "adamant_bar": 2,
+      "eternal_ice": 4,
+      "coal": 10
+    },
+    "output": "frostgiant_key"
+  },
+  {
+    "id": "pit_key",
+    "name": "Chave do Fosso",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 7430,
+    "inputs": {
+      "adamant_bar": 2,
+      "hellstone": 4,
+      "coal": 10
+    },
+    "output": "pit_key"
+  },
+  {
+    "id": "firstdragon_key",
+    "name": "Chave do Covil Primordial",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 7430,
+    "inputs": {
+      "adamant_bar": 2,
+      "primordial_scale": 4,
+      "coal": 10
+    },
+    "output": "firstdragon_key"
+  },
+  {
+    "id": "silver_bar",
+    "name": "Barra de Prata",
+    "level": 20,
+    "intervalMs": 4000,
+    "xp": 370,
+    "inputs": {
+      "silver_ore": 1
+    },
+    "output": "silver_bar"
+  },
+  {
+    "id": "gold_bar",
+    "name": "Barra de Ouro",
+    "level": 35,
+    "intervalMs": 5000,
+    "xp": 592,
+    "inputs": {
+      "gold_ore": 1,
+      "coal": 1
+    },
+    "output": "gold_bar"
+  },
+  {
+    "id": "runite_bar",
+    "name": "Barra de Runita",
+    "level": 65,
+    "intervalMs": 7000,
+    "xp": 1015,
+    "inputs": {
+      "runite_ore": 1,
+      "coal": 4
+    },
+    "output": "runite_bar"
+  },
+  {
+    "id": "runite_sword",
+    "name": "Espada de Runita",
+    "level": 65,
+    "intervalMs": 7000,
+    "xp": 1686,
+    "inputs": {
+      "runite_bar": 2,
+      "lich_dust": 2,
+      "gem_ruby": 1
+    },
+    "output": "runite_sword"
+  },
+  {
+    "id": "runite_mace",
+    "name": "Maça de Runita",
+    "level": 65,
+    "intervalMs": 7000,
+    "xp": 1686,
+    "inputs": {
+      "runite_bar": 2,
+      "lich_dust": 2,
+      "gem_ruby": 1
+    },
+    "output": "runite_mace"
+  },
+  {
+    "id": "runite_axe",
+    "name": "Machado de Runita",
+    "level": 66,
+    "intervalMs": 7000,
+    "xp": 2574,
+    "inputs": {
+      "runite_bar": 3,
+      "lich_dust": 2,
+      "gem_ruby": 1
+    },
+    "output": "runite_axe"
+  },
+  {
+    "id": "runite_helmet",
+    "name": "Elmo de Runita",
+    "level": 66,
+    "intervalMs": 7000,
+    "xp": 1715,
+    "inputs": {
+      "runite_bar": 2,
+      "lich_dust": 1
+    },
+    "output": "runite_helmet"
+  },
+  {
+    "id": "runite_boots",
+    "name": "Botas de Runita",
+    "level": 67,
+    "intervalMs": 7000,
+    "xp": 1730,
+    "inputs": {
+      "runite_bar": 2,
+      "lich_dust": 1
+    },
+    "output": "runite_boots"
+  },
+  {
+    "id": "runite_shield",
+    "name": "Escudo de Runita",
+    "level": 67,
+    "intervalMs": 7000,
+    "xp": 2596,
+    "inputs": {
+      "runite_bar": 3,
+      "lich_dust": 1,
+      "gem_diamond": 1
+    },
+    "output": "runite_shield"
+  },
+  {
+    "id": "runite_legs",
+    "name": "Calças de Runita",
+    "level": 68,
+    "intervalMs": 7000,
+    "xp": 3521,
+    "inputs": {
+      "runite_bar": 4,
+      "lich_dust": 2,
+      "gem_diamond": 1
+    },
+    "output": "runite_legs"
+  },
+  {
+    "id": "runite_armor",
+    "name": "Armadura de Runita",
+    "level": 69,
+    "intervalMs": 7000,
+    "xp": 5369,
+    "inputs": {
+      "runite_bar": 6,
+      "lich_dust": 3,
+      "gem_diamond": 1
+    },
+    "output": "runite_armor"
+  },
+  {
+    "id": "orichalcum_bar",
+    "name": "Barra de Oricalco",
+    "level": 75,
+    "intervalMs": 7500,
+    "xp": 815,
+    "inputs": {
+      "orichalcum_ore": 1,
+      "coal": 4
+    },
+    "output": "orichalcum_bar"
+  },
+  {
+    "id": "orichalcum_sword",
+    "name": "Espada de Oricalco",
+    "level": 75,
+    "intervalMs": 7500,
+    "xp": 1336,
+    "inputs": {
+      "orichalcum_bar": 2,
+      "wraith_essence": 2,
+      "gem_ruby": 1
+    },
+    "output": "orichalcum_sword"
+  },
+  {
+    "id": "orichalcum_mace",
+    "name": "Maça de Oricalco",
+    "level": 75,
+    "intervalMs": 7500,
+    "xp": 1336,
+    "inputs": {
+      "orichalcum_bar": 2,
+      "wraith_essence": 2,
+      "gem_ruby": 1
+    },
+    "output": "orichalcum_mace"
+  },
+  {
+    "id": "orichalcum_axe",
+    "name": "Machado de Oricalco",
+    "level": 76,
+    "intervalMs": 7500,
+    "xp": 2035,
+    "inputs": {
+      "orichalcum_bar": 3,
+      "wraith_essence": 2,
+      "gem_ruby": 1
+    },
+    "output": "orichalcum_axe"
+  },
+  {
+    "id": "orichalcum_helmet",
+    "name": "Elmo de Oricalco",
+    "level": 76,
+    "intervalMs": 7500,
+    "xp": 1357,
+    "inputs": {
+      "orichalcum_bar": 2,
+      "wraith_essence": 1
+    },
+    "output": "orichalcum_helmet"
+  },
+  {
+    "id": "orichalcum_boots",
+    "name": "Botas de Oricalco",
+    "level": 77,
+    "intervalMs": 7500,
+    "xp": 1377,
+    "inputs": {
+      "orichalcum_bar": 2,
+      "wraith_essence": 1
+    },
+    "output": "orichalcum_boots"
+  },
+  {
+    "id": "orichalcum_shield",
+    "name": "Escudo de Oricalco",
+    "level": 77,
+    "intervalMs": 7500,
+    "xp": 2066,
+    "inputs": {
+      "orichalcum_bar": 3,
+      "wraith_essence": 1,
+      "gem_diamond": 1
+    },
+    "output": "orichalcum_shield"
+  },
+  {
+    "id": "orichalcum_legs",
+    "name": "Calças de Oricalco",
+    "level": 78,
+    "intervalMs": 7500,
+    "xp": 2774,
+    "inputs": {
+      "orichalcum_bar": 4,
+      "wraith_essence": 2,
+      "gem_diamond": 1
+    },
+    "output": "orichalcum_legs"
+  },
+  {
+    "id": "orichalcum_armor",
+    "name": "Armadura de Oricalco",
+    "level": 79,
+    "intervalMs": 7500,
+    "xp": 4223,
+    "inputs": {
+      "orichalcum_bar": 6,
+      "wraith_essence": 3,
+      "gem_diamond": 1
+    },
+    "output": "orichalcum_armor"
+  },
+  {
+    "id": "luminite_bar",
+    "name": "Barra de Luminita",
+    "level": 85,
+    "intervalMs": 8000,
+    "xp": 918,
+    "inputs": {
+      "luminite_ore": 1,
+      "coal": 5
+    },
+    "output": "luminite_bar"
+  },
+  {
+    "id": "luminite_sword",
+    "name": "Espada de Luminita",
+    "level": 85,
+    "intervalMs": 8000,
+    "xp": 1520,
+    "inputs": {
+      "luminite_bar": 2,
+      "demon_ash": 2,
+      "gem_ruby": 1
+    },
+    "output": "luminite_sword"
+  },
+  {
+    "id": "luminite_mace",
+    "name": "Maça de Luminita",
+    "level": 85,
+    "intervalMs": 8000,
+    "xp": 1520,
+    "inputs": {
+      "luminite_bar": 2,
+      "demon_ash": 2,
+      "gem_ruby": 1
+    },
+    "output": "luminite_mace"
+  },
+  {
+    "id": "luminite_axe",
+    "name": "Machado de Luminita",
+    "level": 86,
+    "intervalMs": 8000,
+    "xp": 2295,
+    "inputs": {
+      "luminite_bar": 3,
+      "demon_ash": 2,
+      "gem_ruby": 1
+    },
+    "output": "luminite_axe"
+  },
+  {
+    "id": "luminite_helmet",
+    "name": "Elmo de Luminita",
+    "level": 86,
+    "intervalMs": 8000,
+    "xp": 1530,
+    "inputs": {
+      "luminite_bar": 2,
+      "demon_ash": 1
+    },
+    "output": "luminite_helmet"
+  },
+  {
+    "id": "luminite_boots",
+    "name": "Botas de Luminita",
+    "level": 87,
+    "intervalMs": 8000,
+    "xp": 1550,
+    "inputs": {
+      "luminite_bar": 2,
+      "demon_ash": 1
+    },
+    "output": "luminite_boots"
+  },
+  {
+    "id": "luminite_shield",
+    "name": "Escudo de Luminita",
+    "level": 87,
+    "intervalMs": 8000,
+    "xp": 2326,
+    "inputs": {
+      "luminite_bar": 3,
+      "demon_ash": 1,
+      "gem_diamond": 1
+    },
+    "output": "luminite_shield"
+  },
+  {
+    "id": "luminite_legs",
+    "name": "Calças de Luminita",
+    "level": 88,
+    "intervalMs": 8000,
+    "xp": 3142,
+    "inputs": {
+      "luminite_bar": 4,
+      "demon_ash": 2,
+      "gem_diamond": 1
+    },
+    "output": "luminite_legs"
+  },
+  {
+    "id": "luminite_armor",
+    "name": "Armadura de Luminita",
+    "level": 89,
+    "intervalMs": 8000,
+    "xp": 4774,
+    "inputs": {
+      "luminite_bar": 6,
+      "demon_ash": 3,
+      "gem_diamond": 1
+    },
+    "output": "luminite_armor"
+  },
+  {
+    "id": "dragonite_bar",
+    "name": "Barra de Dragonita",
+    "level": 95,
+    "intervalMs": 8000,
+    "xp": 1032,
+    "inputs": {
+      "dragonite_ore": 1,
+      "coal": 5
+    },
+    "output": "dragonite_bar"
+  },
+  {
+    "id": "dragonite_sword",
+    "name": "Espada de Dragonita",
+    "level": 95,
+    "intervalMs": 8000,
+    "xp": 1693,
+    "inputs": {
+      "dragonite_bar": 2,
+      "void_soul": 2,
+      "gem_ruby": 1
+    },
+    "output": "dragonite_sword"
+  },
+  {
+    "id": "dragonite_mace",
+    "name": "Maça de Dragonita",
+    "level": 95,
+    "intervalMs": 8000,
+    "xp": 1693,
+    "inputs": {
+      "dragonite_bar": 2,
+      "void_soul": 2,
+      "gem_ruby": 1
+    },
+    "output": "dragonite_mace"
+  },
+  {
+    "id": "dragonite_axe",
+    "name": "Machado de Dragonita",
+    "level": 96,
+    "intervalMs": 8000,
+    "xp": 2570,
+    "inputs": {
+      "dragonite_bar": 3,
+      "void_soul": 2,
+      "gem_ruby": 1
+    },
+    "output": "dragonite_axe"
+  },
+  {
+    "id": "dragonite_helmet",
+    "name": "Elmo de Dragonita",
+    "level": 96,
+    "intervalMs": 8000,
+    "xp": 1714,
+    "inputs": {
+      "dragonite_bar": 2,
+      "void_soul": 1
+    },
+    "output": "dragonite_helmet"
+  },
+  {
+    "id": "dragonite_boots",
+    "name": "Botas de Dragonita",
+    "level": 97,
+    "intervalMs": 8000,
+    "xp": 1734,
+    "inputs": {
+      "dragonite_bar": 2,
+      "void_soul": 1
+    },
+    "output": "dragonite_boots"
+  },
+  {
+    "id": "dragonite_shield",
+    "name": "Escudo de Dragonita",
+    "level": 97,
+    "intervalMs": 8000,
+    "xp": 2601,
+    "inputs": {
+      "dragonite_bar": 3,
+      "void_soul": 1,
+      "gem_diamond": 1
+    },
+    "output": "dragonite_shield"
+  },
+  {
+    "id": "dragonite_legs",
+    "name": "Calças de Dragonita",
+    "level": 98,
+    "intervalMs": 8000,
+    "xp": 3509,
+    "inputs": {
+      "dragonite_bar": 4,
+      "void_soul": 2,
+      "gem_diamond": 1
+    },
+    "output": "dragonite_legs"
+  },
+  {
+    "id": "dragonite_armor",
+    "name": "Armadura de Dragonita",
+    "level": 99,
+    "intervalMs": 8000,
+    "xp": 5294,
+    "inputs": {
+      "dragonite_bar": 6,
+      "void_soul": 3,
+      "gem_diamond": 1
+    },
+    "output": "dragonite_armor"
+  },
+  {
+    "id": "starmetal_bar",
+    "name": "Barra Estelar",
+    "level": 105,
+    "intervalMs": 8500,
+    "xp": 1135,
+    "inputs": {
+      "starmetal_ore": 1,
+      "coal": 6
+    },
+    "output": "starmetal_bar"
+  },
+  {
+    "id": "starmetal_sword",
+    "name": "Espada Estelar",
+    "level": 105,
+    "intervalMs": 8500,
+    "xp": 1877,
+    "inputs": {
+      "starmetal_bar": 2,
+      "star_soul": 2,
+      "gem_ruby": 1
+    },
+    "output": "starmetal_sword"
+  },
+  {
+    "id": "starmetal_mace",
+    "name": "Maça Estelar",
+    "level": 105,
+    "intervalMs": 8500,
+    "xp": 1877,
+    "inputs": {
+      "starmetal_bar": 2,
+      "star_soul": 2,
+      "gem_ruby": 1
+    },
+    "output": "starmetal_mace"
+  },
+  {
+    "id": "starmetal_axe",
+    "name": "Machado Estelar",
+    "level": 106,
+    "intervalMs": 8500,
+    "xp": 2846,
+    "inputs": {
+      "starmetal_bar": 3,
+      "star_soul": 2,
+      "gem_ruby": 1
+    },
+    "output": "starmetal_axe"
+  },
+  {
+    "id": "starmetal_helmet",
+    "name": "Elmo Estelar",
+    "level": 106,
+    "intervalMs": 8500,
+    "xp": 1897,
+    "inputs": {
+      "starmetal_bar": 2,
+      "star_soul": 1
+    },
+    "output": "starmetal_helmet"
+  },
+  {
+    "id": "starmetal_boots",
+    "name": "Botas Estelares",
+    "level": 107,
+    "intervalMs": 8500,
+    "xp": 1907,
+    "inputs": {
+      "starmetal_bar": 2,
+      "star_soul": 1
+    },
+    "output": "starmetal_boots"
+  },
+  {
+    "id": "starmetal_shield",
+    "name": "Escudo Estelar",
+    "level": 107,
+    "intervalMs": 8500,
+    "xp": 2861,
+    "inputs": {
+      "starmetal_bar": 3,
+      "star_soul": 1,
+      "gem_diamond": 1
+    },
+    "output": "starmetal_shield"
+  },
+  {
+    "id": "starmetal_legs",
+    "name": "Calças Estelares",
+    "level": 108,
+    "intervalMs": 8500,
+    "xp": 3856,
+    "inputs": {
+      "starmetal_bar": 4,
+      "star_soul": 2,
+      "gem_diamond": 1
+    },
+    "output": "starmetal_legs"
+  },
+  {
+    "id": "starmetal_armor",
+    "name": "Armadura Estelar",
+    "level": 109,
+    "intervalMs": 8500,
+    "xp": 5845,
+    "inputs": {
+      "starmetal_bar": 6,
+      "star_soul": 3,
+      "gem_diamond": 1
+    },
+    "output": "starmetal_armor"
+  },
+  {
+    "id": "primordial_bar",
+    "name": "Barra Primordial",
+    "level": 115,
+    "intervalMs": 9000,
+    "xp": 1250,
+    "inputs": {
+      "primordial_ore": 1,
+      "coal": 6
+    },
+    "output": "primordial_bar"
+  },
+  {
+    "id": "primordial_sword",
+    "name": "Espada Primordial",
+    "level": 115,
+    "intervalMs": 9000,
+    "xp": 2050,
+    "inputs": {
+      "primordial_bar": 2,
+      "primordial_soul": 2,
+      "gem_ruby": 1
+    },
+    "output": "primordial_sword"
+  },
+  {
+    "id": "primordial_mace",
+    "name": "Maça Primordial",
+    "level": 115,
+    "intervalMs": 9000,
+    "xp": 2050,
+    "inputs": {
+      "primordial_bar": 2,
+      "primordial_soul": 2,
+      "gem_ruby": 1
+    },
+    "output": "primordial_mace"
+  },
+  {
+    "id": "primordial_axe",
+    "name": "Machado Primordial",
+    "level": 116,
+    "intervalMs": 9000,
+    "xp": 3106,
+    "inputs": {
+      "primordial_bar": 3,
+      "primordial_soul": 2,
+      "gem_ruby": 1
+    },
+    "output": "primordial_axe"
+  },
+  {
+    "id": "primordial_helmet",
+    "name": "Elmo Primordial",
+    "level": 116,
+    "intervalMs": 9000,
+    "xp": 2071,
+    "inputs": {
+      "primordial_bar": 2,
+      "primordial_soul": 1
+    },
+    "output": "primordial_helmet"
+  },
+  {
+    "id": "primordial_boots",
+    "name": "Botas Primordiais",
+    "level": 117,
+    "intervalMs": 9000,
+    "xp": 2091,
+    "inputs": {
+      "primordial_bar": 2,
+      "primordial_soul": 1
+    },
+    "output": "primordial_boots"
+  },
+  {
+    "id": "primordial_shield",
+    "name": "Escudo Primordial",
+    "level": 117,
+    "intervalMs": 9000,
+    "xp": 3136,
+    "inputs": {
+      "primordial_bar": 3,
+      "primordial_soul": 1,
+      "gem_diamond": 1
+    },
+    "output": "primordial_shield"
+  },
+  {
+    "id": "primordial_legs",
+    "name": "Calças Primordiais",
+    "level": 118,
+    "intervalMs": 9000,
+    "xp": 4202,
+    "inputs": {
+      "primordial_bar": 4,
+      "primordial_soul": 2,
+      "gem_diamond": 1
+    },
+    "output": "primordial_legs"
+  },
+  {
+    "id": "primordial_armor",
+    "name": "Armadura Primordial",
+    "level": 119,
+    "intervalMs": 9000,
+    "xp": 6365,
+    "inputs": {
+      "primordial_bar": 6,
+      "primordial_soul": 3,
+      "gem_diamond": 1
+    },
+    "output": "primordial_armor"
+  },
+  {
+    "id": "iron_holy_helmet",
+    "name": "Mitra de Ferro",
+    "level": 18,
+    "intervalMs": 5000,
+    "xp": 444,
+    "inputs": {
+      "iron_bar": 1,
+      "green_herb": 2
+    },
+    "output": "iron_holy_helmet"
+  },
+  {
+    "id": "iron_holy_armor",
+    "name": "Cota Sagrada de Ferro",
+    "level": 25,
+    "intervalMs": 5000,
+    "xp": 1331,
+    "inputs": {
+      "iron_bar": 3,
+      "green_herb": 4
+    },
+    "output": "iron_holy_armor"
+  },
+  {
+    "id": "iron_holy_legs",
+    "name": "Calças Sagradas de Ferro",
+    "level": 23,
+    "intervalMs": 5000,
+    "xp": 887,
+    "inputs": {
+      "iron_bar": 2,
+      "green_herb": 3
+    },
+    "output": "iron_holy_legs"
+  },
+  {
+    "id": "steel_holy_helmet",
+    "name": "Mitra de Aço",
+    "level": 33,
+    "intervalMs": 6000,
+    "xp": 597,
+    "inputs": {
+      "steel_bar": 1,
+      "golden_root": 2
+    },
+    "output": "steel_holy_helmet"
+  },
+  {
+    "id": "steel_holy_armor",
+    "name": "Cota Sagrada de Aço",
+    "level": 40,
+    "intervalMs": 6000,
+    "xp": 1795,
+    "inputs": {
+      "steel_bar": 3,
+      "golden_root": 4
+    },
+    "output": "steel_holy_armor"
+  },
+  {
+    "id": "steel_holy_legs",
+    "name": "Calças Sagradas de Aço",
+    "level": 38,
+    "intervalMs": 6000,
+    "xp": 1198,
+    "inputs": {
+      "steel_bar": 2,
+      "golden_root": 3
+    },
+    "output": "steel_holy_legs"
+  },
+  {
+    "id": "mithril_holy_helmet",
+    "name": "Mitra de Mithril",
+    "level": 43,
+    "intervalMs": 7000,
+    "xp": 919,
+    "inputs": {
+      "mithril_bar": 1,
+      "golden_root": 2
+    },
+    "output": "mithril_holy_helmet"
+  },
+  {
+    "id": "mithril_holy_armor",
+    "name": "Cota Sagrada de Mithril",
+    "level": 50,
+    "intervalMs": 7000,
+    "xp": 2297,
+    "inputs": {
+      "mithril_bar": 3,
+      "golden_root": 4
+    },
+    "output": "mithril_holy_armor"
+  },
+  {
+    "id": "mithril_holy_legs",
+    "name": "Calças Sagradas de Mithril",
+    "level": 48,
+    "intervalMs": 7000,
+    "xp": 1837,
+    "inputs": {
+      "mithril_bar": 2,
+      "golden_root": 3
+    },
+    "output": "mithril_holy_legs"
+  },
+  {
+    "id": "abyssal_holy_helmet",
+    "name": "Mitra Abissal",
+    "level": 48,
+    "intervalMs": 7000,
+    "xp": 1130,
+    "inputs": {
+      "abyssal_bar": 1,
+      "blood_flower": 2
+    },
+    "output": "abyssal_holy_helmet"
+  },
+  {
+    "id": "abyssal_holy_armor",
+    "name": "Cota Sagrada Abissal",
+    "level": 55,
+    "intervalMs": 7000,
+    "xp": 2828,
+    "inputs": {
+      "abyssal_bar": 3,
+      "blood_flower": 4
+    },
+    "output": "abyssal_holy_armor"
+  },
+  {
+    "id": "abyssal_holy_legs",
+    "name": "Calças Sagradas Abissais",
+    "level": 53,
+    "intervalMs": 7000,
+    "xp": 1885,
+    "inputs": {
+      "abyssal_bar": 2,
+      "blood_flower": 3
+    },
+    "output": "abyssal_holy_legs"
+  },
+  {
+    "id": "adamant_holy_helmet",
+    "name": "Mitra de Adamantita",
+    "level": 58,
+    "intervalMs": 7000,
+    "xp": 1119,
+    "inputs": {
+      "adamant_bar": 1,
+      "moon_clover": 2
+    },
+    "output": "adamant_holy_helmet"
+  },
+  {
+    "id": "adamant_holy_armor",
+    "name": "Cota Sagrada de Adamantita",
+    "level": 65,
+    "intervalMs": 7000,
+    "xp": 2240,
+    "inputs": {
+      "adamant_bar": 3,
+      "moon_clover": 4
+    },
+    "output": "adamant_holy_armor"
+  },
+  {
+    "id": "adamant_holy_legs",
+    "name": "Calças Sagradas de Adamantita",
+    "level": 63,
+    "intervalMs": 7000,
+    "xp": 2240,
+    "inputs": {
+      "adamant_bar": 2,
+      "moon_clover": 3
+    },
+    "output": "adamant_holy_legs"
+  },
+  {
+    "id": "runite_holy_helmet",
+    "name": "Mitra de Runita",
+    "level": 67,
+    "intervalMs": 7000,
+    "xp": 1730,
+    "inputs": {
+      "runite_bar": 2,
+      "lich_dust": 1
+    },
+    "output": "runite_holy_helmet"
+  },
+  {
+    "id": "runite_holy_armor",
+    "name": "Cota Sagrada de Runita",
+    "level": 69,
+    "intervalMs": 7000,
+    "xp": 5369,
+    "inputs": {
+      "runite_bar": 6,
+      "lich_dust": 3,
+      "gem_sapphire": 1
+    },
+    "output": "runite_holy_armor"
+  },
+  {
+    "id": "runite_holy_legs",
+    "name": "Calças Sagradas de Runita",
+    "level": 68,
+    "intervalMs": 7000,
+    "xp": 3521,
+    "inputs": {
+      "runite_bar": 4,
+      "lich_dust": 2,
+      "gem_sapphire": 1
+    },
+    "output": "runite_holy_legs"
+  },
+  {
+    "id": "orichalcum_holy_helmet",
+    "name": "Mitra de Oricalco",
+    "level": 77,
+    "intervalMs": 7500,
+    "xp": 1377,
+    "inputs": {
+      "orichalcum_bar": 2,
+      "wraith_essence": 1
+    },
+    "output": "orichalcum_holy_helmet"
+  },
+  {
+    "id": "orichalcum_holy_armor",
+    "name": "Cota Sagrada de Oricalco",
+    "level": 79,
+    "intervalMs": 7500,
+    "xp": 4223,
+    "inputs": {
+      "orichalcum_bar": 6,
+      "wraith_essence": 3,
+      "gem_sapphire": 1
+    },
+    "output": "orichalcum_holy_armor"
+  },
+  {
+    "id": "orichalcum_holy_legs",
+    "name": "Calças Sagradas de Oricalco",
+    "level": 78,
+    "intervalMs": 7500,
+    "xp": 2774,
+    "inputs": {
+      "orichalcum_bar": 4,
+      "wraith_essence": 2,
+      "gem_sapphire": 1
+    },
+    "output": "orichalcum_holy_legs"
+  },
+  {
+    "id": "luminite_holy_helmet",
+    "name": "Mitra de Luminita",
+    "level": 87,
+    "intervalMs": 8000,
+    "xp": 1550,
+    "inputs": {
+      "luminite_bar": 2,
+      "demon_ash": 1
+    },
+    "output": "luminite_holy_helmet"
+  },
+  {
+    "id": "luminite_holy_armor",
+    "name": "Cota Sagrada de Luminita",
+    "level": 89,
+    "intervalMs": 8000,
+    "xp": 4774,
+    "inputs": {
+      "luminite_bar": 6,
+      "demon_ash": 3,
+      "gem_sapphire": 1
+    },
+    "output": "luminite_holy_armor"
+  },
+  {
+    "id": "luminite_holy_legs",
+    "name": "Calças Sagradas de Luminita",
+    "level": 88,
+    "intervalMs": 8000,
+    "xp": 3142,
+    "inputs": {
+      "luminite_bar": 4,
+      "demon_ash": 2,
+      "gem_sapphire": 1
+    },
+    "output": "luminite_holy_legs"
+  },
+  {
+    "id": "dragonite_holy_helmet",
+    "name": "Mitra de Dragonita",
+    "level": 97,
+    "intervalMs": 8000,
+    "xp": 1734,
+    "inputs": {
+      "dragonite_bar": 2,
+      "void_soul": 1
+    },
+    "output": "dragonite_holy_helmet"
+  },
+  {
+    "id": "dragonite_holy_armor",
+    "name": "Cota Sagrada de Dragonita",
+    "level": 99,
+    "intervalMs": 8000,
+    "xp": 5294,
+    "inputs": {
+      "dragonite_bar": 6,
+      "void_soul": 3,
+      "gem_sapphire": 1
+    },
+    "output": "dragonite_holy_armor"
+  },
+  {
+    "id": "dragonite_holy_legs",
+    "name": "Calças Sagradas de Dragonita",
+    "level": 98,
+    "intervalMs": 8000,
+    "xp": 3509,
+    "inputs": {
+      "dragonite_bar": 4,
+      "void_soul": 2,
+      "gem_sapphire": 1
+    },
+    "output": "dragonite_holy_legs"
+  },
+  {
+    "id": "starmetal_holy_helmet",
+    "name": "Mitra Estelar",
+    "level": 107,
+    "intervalMs": 8500,
+    "xp": 1907,
+    "inputs": {
+      "starmetal_bar": 2,
+      "star_soul": 1
+    },
+    "output": "starmetal_holy_helmet"
+  },
+  {
+    "id": "starmetal_holy_armor",
+    "name": "Cota Sagrada Estelar",
+    "level": 109,
+    "intervalMs": 8500,
+    "xp": 5845,
+    "inputs": {
+      "starmetal_bar": 6,
+      "star_soul": 3,
+      "gem_sapphire": 1
+    },
+    "output": "starmetal_holy_armor"
+  },
+  {
+    "id": "starmetal_holy_legs",
+    "name": "Calças Sagradas Estelares",
+    "level": 108,
+    "intervalMs": 8500,
+    "xp": 3856,
+    "inputs": {
+      "starmetal_bar": 4,
+      "star_soul": 2,
+      "gem_sapphire": 1
+    },
+    "output": "starmetal_holy_legs"
+  },
+  {
+    "id": "primordial_holy_helmet",
+    "name": "Mitra Primordial",
+    "level": 117,
+    "intervalMs": 9000,
+    "xp": 2091,
+    "inputs": {
+      "primordial_bar": 2,
+      "primordial_soul": 1
+    },
+    "output": "primordial_holy_helmet"
+  },
+  {
+    "id": "primordial_holy_armor",
+    "name": "Cota Sagrada Primordial",
+    "level": 119,
+    "intervalMs": 9000,
+    "xp": 6365,
+    "inputs": {
+      "primordial_bar": 6,
+      "primordial_soul": 3,
+      "gem_sapphire": 1
+    },
+    "output": "primordial_holy_armor"
+  },
+  {
+    "id": "primordial_holy_legs",
+    "name": "Calças Sagradas Primordiais",
+    "level": 118,
+    "intervalMs": 9000,
+    "xp": 4202,
+    "inputs": {
+      "primordial_bar": 4,
+      "primordial_soul": 2,
+      "gem_sapphire": 1
+    },
+    "output": "primordial_holy_legs"
+  },
+  {
+    "id": "bronze_pickaxe",
+    "name": "Picareta de Bronze",
+    "level": 1,
+    "intervalMs": 4000,
+    "xp": 164,
+    "inputs": {
+      "bronze_bar": 2,
+      "logs": 1
+    },
+    "output": "bronze_pickaxe"
+  },
+  {
+    "id": "bronze_hatchet",
+    "name": "Machadinha de Bronze",
+    "level": 1,
+    "intervalMs": 4000,
+    "xp": 164,
+    "inputs": {
+      "bronze_bar": 2,
+      "logs": 1
+    },
+    "output": "bronze_hatchet"
+  },
+  {
+    "id": "bronze_harpoon",
+    "name": "Arpão de Bronze",
+    "level": 1,
+    "intervalMs": 4000,
+    "xp": 164,
+    "inputs": {
+      "bronze_bar": 2,
+      "logs": 1
+    },
+    "output": "bronze_harpoon"
+  },
+  {
+    "id": "bronze_sickle",
+    "name": "Foice de Bronze",
+    "level": 1,
+    "intervalMs": 4000,
+    "xp": 164,
+    "inputs": {
+      "bronze_bar": 2,
+      "logs": 1
+    },
+    "output": "bronze_sickle"
+  },
+  {
+    "id": "bronze_scythe",
+    "name": "Gadanha de Bronze",
+    "level": 1,
+    "intervalMs": 4000,
+    "xp": 164,
+    "inputs": {
+      "bronze_bar": 2,
+      "logs": 1
+    },
+    "output": "bronze_scythe"
+  },
+  {
+    "id": "iron_pickaxe",
+    "name": "Picareta de Ferro",
+    "level": 15,
+    "intervalMs": 4000,
+    "xp": 650,
+    "inputs": {
+      "iron_bar": 2,
+      "logs": 1
+    },
+    "output": "iron_pickaxe"
+  },
+  {
+    "id": "iron_hatchet",
+    "name": "Machadinha de Ferro",
+    "level": 15,
+    "intervalMs": 4000,
+    "xp": 650,
+    "inputs": {
+      "iron_bar": 2,
+      "logs": 1
+    },
+    "output": "iron_hatchet"
+  },
+  {
+    "id": "iron_harpoon",
+    "name": "Arpão de Ferro",
+    "level": 15,
+    "intervalMs": 4000,
+    "xp": 650,
+    "inputs": {
+      "iron_bar": 2,
+      "logs": 1
+    },
+    "output": "iron_harpoon"
+  },
+  {
+    "id": "iron_sickle",
+    "name": "Foice de Ferro",
+    "level": 15,
+    "intervalMs": 4000,
+    "xp": 650,
+    "inputs": {
+      "iron_bar": 2,
+      "logs": 1
+    },
+    "output": "iron_sickle"
+  },
+  {
+    "id": "iron_scythe",
+    "name": "Gadanha de Ferro",
+    "level": 15,
+    "intervalMs": 4000,
+    "xp": 650,
+    "inputs": {
+      "iron_bar": 2,
+      "logs": 1
+    },
+    "output": "iron_scythe"
+  },
+  {
+    "id": "steel_pickaxe",
+    "name": "Picareta de Aço",
+    "level": 30,
+    "intervalMs": 4500,
+    "xp": 1198,
+    "inputs": {
+      "steel_bar": 2,
+      "oak_logs": 1
+    },
+    "output": "steel_pickaxe"
+  },
+  {
+    "id": "steel_hatchet",
+    "name": "Machadinha de Aço",
+    "level": 30,
+    "intervalMs": 4500,
+    "xp": 1198,
+    "inputs": {
+      "steel_bar": 2,
+      "oak_logs": 1
+    },
+    "output": "steel_hatchet"
+  },
+  {
+    "id": "steel_harpoon",
+    "name": "Arpão de Aço",
+    "level": 30,
+    "intervalMs": 4500,
+    "xp": 1198,
+    "inputs": {
+      "steel_bar": 2,
+      "oak_logs": 1
+    },
+    "output": "steel_harpoon"
+  },
+  {
+    "id": "steel_sickle",
+    "name": "Foice de Aço",
+    "level": 30,
+    "intervalMs": 4500,
+    "xp": 1198,
+    "inputs": {
+      "steel_bar": 2,
+      "oak_logs": 1
+    },
+    "output": "steel_sickle"
+  },
+  {
+    "id": "steel_scythe",
+    "name": "Gadanha de Aço",
+    "level": 30,
+    "intervalMs": 4500,
+    "xp": 1198,
+    "inputs": {
+      "steel_bar": 2,
+      "oak_logs": 1
+    },
+    "output": "steel_scythe"
+  },
+  {
+    "id": "mithril_pickaxe",
+    "name": "Picareta de Mithril",
+    "level": 40,
+    "intervalMs": 5000,
+    "xp": 1598,
+    "inputs": {
+      "mithril_bar": 2,
+      "willow_logs": 1
+    },
+    "output": "mithril_pickaxe"
+  },
+  {
+    "id": "mithril_hatchet",
+    "name": "Machadinha de Mithril",
+    "level": 40,
+    "intervalMs": 5000,
+    "xp": 1598,
+    "inputs": {
+      "mithril_bar": 2,
+      "willow_logs": 1
+    },
+    "output": "mithril_hatchet"
+  },
+  {
+    "id": "mithril_harpoon",
+    "name": "Arpão de Mithril",
+    "level": 40,
+    "intervalMs": 5000,
+    "xp": 1598,
+    "inputs": {
+      "mithril_bar": 2,
+      "willow_logs": 1
+    },
+    "output": "mithril_harpoon"
+  },
+  {
+    "id": "mithril_sickle",
+    "name": "Foice de Mithril",
+    "level": 40,
+    "intervalMs": 5000,
+    "xp": 1598,
+    "inputs": {
+      "mithril_bar": 2,
+      "willow_logs": 1
+    },
+    "output": "mithril_sickle"
+  },
+  {
+    "id": "mithril_scythe",
+    "name": "Gadanha de Mithril",
+    "level": 40,
+    "intervalMs": 5000,
+    "xp": 1598,
+    "inputs": {
+      "mithril_bar": 2,
+      "willow_logs": 1
+    },
+    "output": "mithril_scythe"
+  },
+  {
+    "id": "adamant_pickaxe",
+    "name": "Picareta de Adamantita",
+    "level": 55,
+    "intervalMs": 7000,
+    "xp": 1818,
+    "inputs": {
+      "adamant_bar": 2,
+      "yew_logs": 1
+    },
+    "output": "adamant_pickaxe"
+  },
+  {
+    "id": "adamant_hatchet",
+    "name": "Machadinha de Adamantita",
+    "level": 55,
+    "intervalMs": 7000,
+    "xp": 1818,
+    "inputs": {
+      "adamant_bar": 2,
+      "yew_logs": 1
+    },
+    "output": "adamant_hatchet"
+  },
+  {
+    "id": "adamant_harpoon",
+    "name": "Arpão de Adamantita",
+    "level": 55,
+    "intervalMs": 7000,
+    "xp": 1818,
+    "inputs": {
+      "adamant_bar": 2,
+      "yew_logs": 1
+    },
+    "output": "adamant_harpoon"
+  },
+  {
+    "id": "adamant_sickle",
+    "name": "Foice de Adamantita",
+    "level": 55,
+    "intervalMs": 7000,
+    "xp": 1818,
+    "inputs": {
+      "adamant_bar": 2,
+      "yew_logs": 1
+    },
+    "output": "adamant_sickle"
+  },
+  {
+    "id": "adamant_scythe",
+    "name": "Gadanha de Adamantita",
+    "level": 55,
+    "intervalMs": 7000,
+    "xp": 1818,
+    "inputs": {
+      "adamant_bar": 2,
+      "yew_logs": 1
+    },
+    "output": "adamant_scythe"
+  },
+  {
+    "id": "runite_pickaxe",
+    "name": "Picareta de Runita",
+    "level": 65,
+    "intervalMs": 7000,
+    "xp": 1450,
+    "inputs": {
+      "runite_bar": 2,
+      "ancient_logs": 1
+    },
+    "output": "runite_pickaxe"
+  },
+  {
+    "id": "runite_hatchet",
+    "name": "Machadinha de Runita",
+    "level": 65,
+    "intervalMs": 7000,
+    "xp": 1450,
+    "inputs": {
+      "runite_bar": 2,
+      "ancient_logs": 1
+    },
+    "output": "runite_hatchet"
+  },
+  {
+    "id": "runite_harpoon",
+    "name": "Arpão de Runita",
+    "level": 65,
+    "intervalMs": 7000,
+    "xp": 1450,
+    "inputs": {
+      "runite_bar": 2,
+      "ancient_logs": 1
+    },
+    "output": "runite_harpoon"
+  },
+  {
+    "id": "runite_sickle",
+    "name": "Foice de Runita",
+    "level": 65,
+    "intervalMs": 7000,
+    "xp": 1450,
+    "inputs": {
+      "runite_bar": 2,
+      "ancient_logs": 1
+    },
+    "output": "runite_sickle"
+  },
+  {
+    "id": "runite_scythe",
+    "name": "Gadanha de Runita",
+    "level": 65,
+    "intervalMs": 7000,
+    "xp": 1450,
+    "inputs": {
+      "runite_bar": 2,
+      "ancient_logs": 1
+    },
+    "output": "runite_scythe"
+  },
+  {
+    "id": "orichalcum_pickaxe",
+    "name": "Picareta de Oricalco",
+    "level": 75,
+    "intervalMs": 7500,
+    "xp": 1142,
+    "inputs": {
+      "orichalcum_bar": 2,
+      "magic_logs": 1
+    },
+    "output": "orichalcum_pickaxe"
+  },
+  {
+    "id": "orichalcum_hatchet",
+    "name": "Machadinha de Oricalco",
+    "level": 75,
+    "intervalMs": 7500,
+    "xp": 1142,
+    "inputs": {
+      "orichalcum_bar": 2,
+      "magic_logs": 1
+    },
+    "output": "orichalcum_hatchet"
+  },
+  {
+    "id": "orichalcum_harpoon",
+    "name": "Arpão de Oricalco",
+    "level": 75,
+    "intervalMs": 7500,
+    "xp": 1142,
+    "inputs": {
+      "orichalcum_bar": 2,
+      "magic_logs": 1
+    },
+    "output": "orichalcum_harpoon"
+  },
+  {
+    "id": "orichalcum_sickle",
+    "name": "Foice de Oricalco",
+    "level": 75,
+    "intervalMs": 7500,
+    "xp": 1142,
+    "inputs": {
+      "orichalcum_bar": 2,
+      "magic_logs": 1
+    },
+    "output": "orichalcum_sickle"
+  },
+  {
+    "id": "orichalcum_scythe",
+    "name": "Gadanha de Oricalco",
+    "level": 75,
+    "intervalMs": 7500,
+    "xp": 1142,
+    "inputs": {
+      "orichalcum_bar": 2,
+      "magic_logs": 1
+    },
+    "output": "orichalcum_scythe"
+  },
+  {
+    "id": "luminite_pickaxe",
+    "name": "Picareta de Luminita",
+    "level": 85,
+    "intervalMs": 8000,
+    "xp": 1306,
+    "inputs": {
+      "luminite_bar": 2,
+      "ironwood_logs": 1
+    },
+    "output": "luminite_pickaxe"
+  },
+  {
+    "id": "luminite_hatchet",
+    "name": "Machadinha de Luminita",
+    "level": 85,
+    "intervalMs": 8000,
+    "xp": 1306,
+    "inputs": {
+      "luminite_bar": 2,
+      "ironwood_logs": 1
+    },
+    "output": "luminite_hatchet"
+  },
+  {
+    "id": "luminite_harpoon",
+    "name": "Arpão de Luminita",
+    "level": 85,
+    "intervalMs": 8000,
+    "xp": 1306,
+    "inputs": {
+      "luminite_bar": 2,
+      "ironwood_logs": 1
+    },
+    "output": "luminite_harpoon"
+  },
+  {
+    "id": "luminite_sickle",
+    "name": "Foice de Luminita",
+    "level": 85,
+    "intervalMs": 8000,
+    "xp": 1306,
+    "inputs": {
+      "luminite_bar": 2,
+      "ironwood_logs": 1
+    },
+    "output": "luminite_sickle"
+  },
+  {
+    "id": "luminite_scythe",
+    "name": "Gadanha de Luminita",
+    "level": 85,
+    "intervalMs": 8000,
+    "xp": 1306,
+    "inputs": {
+      "luminite_bar": 2,
+      "ironwood_logs": 1
+    },
+    "output": "luminite_scythe"
+  },
+  {
+    "id": "dragonite_pickaxe",
+    "name": "Picareta de Dragonita",
+    "level": 95,
+    "intervalMs": 8000,
+    "xp": 1448,
+    "inputs": {
+      "dragonite_bar": 2,
+      "redwood_logs": 1
+    },
+    "output": "dragonite_pickaxe"
+  },
+  {
+    "id": "dragonite_hatchet",
+    "name": "Machadinha de Dragonita",
+    "level": 95,
+    "intervalMs": 8000,
+    "xp": 1448,
+    "inputs": {
+      "dragonite_bar": 2,
+      "redwood_logs": 1
+    },
+    "output": "dragonite_hatchet"
+  },
+  {
+    "id": "dragonite_harpoon",
+    "name": "Arpão de Dragonita",
+    "level": 95,
+    "intervalMs": 8000,
+    "xp": 1448,
+    "inputs": {
+      "dragonite_bar": 2,
+      "redwood_logs": 1
+    },
+    "output": "dragonite_harpoon"
+  },
+  {
+    "id": "dragonite_sickle",
+    "name": "Foice de Dragonita",
+    "level": 95,
+    "intervalMs": 8000,
+    "xp": 1448,
+    "inputs": {
+      "dragonite_bar": 2,
+      "redwood_logs": 1
+    },
+    "output": "dragonite_sickle"
+  },
+  {
+    "id": "dragonite_scythe",
+    "name": "Gadanha de Dragonita",
+    "level": 95,
+    "intervalMs": 8000,
+    "xp": 1448,
+    "inputs": {
+      "dragonite_bar": 2,
+      "redwood_logs": 1
+    },
+    "output": "dragonite_scythe"
+  },
+  {
+    "id": "starmetal_pickaxe",
+    "name": "Picareta Estelar",
+    "level": 105,
+    "intervalMs": 8500,
+    "xp": 1612,
+    "inputs": {
+      "starmetal_bar": 2,
+      "spirit_logs": 1
+    },
+    "output": "starmetal_pickaxe"
+  },
+  {
+    "id": "starmetal_hatchet",
+    "name": "Machadinha Estelar",
+    "level": 105,
+    "intervalMs": 8500,
+    "xp": 1612,
+    "inputs": {
+      "starmetal_bar": 2,
+      "spirit_logs": 1
+    },
+    "output": "starmetal_hatchet"
+  },
+  {
+    "id": "starmetal_harpoon",
+    "name": "Arpão Estelar",
+    "level": 105,
+    "intervalMs": 8500,
+    "xp": 1612,
+    "inputs": {
+      "starmetal_bar": 2,
+      "spirit_logs": 1
+    },
+    "output": "starmetal_harpoon"
+  },
+  {
+    "id": "starmetal_sickle",
+    "name": "Foice Estelar",
+    "level": 105,
+    "intervalMs": 8500,
+    "xp": 1612,
+    "inputs": {
+      "starmetal_bar": 2,
+      "spirit_logs": 1
+    },
+    "output": "starmetal_sickle"
+  },
+  {
+    "id": "starmetal_scythe",
+    "name": "Gadanha Estelar",
+    "level": 105,
+    "intervalMs": 8500,
+    "xp": 1612,
+    "inputs": {
+      "starmetal_bar": 2,
+      "spirit_logs": 1
+    },
+    "output": "starmetal_scythe"
+  },
+  {
+    "id": "primordial_pickaxe",
+    "name": "Picareta Primordial",
+    "level": 115,
+    "intervalMs": 9000,
+    "xp": 1754,
+    "inputs": {
+      "primordial_bar": 2,
+      "worldtree_logs": 1
+    },
+    "output": "primordial_pickaxe"
+  },
+  {
+    "id": "primordial_hatchet",
+    "name": "Machadinha Primordial",
+    "level": 115,
+    "intervalMs": 9000,
+    "xp": 1754,
+    "inputs": {
+      "primordial_bar": 2,
+      "worldtree_logs": 1
+    },
+    "output": "primordial_hatchet"
+  },
+  {
+    "id": "primordial_harpoon",
+    "name": "Arpão Primordial",
+    "level": 115,
+    "intervalMs": 9000,
+    "xp": 1754,
+    "inputs": {
+      "primordial_bar": 2,
+      "worldtree_logs": 1
+    },
+    "output": "primordial_harpoon"
+  },
+  {
+    "id": "primordial_sickle",
+    "name": "Foice Primordial",
+    "level": 115,
+    "intervalMs": 9000,
+    "xp": 1754,
+    "inputs": {
+      "primordial_bar": 2,
+      "worldtree_logs": 1
+    },
+    "output": "primordial_sickle"
+  },
+  {
+    "id": "primordial_scythe",
+    "name": "Gadanha Primordial",
+    "level": 115,
+    "intervalMs": 9000,
+    "xp": 1754,
+    "inputs": {
+      "primordial_bar": 2,
+      "worldtree_logs": 1
+    },
+    "output": "primordial_scythe"
+  },
+  {
+    "id": "valdeferro_steel",
+    "name": "Aço de Valdeferro",
+    "level": 116,
+    "intervalMs": 9500,
+    "xp": 1800,
+    "inputs": {
+      "primordial_bar": 2,
+      "golden_mane": 1,
+      "coal": 8
+    },
+    "output": "valdeferro_steel"
+  },
+  {
+    "id": "valdeferro_sword",
+    "name": "Espada de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 2870,
+    "inputs": {
+      "valdeferro_steel": 2,
+      "falcon_insignia": 2,
+      "gem_ruby": 1
+    },
+    "output": "valdeferro_sword"
+  },
+  {
+    "id": "valdeferro_mace",
+    "name": "Maça de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 2870,
+    "inputs": {
+      "valdeferro_steel": 2,
+      "falcon_insignia": 2,
+      "gem_ruby": 1
+    },
+    "output": "valdeferro_mace"
+  },
+  {
+    "id": "valdeferro_axe",
+    "name": "Machado de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 4348,
+    "inputs": {
+      "valdeferro_steel": 3,
+      "falcon_insignia": 2,
+      "gem_ruby": 1
+    },
+    "output": "valdeferro_axe"
+  },
+  {
+    "id": "valdeferro_helmet",
+    "name": "Elmo de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 2899,
+    "inputs": {
+      "valdeferro_steel": 2,
+      "falcon_insignia": 1
+    },
+    "output": "valdeferro_helmet"
+  },
+  {
+    "id": "valdeferro_boots",
+    "name": "Botas de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 2927,
+    "inputs": {
+      "valdeferro_steel": 2,
+      "falcon_insignia": 1
+    },
+    "output": "valdeferro_boots"
+  },
+  {
+    "id": "valdeferro_shield",
+    "name": "Escudo de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 4390,
+    "inputs": {
+      "valdeferro_steel": 3,
+      "falcon_insignia": 1,
+      "gem_diamond": 1
+    },
+    "output": "valdeferro_shield"
+  },
+  {
+    "id": "valdeferro_legs",
+    "name": "Calças de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 5883,
+    "inputs": {
+      "valdeferro_steel": 4,
+      "falcon_insignia": 2,
+      "gem_diamond": 1
+    },
+    "output": "valdeferro_legs"
+  },
+  {
+    "id": "valdeferro_armor",
+    "name": "Armadura de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 8911,
+    "inputs": {
+      "valdeferro_steel": 6,
+      "falcon_insignia": 3,
+      "gem_diamond": 1
+    },
+    "output": "valdeferro_armor"
+  },
+  {
+    "id": "valdeferro_holy_helmet",
+    "name": "Mitra de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 2927,
+    "inputs": {
+      "valdeferro_steel": 2,
+      "falcon_insignia": 1
+    },
+    "output": "valdeferro_holy_helmet"
+  },
+  {
+    "id": "valdeferro_holy_legs",
+    "name": "Calças Sagradas de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 5883,
+    "inputs": {
+      "valdeferro_steel": 4,
+      "falcon_insignia": 2,
+      "gem_sapphire": 1
+    },
+    "output": "valdeferro_holy_legs"
+  },
+  {
+    "id": "valdeferro_holy_armor",
+    "name": "Cota Sagrada de Valdeferro",
+    "level": 117,
+    "intervalMs": 9500,
+    "xp": 8911,
+    "inputs": {
+      "valdeferro_steel": 6,
+      "falcon_insignia": 3,
+      "gem_sapphire": 1
+    },
+    "output": "valdeferro_holy_armor"
+  },
+  {
+    "id": "goldmane_sword",
+    "name": "Espada da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 3690,
+    "inputs": {
+      "valdeferro_steel": 2,
+      "falcon_insignia": 2,
+      "gem_ruby": 1
+    },
+    "output": "goldmane_sword"
+  },
+  {
+    "id": "goldmane_mace",
+    "name": "Maça da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 3690,
+    "inputs": {
+      "valdeferro_steel": 2,
+      "falcon_insignia": 2,
+      "gem_ruby": 1
+    },
+    "output": "goldmane_mace"
+  },
+  {
+    "id": "goldmane_axe",
+    "name": "Machado da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 5591,
+    "inputs": {
+      "valdeferro_steel": 4,
+      "falcon_insignia": 2,
+      "gem_ruby": 1
+    },
+    "output": "goldmane_axe"
+  },
+  {
+    "id": "goldmane_helmet",
+    "name": "Elmo da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 3728,
+    "inputs": {
+      "valdeferro_steel": 2,
+      "falcon_insignia": 1
+    },
+    "output": "goldmane_helmet"
+  },
+  {
+    "id": "goldmane_boots",
+    "name": "Botas da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 3764,
+    "inputs": {
+      "valdeferro_steel": 2,
+      "falcon_insignia": 1
+    },
+    "output": "goldmane_boots"
+  },
+  {
+    "id": "goldmane_shield",
+    "name": "Escudo da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 5645,
+    "inputs": {
+      "valdeferro_steel": 4,
+      "falcon_insignia": 1,
+      "gem_diamond": 1
+    },
+    "output": "goldmane_shield"
+  },
+  {
+    "id": "goldmane_legs",
+    "name": "Calças da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 7564,
+    "inputs": {
+      "valdeferro_steel": 5,
+      "falcon_insignia": 2,
+      "gem_diamond": 1
+    },
+    "output": "goldmane_legs"
+  },
+  {
+    "id": "goldmane_armor",
+    "name": "Armadura da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 11457,
+    "inputs": {
+      "valdeferro_steel": 8,
+      "falcon_insignia": 4,
+      "gem_diamond": 1
+    },
+    "output": "goldmane_armor"
+  },
+  {
+    "id": "goldmane_holy_helmet",
+    "name": "Mitra da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 3764,
+    "inputs": {
+      "valdeferro_steel": 2,
+      "falcon_insignia": 1
+    },
+    "output": "goldmane_holy_helmet"
+  },
+  {
+    "id": "goldmane_holy_legs",
+    "name": "Calças Sagradas da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 7564,
+    "inputs": {
+      "valdeferro_steel": 5,
+      "falcon_insignia": 2,
+      "gem_sapphire": 1
+    },
+    "output": "goldmane_holy_legs"
+  },
+  {
+    "id": "goldmane_holy_armor",
+    "name": "Cota Sagrada da Juba Dourada",
+    "level": 119,
+    "intervalMs": 9500,
+    "xp": 11457,
+    "inputs": {
+      "valdeferro_steel": 8,
+      "falcon_insignia": 4,
+      "gem_sapphire": 1
+    },
+    "output": "goldmane_holy_armor"
+  },
+  {
+    "id": "royallion_sword",
+    "name": "Espada do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 4715,
+    "inputs": {
+      "valdeferro_steel": 3,
+      "falcon_insignia": 3,
+      "gem_ruby": 2
+    },
+    "output": "royallion_sword"
+  },
+  {
+    "id": "royallion_mace",
+    "name": "Maça do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 4715,
+    "inputs": {
+      "valdeferro_steel": 3,
+      "falcon_insignia": 3,
+      "gem_ruby": 2
+    },
+    "output": "royallion_mace"
+  },
+  {
+    "id": "royallion_axe",
+    "name": "Machado do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 7144,
+    "inputs": {
+      "valdeferro_steel": 4,
+      "falcon_insignia": 3,
+      "gem_ruby": 2
+    },
+    "output": "royallion_axe"
+  },
+  {
+    "id": "royallion_helmet",
+    "name": "Elmo do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 4763,
+    "inputs": {
+      "valdeferro_steel": 3,
+      "falcon_insignia": 2
+    },
+    "output": "royallion_helmet"
+  },
+  {
+    "id": "royallion_boots",
+    "name": "Botas do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 4809,
+    "inputs": {
+      "valdeferro_steel": 3,
+      "falcon_insignia": 2
+    },
+    "output": "royallion_boots"
+  },
+  {
+    "id": "royallion_shield",
+    "name": "Escudo do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 7213,
+    "inputs": {
+      "valdeferro_steel": 4,
+      "falcon_insignia": 2,
+      "gem_diamond": 2
+    },
+    "output": "royallion_shield"
+  },
+  {
+    "id": "royallion_legs",
+    "name": "Calças do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 9665,
+    "inputs": {
+      "valdeferro_steel": 6,
+      "falcon_insignia": 3,
+      "gem_diamond": 2
+    },
+    "output": "royallion_legs"
+  },
+  {
+    "id": "royallion_armor",
+    "name": "Armadura do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 14639,
+    "inputs": {
+      "valdeferro_steel": 9,
+      "falcon_insignia": 4,
+      "gem_diamond": 2
+    },
+    "output": "royallion_armor"
+  },
+  {
+    "id": "royallion_holy_helmet",
+    "name": "Mitra do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 4809,
+    "inputs": {
+      "valdeferro_steel": 3,
+      "falcon_insignia": 2
+    },
+    "output": "royallion_holy_helmet"
+  },
+  {
+    "id": "royallion_holy_legs",
+    "name": "Calças Sagradas do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 9665,
+    "inputs": {
+      "valdeferro_steel": 6,
+      "falcon_insignia": 3,
+      "gem_sapphire": 2
+    },
+    "output": "royallion_holy_legs"
+  },
+  {
+    "id": "royallion_holy_armor",
+    "name": "Cota Sagrada do Leão Real",
+    "level": 120,
+    "intervalMs": 9500,
+    "xp": 14639,
+    "inputs": {
+      "valdeferro_steel": 9,
+      "falcon_insignia": 4,
+      "gem_sapphire": 2
+    },
+    "output": "royallion_holy_armor"
+  },
+  {
+    "id": "kharvos_greatsword",
+    "name": "Espadão de Kharvos",
+    "level": 80,
+    "intervalMs": 30000,
+    "xp": 15300,
+    "inputs": {
+      "kharvos_blade": 1,
+      "kharvos_guard": 1,
+      "kharvos_hilt": 1,
+      "primordial_bar": 6
+    },
+    "output": "kharvos_greatsword"
+  },
+  {
+    "id": "lumira_dawnhammer",
+    "name": "Martelo da Aurora de Lumira",
+    "level": 80,
+    "intervalMs": 30000,
+    "xp": 15300,
+    "inputs": {
+      "lumira_hammer_head": 1,
+      "lumira_haft": 1,
+      "lumira_dawn_crest": 1,
+      "primordial_bar": 6
+    },
+    "output": "lumira_dawnhammer"
+  },
+  {
+    "id": "void_citadel_key",
+    "name": "Chave da Cidadela do Vazio",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 10710,
+    "inputs": {
+      "adamant_bar": 4,
+      "nullstone": 4,
+      "chaos_fragment": 2,
+      "divine_ichor": 2,
+      "coal": 12
+    },
+    "output": "void_citadel_key"
+  },
+  {
+    "id": "shattered_key",
+    "name": "Chave do Céu Estilhaçado",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 15710,
+    "inputs": {
+      "adamant_bar": 4,
+      "broken_halo": 4,
+      "chaos_fragment": 2,
+      "divine_ichor": 2,
+      "coal": 12
+    },
+    "output": "shattered_key"
+  },
+  {
+    "id": "primal_key",
+    "name": "Chave do Caos Primordial",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 22850,
+    "inputs": {
+      "adamant_bar": 4,
+      "primal_ember": 4,
+      "chaos_fragment": 2,
+      "divine_ichor": 2,
+      "coal": 12
+    },
+    "output": "primal_key"
+  },
+  {
+    "id": "lion_key",
+    "name": "Chave do Salão do Leão",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 18000,
+    "inputs": {
+      "adamant_bar": 4,
+      "golden_mane": 4,
+      "falcon_insignia": 4,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "lion_key"
+  },
+  {
+    "id": "lion_bastion_sword",
+    "name": "Espada do Leão Liberto",
+    "level": 85,
+    "intervalMs": 30000,
+    "xp": 6000,
+    "inputs": {
+      "unchained_blade": 1,
+      "unchained_crest": 1,
+      "unchained_grip": 1,
+      "valdeferro_steel": 6
+    },
+    "output": "lion_bastion_sword"
+  },
+  {
+    "id": "lion_bastion_mace",
+    "name": "Maça do Leão Liberto",
+    "level": 85,
+    "intervalMs": 30000,
+    "xp": 6000,
+    "inputs": {
+      "unchained_blade": 1,
+      "unchained_crest": 1,
+      "unchained_grip": 1,
+      "valdeferro_steel": 6
+    },
+    "output": "lion_bastion_mace"
+  },
+  {
+    "id": "falcon_nest_sword",
+    "name": "Espada do Gavião Renascido",
+    "level": 90,
+    "intervalMs": 30000,
+    "xp": 6000,
+    "inputs": {
+      "risen_talon": 1,
+      "risen_feather": 1,
+      "risen_sigil": 1,
+      "valdeferro_steel": 6
+    },
+    "output": "falcon_nest_sword"
+  },
+  {
+    "id": "falcon_nest_mace",
+    "name": "Maça do Gavião Renascido",
+    "level": 90,
+    "intervalMs": 30000,
+    "xp": 6000,
+    "inputs": {
+      "risen_talon": 1,
+      "risen_feather": 1,
+      "risen_sigil": 1,
+      "valdeferro_steel": 6
+    },
+    "output": "falcon_nest_mace"
+  },
+  {
+    "id": "zharvos_key",
+    "name": "Chave do Santuário do Arquimago",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 7430,
+    "inputs": {
+      "adamant_bar": 2,
+      "coal": 10,
+      "arcane_shard": 4
+    },
+    "output": "zharvos_key"
+  },
+  {
+    "id": "index_key",
+    "name": "Chave do Índice",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 20000,
+    "inputs": {
+      "adamant_bar": 4,
+      "forbidden_page": 6,
+      "golden_mane": 2,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "index_key"
+  },
+  {
+    "id": "golden_reading_hall_sword",
+    "name": "Espada do Arquibibliotecário",
+    "level": 115,
+    "intervalMs": 30000,
+    "xp": 7000,
+    "inputs": {
+      "archive_quill": 1,
+      "index_seal": 1,
+      "golden_binding": 1,
+      "adamant_bar": 6,
+      "forbidden_page": 10
+    },
+    "output": "golden_reading_hall_sword"
+  },
+  {
+    "id": "golden_reading_hall_mace",
+    "name": "Maça do Arquibibliotecário",
+    "level": 115,
+    "intervalMs": 30000,
+    "xp": 7000,
+    "inputs": {
+      "archive_quill": 1,
+      "index_seal": 1,
+      "golden_binding": 1,
+      "adamant_bar": 6,
+      "forbidden_page": 10
+    },
+    "output": "golden_reading_hall_mace"
+  },
+  {
+    "id": "ossuary_key",
+    "name": "Chave do Ossuário",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 22000,
+    "inputs": {
+      "adamant_bar": 4,
+      "cursed_bone": 6,
+      "forbidden_page": 2,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "ossuary_key"
+  },
+  {
+    "id": "kings_tomb_sword",
+    "name": "Espada do Rei Sepulto",
+    "level": 118,
+    "intervalMs": 30000,
+    "xp": 8000,
+    "inputs": {
+      "kings_skull": 1,
+      "burial_crown": 1,
+      "ossuary_sigil": 1,
+      "adamant_bar": 6,
+      "cursed_bone": 10
+    },
+    "output": "kings_tomb_sword"
+  },
+  {
+    "id": "kings_tomb_mace",
+    "name": "Maça do Rei Sepulto",
+    "level": 118,
+    "intervalMs": 30000,
+    "xp": 8000,
+    "inputs": {
+      "kings_skull": 1,
+      "burial_crown": 1,
+      "ossuary_sigil": 1,
+      "adamant_bar": 6,
+      "cursed_bone": 10
+    },
+    "output": "kings_tomb_mace"
+  },
+  {
+    "id": "asura_key",
+    "name": "Chave da Câmara Asura",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 24000,
+    "inputs": {
+      "adamant_bar": 4,
+      "asura_ember": 6,
+      "cursed_bone": 2,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "asura_key"
+  },
+  {
+    "id": "asura_throne_sword",
+    "name": "Espada da Rainha Asura",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 8500,
+    "inputs": {
+      "asura_tiara": 1,
+      "queens_veil": 1,
+      "dancers_bell": 1,
+      "adamant_bar": 6,
+      "asura_ember": 10
+    },
+    "output": "asura_throne_sword"
+  },
+  {
+    "id": "asura_throne_mace",
+    "name": "Maça da Rainha Asura",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 8500,
+    "inputs": {
+      "asura_tiara": 1,
+      "queens_veil": 1,
+      "dancers_bell": 1,
+      "adamant_bar": 6,
+      "asura_ember": 10
+    },
+    "output": "asura_throne_mace"
+  },
+  {
+    "id": "drowned_key",
+    "name": "Chave do Santuário Afogado",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 26000,
+    "inputs": {
+      "adamant_bar": 4,
+      "black_coral": 6,
+      "asura_ember": 2,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "drowned_key"
+  },
+  {
+    "id": "leviathan_maw_sword",
+    "name": "Espada do Leviatã Antigo",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 9000,
+    "inputs": {
+      "leviathan_fin": 1,
+      "abyss_eye": 1,
+      "ancient_tentacle": 1,
+      "adamant_bar": 6,
+      "black_coral": 10
+    },
+    "output": "leviathan_maw_sword"
+  },
+  {
+    "id": "leviathan_maw_mace",
+    "name": "Maça do Leviatã Antigo",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 9000,
+    "inputs": {
+      "leviathan_fin": 1,
+      "abyss_eye": 1,
+      "ancient_tentacle": 1,
+      "adamant_bar": 6,
+      "black_coral": 10
+    },
+    "output": "leviathan_maw_mace"
+  },
+  {
+    "id": "tyrant_key",
+    "name": "Chave do Ninho dos Tiranos",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 28000,
+    "inputs": {
+      "adamant_bar": 4,
+      "fossil_amber": 6,
+      "black_coral": 2,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "tyrant_key"
+  },
+  {
+    "id": "tyrant_throne_sword",
+    "name": "Espada do Tirano Primordial",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 9500,
+    "inputs": {
+      "tyrant_tooth": 1,
+      "primal_claw": 1,
+      "amber_heart": 1,
+      "adamant_bar": 6,
+      "fossil_amber": 10
+    },
+    "output": "tyrant_throne_sword"
+  },
+  {
+    "id": "tyrant_throne_mace",
+    "name": "Maça do Tirano Primordial",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 9500,
+    "inputs": {
+      "tyrant_tooth": 1,
+      "primal_claw": 1,
+      "amber_heart": 1,
+      "adamant_bar": 6,
+      "fossil_amber": 10
+    },
+    "output": "tyrant_throne_mace"
+  },
+  {
+    "id": "garden_key",
+    "name": "Chave do Coração do Jardim",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 30000,
+    "inputs": {
+      "adamant_bar": 4,
+      "rot_spore": 6,
+      "fossil_amber": 2,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "garden_key"
+  },
+  {
+    "id": "end_hollow_sword",
+    "name": "Espada da Árvore do Fim",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 10000,
+    "inputs": {
+      "end_seed": 1,
+      "rotten_heartwood": 1,
+      "spore_crown": 1,
+      "adamant_bar": 6,
+      "rot_spore": 10
+    },
+    "output": "end_hollow_sword"
+  },
+  {
+    "id": "end_hollow_mace",
+    "name": "Maça da Árvore do Fim",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 10000,
+    "inputs": {
+      "end_seed": 1,
+      "rotten_heartwood": 1,
+      "spore_crown": 1,
+      "adamant_bar": 6,
+      "rot_spore": 10
+    },
+    "output": "end_hollow_mace"
+  },
+  {
+    "id": "usurper_key",
+    "name": "Chave do Conselho Usurpador",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 32000,
+    "inputs": {
+      "adamant_bar": 4,
+      "usurper_seal": 6,
+      "rot_spore": 2,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "usurper_key"
+  },
+  {
+    "id": "usurper_throne_sword",
+    "name": "Espada do Rei Usurpador",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 10500,
+    "inputs": {
+      "usurped_crown": 1,
+      "broken_scepter": 1,
+      "traitor_heart": 1,
+      "adamant_bar": 6,
+      "usurper_seal": 10
+    },
+    "output": "usurper_throne_sword"
+  },
+  {
+    "id": "usurper_throne_mace",
+    "name": "Maça do Rei Usurpador",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 10500,
+    "inputs": {
+      "usurped_crown": 1,
+      "broken_scepter": 1,
+      "traitor_heart": 1,
+      "adamant_bar": 6,
+      "usurper_seal": 10
+    },
+    "output": "usurper_throne_mace"
+  },
+  {
+    "id": "serpent_key",
+    "name": "Chave do Santuário da Serpente",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 34000,
+    "inputs": {
+      "adamant_bar": 4,
+      "cobra_venom": 6,
+      "usurper_seal": 2,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "serpent_key"
+  },
+  {
+    "id": "serpent_throne_sword",
+    "name": "Espada da Rainha Serpente",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 11000,
+    "inputs": {
+      "serpent_fang": 1,
+      "shed_skin": 1,
+      "venom_heart": 1,
+      "adamant_bar": 6,
+      "cobra_venom": 10
+    },
+    "output": "serpent_throne_sword"
+  },
+  {
+    "id": "serpent_throne_mace",
+    "name": "Maça da Rainha Serpente",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 11000,
+    "inputs": {
+      "serpent_fang": 1,
+      "shed_skin": 1,
+      "venom_heart": 1,
+      "adamant_bar": 6,
+      "cobra_venom": 10
+    },
+    "output": "serpent_throne_mace"
+  },
+  {
+    "id": "tower_key",
+    "name": "Chave do Conselho da Torre",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 36000,
+    "inputs": {
+      "adamant_bar": 4,
+      "infernal_ash": 6,
+      "cobra_venom": 2,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "tower_key"
+  },
+  {
+    "id": "flame_throne_sword",
+    "name": "Espada do Grão-Infernalista",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 11500,
+    "inputs": {
+      "infernal_tome": 1,
+      "burning_sigil": 1,
+      "flame_heart": 1,
+      "adamant_bar": 6,
+      "infernal_ash": 10
+    },
+    "output": "flame_throne_sword"
+  },
+  {
+    "id": "flame_throne_mace",
+    "name": "Maça do Grão-Infernalista",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 11500,
+    "inputs": {
+      "infernal_tome": 1,
+      "burning_sigil": 1,
+      "flame_heart": 1,
+      "adamant_bar": 6,
+      "infernal_ash": 10
+    },
+    "output": "flame_throne_mace"
+  },
+  {
+    "id": "oath_key",
+    "name": "Chave do Salão do Juramento",
+    "level": 120,
+    "intervalMs": 12000,
+    "xp": 38000,
+    "inputs": {
+      "adamant_bar": 4,
+      "hero_medal": 6,
+      "infernal_ash": 2,
+      "chaos_fragment": 2,
+      "coal": 12
+    },
+    "output": "oath_key"
+  },
+  {
+    "id": "champion_throne_sword",
+    "name": "Espada do Campeão Caído",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 12000,
+    "inputs": {
+      "champion_crest": 1,
+      "broken_oath": 1,
+      "hero_soul": 1,
+      "adamant_bar": 6,
+      "hero_medal": 10
+    },
+    "output": "champion_throne_sword"
+  },
+  {
+    "id": "champion_throne_mace",
+    "name": "Maça do Campeão Caído",
+    "level": 120,
+    "intervalMs": 30000,
+    "xp": 12000,
+    "inputs": {
+      "champion_crest": 1,
+      "broken_oath": 1,
+      "hero_soul": 1,
+      "adamant_bar": 6,
+      "hero_medal": 10
+    },
+    "output": "champion_throne_mace"
+  }
+]

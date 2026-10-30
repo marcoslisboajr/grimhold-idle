@@ -1,0 +1,14 @@
+[
+  {"id": "tree", "name": "Árvore", "region": "Ravina Selvagem", "level": 1, "intervalMs": 3000, "xp": 318, "item": "logs"},
+  {"id": "oak", "name": "Carvalho", "region": "Ravina Selvagem", "level": 15, "intervalMs": 4000, "xp": 678, "item": "oak_logs"},
+  {"id": "maple_tree", "name": "Bordo", "region": "Bosque Antigo", "level": 25, "intervalMs": 4700, "xp": 933, "item": "maple_logs"},
+  {"id": "willow", "name": "Salgueiro", "region": "Margem do Lago", "level": 30, "intervalMs": 5000, "xp": 1060, "item": "willow_logs"},
+  {"id": "mahogany_tree", "name": "Mogno", "region": "Margem do Lago", "level": 38, "intervalMs": 5500, "xp": 1336, "item": "mahogany_logs"},
+  {"id": "yew", "name": "Teixo", "region": "Bosque Antigo", "level": 45, "intervalMs": 6000, "xp": 1590, "item": "yew_logs"},
+  {"id": "ancient_tree", "name": "Árvore Anciã", "region": "Coração da Floresta", "level": 60, "intervalMs": 7000, "xp": 2332, "item": "ancient_logs"},
+  {"id": "magic_tree", "name": "Árvore Mágica", "region": "Coração da Floresta", "level": 70, "intervalMs": 8000, "xp": 3286, "item": "magic_logs"},
+  {"id": "ironwood_tree", "name": "Pau-ferro", "region": "Bosque Antigo", "level": 80, "intervalMs": 9000, "xp": 4558, "item": "ironwood_logs"},
+  {"id": "redwood_tree", "name": "Sequoia", "region": "Vale dos Pesadelos", "level": 90, "intervalMs": 10000, "xp": 6148, "item": "redwood_logs"},
+  {"id": "spirit_tree", "name": "Árvore Espiritual", "region": "Picos Celestes", "level": 100, "intervalMs": 11000, "xp": 8056, "item": "spirit_logs"},
+  {"id": "worldtree_tree", "name": "Árvore do Mundo", "region": "Coração do Vazio", "level": 115, "intervalMs": 12500, "xp": 11448, "item": "worldtree_logs"}
+]

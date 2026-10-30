@@ -1,0 +1,258 @@
+[
+  {
+    "id": "task_primordial_stalker",
+    "name": "Caça a Rastreador Primordial",
+    "monsterId": "primordial_stalker",
+    "monsterName": "Rastreador Primordial",
+    "killsRequired": 2600,
+    "minLevel": 605,
+    "points": 386,
+    "goldReward": 24300000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "primordial_shard",
+      "qty": 8,
+      "name": "Fragmento Primordial"
+    }
+  },
+  {
+    "id": "task_void_arcanist",
+    "name": "Limpeza: Arcanista do Vazio Primordial",
+    "monsterId": "void_arcanist",
+    "monsterName": "Arcanista do Vazio Primordial",
+    "killsRequired": 2600,
+    "minLevel": 613,
+    "points": 388,
+    "goldReward": 25300000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "primordial_shard",
+      "qty": 8,
+      "name": "Fragmento Primordial"
+    }
+  },
+  {
+    "id": "task_eclipse_harpy",
+    "name": "Caça a Harpia do Eclipse",
+    "monsterId": "eclipse_harpy",
+    "monsterName": "Harpia do Eclipse",
+    "killsRequired": 2600,
+    "minLevel": 618,
+    "points": 389,
+    "goldReward": 25900000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "primordial_shard",
+      "qty": 8,
+      "name": "Fragmento Primordial"
+    }
+  },
+  {
+    "id": "task_void_sovereign",
+    "name": "Tesouro de Soberano do Vazio",
+    "monsterId": "void_sovereign",
+    "monsterName": "Soberano do Vazio",
+    "killsRequired": 2600,
+    "minLevel": 621,
+    "points": 390,
+    "goldReward": 26200000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "primordial_shard",
+      "qty": 12,
+      "name": "Fragmento Primordial"
+    }
+  },
+  {
+    "id": "task_stone_titan",
+    "name": "Caça a Titã de Pedra",
+    "monsterId": "stone_titan",
+    "monsterName": "Titã de Pedra",
+    "killsRequired": 2600,
+    "minLevel": 630,
+    "points": 393,
+    "goldReward": 27300000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "titan_core",
+      "qty": 8,
+      "name": "Núcleo Titânico"
+    }
+  },
+  {
+    "id": "task_colossus_sentinel",
+    "name": "Limpeza: Sentinela Colossal",
+    "monsterId": "colossus_sentinel",
+    "monsterName": "Sentinela Colossal",
+    "killsRequired": 2600,
+    "minLevel": 638,
+    "points": 395,
+    "goldReward": 28300000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "titan_core",
+      "qty": 8,
+      "name": "Núcleo Titânico"
+    }
+  },
+  {
+    "id": "task_storm_pterosaur",
+    "name": "Caça a Pterossauro da Tempestade",
+    "monsterId": "storm_pterosaur",
+    "monsterName": "Pterossauro da Tempestade",
+    "killsRequired": 2600,
+    "minLevel": 643,
+    "points": 396,
+    "goldReward": 28900000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "titan_core",
+      "qty": 8,
+      "name": "Núcleo Titânico"
+    }
+  },
+  {
+    "id": "task_titan_overlord",
+    "name": "Tesouro de Soberano dos Titãs",
+    "monsterId": "titan_overlord",
+    "monsterName": "Soberano dos Titãs",
+    "killsRequired": 2600,
+    "minLevel": 646,
+    "points": 397,
+    "goldReward": 29200000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "titan_core",
+      "qty": 12,
+      "name": "Núcleo Titânico"
+    }
+  },
+  {
+    "id": "task_black_sun_crusader",
+    "name": "Caça a Cruzado do Sol Negro",
+    "monsterId": "black_sun_crusader",
+    "monsterName": "Cruzado do Sol Negro",
+    "killsRequired": 2600,
+    "minLevel": 655,
+    "points": 399,
+    "goldReward": 30300000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "black_sun_cinder",
+      "qty": 8,
+      "name": "Cinza do Sol Negro"
+    }
+  },
+  {
+    "id": "task_ashen_hierophant",
+    "name": "Limpeza: Hierofante das Cinzas",
+    "monsterId": "ashen_hierophant",
+    "monsterName": "Hierofante das Cinzas",
+    "killsRequired": 2600,
+    "minLevel": 663,
+    "points": 401,
+    "goldReward": 31300000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "black_sun_cinder",
+      "qty": 8,
+      "name": "Cinza do Sol Negro"
+    }
+  },
+  {
+    "id": "task_solar_phoenix",
+    "name": "Caça a Fênix do Sol Negro",
+    "monsterId": "solar_phoenix",
+    "monsterName": "Fênix do Sol Negro",
+    "killsRequired": 2600,
+    "minLevel": 668,
+    "points": 402,
+    "goldReward": 31900000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "black_sun_cinder",
+      "qty": 8,
+      "name": "Cinza do Sol Negro"
+    }
+  },
+  {
+    "id": "task_black_sun_avatar",
+    "name": "Tesouro de Avatar do Sol Negro",
+    "monsterId": "black_sun_avatar",
+    "monsterName": "Avatar do Sol Negro",
+    "killsRequired": 2600,
+    "minLevel": 671,
+    "points": 403,
+    "goldReward": 32200000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "black_sun_cinder",
+      "qty": 12,
+      "name": "Cinza do Sol Negro"
+    }
+  },
+  {
+    "id": "task_twilight_vanguard",
+    "name": "Caça a Vanguarda do Crepúsculo",
+    "monsterId": "twilight_vanguard",
+    "monsterName": "Vanguarda do Crepúsculo",
+    "killsRequired": 2600,
+    "minLevel": 680,
+    "points": 405,
+    "goldReward": 33300000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "twilight_essence",
+      "qty": 8,
+      "name": "Essência do Crepúsculo"
+    }
+  },
+  {
+    "id": "task_twilight_archon",
+    "name": "Limpeza: Arconte do Crepúsculo",
+    "monsterId": "twilight_archon",
+    "monsterName": "Arconte do Crepúsculo",
+    "killsRequired": 2600,
+    "minLevel": 688,
+    "points": 407,
+    "goldReward": 34300000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "twilight_essence",
+      "qty": 8,
+      "name": "Essência do Crepúsculo"
+    }
+  },
+  {
+    "id": "task_twilight_dragon",
+    "name": "Caça a Dragão do Crepúsculo",
+    "monsterId": "twilight_dragon",
+    "monsterName": "Dragão do Crepúsculo",
+    "killsRequired": 2600,
+    "minLevel": 693,
+    "points": 408,
+    "goldReward": 34900000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "twilight_essence",
+      "qty": 8,
+      "name": "Essência do Crepúsculo"
+    }
+  },
+  {
+    "id": "task_twilight_emperor",
+    "name": "Tesouro de Imperador do Crepúsculo",
+    "monsterId": "twilight_emperor",
+    "monsterName": "Imperador do Crepúsculo",
+    "killsRequired": 2600,
+    "minLevel": 696,
+    "points": 409,
+    "goldReward": 35200000,
+    "xpReward": 0,
+    "itemReward": {
+      "id": "twilight_essence",
+      "qty": 12,
+      "name": "Essência do Crepúsculo"
+    }
+  }
+]

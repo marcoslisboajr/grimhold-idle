@@ -1,0 +1,14 @@
+[
+  {"id": "carve_spark", "name": "Runa de Faísca", "level": 1, "intervalMs": 3030, "xp": 254, "inputs": {"rune_stone": 1}, "output": "spark_rune", "outputQty": 5},
+  {"id": "carve_light_heal", "name": "Runa de Cura Leve", "level": 5, "intervalMs": 3150, "xp": 382, "inputs": {"rune_stone": 1, "green_herb": 1}, "output": "light_heal_rune", "outputQty": 5},
+  {"id": "carve_boulder", "name": "Runa de Pedregulho", "level": 10, "intervalMs": 3300, "xp": 551, "inputs": {"rune_stone": 2}, "output": "boulder_rune", "outputQty": 5},
+  {"id": "carve_heavy_missile", "name": "Runa de Míssil Pesado", "level": 15, "intervalMs": 3450, "xp": 721, "inputs": {"rune_stone": 2}, "output": "heavy_missile_rune", "outputQty": 5},
+  {"id": "carve_fireball", "name": "Runa de Bola de Fogo", "level": 25, "intervalMs": 3750, "xp": 1060, "inputs": {"rune_stone": 2, "coal": 1}, "output": "fireball_rune", "outputQty": 5},
+  {"id": "carve_intense_heal", "name": "Runa de Cura Intensa", "level": 30, "intervalMs": 3900, "xp": 1230, "inputs": {"rune_stone": 2, "golden_root": 1}, "output": "intense_heal_rune", "outputQty": 5},
+  {"id": "carve_avalanche", "name": "Runa de Avalanche", "level": 40, "intervalMs": 4200, "xp": 1569, "inputs": {"rune_stone": 3}, "output": "avalanche_rune", "outputQty": 5},
+  {"id": "carve_explosion", "name": "Runa de Explosão", "level": 50, "intervalMs": 4500, "xp": 1908, "inputs": {"pure_rune_stone": 1}, "output": "explosion_rune", "outputQty": 5},
+  {"id": "carve_ultimate_heal", "name": "Runa de Cura Suprema", "level": 60, "intervalMs": 4800, "xp": 2247, "inputs": {"pure_rune_stone": 1, "golden_root": 1}, "output": "ultimate_heal_rune", "outputQty": 5},
+  {"id": "carve_sudden_death", "name": "Runa da Morte Súbita", "level": 70, "intervalMs": 5100, "xp": 2586, "inputs": {"pure_rune_stone": 2}, "output": "sudden_death_rune", "outputQty": 5},
+  {"id": "carve_storm", "name": "Runa da Tempestade", "level": 85, "intervalMs": 5550, "xp": 3095, "inputs": {"pure_rune_stone": 2}, "output": "storm_rune", "outputQty": 5},
+  {"id": "carve_doom", "name": "Runa do Juízo Final", "level": 100, "intervalMs": 6000, "xp": 3604, "inputs": {"pure_rune_stone": 3}, "output": "doom_rune", "outputQty": 5}
+]

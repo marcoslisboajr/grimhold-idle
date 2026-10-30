@@ -1,0 +1,14 @@
+[
+  {"id": "bone_dust_remains", "name": "Restos Mortais", "region": "Campos do Bastião", "level": 1, "intervalMs": 3000, "xp": 318, "item": "bone_dust"},
+  {"id": "wisp_hollow", "name": "Oco do Fogo-Fátuo", "region": "Campos do Bastião", "level": 8, "intervalMs": 3500, "xp": 509, "item": "wisp_ember"},
+  {"id": "dark_essence_font", "name": "Fonte Sombria", "region": "Bosque Antigo", "level": 15, "intervalMs": 4000, "xp": 678, "item": "dark_essence"},
+  {"id": "spectral_tear_tomb", "name": "Túmulo Espectral", "region": "Cemitério Velho", "level": 30, "intervalMs": 5000, "xp": 1060, "item": "spectral_tear"},
+  {"id": "ancient_ash_pyre", "name": "Pira Ancestral", "region": "Coração da Floresta", "level": 45, "intervalMs": 6000, "xp": 1590, "item": "ancient_ash"},
+  {"id": "abyssal_soul_rift", "name": "Fenda Abissal", "region": "Fossa Abissal", "level": 60, "intervalMs": 7000, "xp": 2332, "item": "abyssal_soul"},
+  {"id": "lich_crypt", "name": "Cripta do Lich", "region": "Cemitério Velho", "level": 70, "intervalMs": 8000, "xp": 3286, "item": "lich_dust"},
+  {"id": "wraith_marsh", "name": "Pântano das Aparições", "region": "Vale dos Pesadelos", "level": 80, "intervalMs": 9000, "xp": 4558, "item": "wraith_essence"},
+  {"id": "demon_pyre", "name": "Pira Demoníaca", "region": "Abismo Infernal", "level": 90, "intervalMs": 10000, "xp": 6148, "item": "demon_ash"},
+  {"id": "void_well", "name": "Poço do Vazio", "region": "Coração do Vazio", "level": 100, "intervalMs": 11000, "xp": 8056, "item": "void_soul"},
+  {"id": "star_grave", "name": "Túmulo Estelar", "region": "Picos Celestes", "level": 110, "intervalMs": 12000, "xp": 10176, "item": "star_soul"},
+  {"id": "primordial_ossuary", "name": "Ossário Primordial", "region": "Coração do Vazio", "level": 120, "intervalMs": 13000, "xp": 12720, "item": "primordial_soul"}
+]

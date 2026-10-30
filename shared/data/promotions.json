@@ -1,0 +1,629 @@
+[
+  {
+    "id": "paladin",
+    "vocation": "warrior",
+    "name": "Paladino",
+    "master": "Hellel",
+    "description": "Passiva: +15% vida e +20% defesa.",
+    "mods": {
+      "hp": 1.15,
+      "defense": 1.2,
+      "attack": 1.13
+    }
+  },
+  {
+    "id": "berserker",
+    "vocation": "warrior",
+    "name": "Berserker",
+    "master": "Gorak",
+    "description": "Passiva: +20% ataque e golpes 10% mais rápidos, mas −10% defesa.",
+    "mods": {
+      "attack": 1.21,
+      "speed": 0.9,
+      "defense": 0.9
+    }
+  },
+  {
+    "id": "dreadlord",
+    "vocation": "warrior",
+    "name": "Senhor do Pavor",
+    "master": "Kael'Vor",
+    "description": "Passiva: rouba 10% do dano como vida e +10% ataque.",
+    "mods": {
+      "lifesteal": 0.1,
+      "attack": 1.13
+    }
+  },
+  {
+    "id": "archer",
+    "vocation": "hunter",
+    "name": "Arqueira",
+    "master": "Ifigenia",
+    "description": "Passiva: +10% ataque e +10% chance de crítico.",
+    "mods": {
+      "attack": 1.1,
+      "crit": 0.1
+    }
+  },
+  {
+    "id": "shadow_archer",
+    "vocation": "hunter",
+    "name": "Arqueira das Sombras",
+    "master": "Zylvara",
+    "description": "Passiva: críticos dão +50% de dano e +5% de chance.",
+    "mods": {
+      "critMult": 0.5,
+      "crit": 0.05
+    }
+  },
+  {
+    "id": "gunslinger",
+    "vocation": "hunter",
+    "name": "Pistoleiro",
+    "master": "Billy",
+    "description": "Passiva: ataques 20% mais rápidos, −5% ataque.",
+    "mods": {
+      "speed": 0.8,
+      "attack": 0.95
+    }
+  },
+  {
+    "id": "mage",
+    "vocation": "arcanist",
+    "name": "Mago",
+    "master": "Krash",
+    "description": "Passiva: +25% ataque.",
+    "mods": {
+      "attack": 1.04
+    }
+  },
+  {
+    "id": "warlock",
+    "vocation": "arcanist",
+    "name": "Bruxo",
+    "master": "Sibilus",
+    "description": "Passiva: rouba 12% do dano como vida e +5% ataque.",
+    "mods": {
+      "lifesteal": 0.12,
+      "attack": 1.05
+    }
+  },
+  {
+    "id": "frost_warden",
+    "vocation": "arcanist",
+    "name": "Guardiã do Gelo",
+    "master": "Serafyne",
+    "description": "Passiva: +40% defesa e +10% vida.",
+    "mods": {
+      "defense": 1.4,
+      "hp": 1.1
+    }
+  },
+  {
+    "id": "cleric",
+    "vocation": "devout",
+    "name": "Clériga",
+    "master": "Alva",
+    "description": "Passiva: descanso 40% mais curto.",
+    "mods": {
+      "regen": 1.67,
+      "attack": 1.07
+    }
+  },
+  {
+    "id": "priest",
+    "vocation": "devout",
+    "name": "Sacerdote",
+    "master": "Hyo",
+    "description": "Passiva: +20% vida e descanso 20% mais curto.",
+    "mods": {
+      "hp": 1.2,
+      "regen": 1.25,
+      "attack": 1.07
+    }
+  },
+  {
+    "id": "inquisitor",
+    "vocation": "devout",
+    "name": "Inquisidor",
+    "master": "Valdric",
+    "description": "Passiva: +20% ataque e +5% chance de crítico.",
+    "mods": {
+      "attack": 1.23,
+      "crit": 0.05
+    }
+  },
+  {
+    "id": "crusader",
+    "vocation": "warrior",
+    "name": "Cruzado",
+    "master": "Hellel",
+    "tier": 2,
+    "requires": "paladin",
+    "description": "Passiva: +25% vida, +30% defesa e +10% ataque.",
+    "mods": {
+      "hp": 1.25,
+      "defense": 1.3,
+      "attack": 1.15
+    }
+  },
+  {
+    "id": "warlord",
+    "vocation": "warrior",
+    "name": "Senhor da Guerra",
+    "master": "Gorak",
+    "tier": 2,
+    "requires": "berserker",
+    "description": "Passiva: +30% ataque e golpes 15% mais rápidos, mas −10% defesa.",
+    "mods": {
+      "attack": 1.19,
+      "speed": 0.85,
+      "defense": 0.9
+    }
+  },
+  {
+    "id": "death_knight",
+    "vocation": "warrior",
+    "name": "Cavaleiro da Morte",
+    "master": "Kael'Vor",
+    "tier": 2,
+    "requires": "dreadlord",
+    "description": "Passiva: rouba 15% do dano como vida e +18% ataque.",
+    "mods": {
+      "lifesteal": 0.15,
+      "attack": 1.18
+    }
+  },
+  {
+    "id": "sniper",
+    "vocation": "hunter",
+    "name": "Franco-Atiradora",
+    "master": "Ifigenia",
+    "tier": 2,
+    "requires": "archer",
+    "description": "Passiva: +25% ataque e +12% chance de crítico.",
+    "mods": {
+      "attack": 1.25,
+      "crit": 0.12
+    }
+  },
+  {
+    "id": "specter",
+    "vocation": "hunter",
+    "name": "Assassina Espectral",
+    "master": "Zylvara",
+    "tier": 2,
+    "requires": "shadow_archer",
+    "description": "Passiva: críticos causam +70% de dano, +10% de chance e rouba 6% do dano como vida.",
+    "mods": {
+      "critMult": 0.7,
+      "crit": 0.1,
+      "lifesteal": 0.06
+    }
+  },
+  {
+    "id": "gunslinger_ace",
+    "vocation": "hunter",
+    "name": "Tempestade de Chumbo",
+    "master": "Billy",
+    "tier": 2,
+    "requires": "gunslinger",
+    "description": "Passiva: ataques 30% mais rápidos, +20% defesa e +10% vida.",
+    "mods": {
+      "speed": 0.7,
+      "defense": 1.2,
+      "hp": 1.1
+    }
+  },
+  {
+    "id": "archmage",
+    "vocation": "arcanist",
+    "name": "Arquimago",
+    "master": "Krash",
+    "tier": 2,
+    "requires": "mage",
+    "description": "Passiva: +35% ataque e +10% mana.",
+    "mods": {
+      "attack": 1.26,
+      "mana": 1.1
+    }
+  },
+  {
+    "id": "necromancer",
+    "vocation": "arcanist",
+    "name": "Necromante",
+    "master": "Sibilus",
+    "tier": 2,
+    "requires": "warlock",
+    "description": "Passiva: rouba 16% do dano como vida e +10% ataque.",
+    "mods": {
+      "lifesteal": 0.16,
+      "attack": 1.1
+    }
+  },
+  {
+    "id": "frost_archon",
+    "vocation": "arcanist",
+    "name": "Muralha Glacial",
+    "master": "Serafyne",
+    "tier": 2,
+    "requires": "frost_warden",
+    "description": "Passiva: +50% defesa, +18% vida e +10% ataque.",
+    "mods": {
+      "defense": 1.5,
+      "hp": 1.18,
+      "attack": 1.1
+    }
+  },
+  {
+    "id": "high_cleric",
+    "vocation": "devout",
+    "name": "Sumo-Sacerdotisa",
+    "master": "Alva",
+    "tier": 2,
+    "requires": "cleric",
+    "description": "Passiva: +15% ataque, rouba 8% do dano como vida, +20% mana e descanso 60% mais rápido.",
+    "mods": {
+      "attack": 1.6,
+      "lifesteal": 0.08,
+      "mana": 1.2,
+      "regen": 2.5
+    }
+  },
+  {
+    "id": "ascendant",
+    "vocation": "devout",
+    "name": "Santo Ascendente",
+    "master": "Hyo",
+    "tier": 2,
+    "requires": "priest",
+    "description": "Passiva: +30% vida, +25% defesa e +10% ataque.",
+    "mods": {
+      "hp": 1.3,
+      "defense": 1.25,
+      "attack": 1.6
+    }
+  },
+  {
+    "id": "avenger",
+    "vocation": "devout",
+    "name": "Vingador Sagrado",
+    "master": "Valdric",
+    "tier": 2,
+    "requires": "inquisitor",
+    "description": "Passiva: +28% ataque e +8% chance de crítico.",
+    "mods": {
+      "attack": 1.6,
+      "crit": 0.08
+    }
+  },
+  {
+    "id": "celestial_paladin",
+    "vocation": "warrior",
+    "name": "Paladino Celestial",
+    "master": "Hellel",
+    "tier": 3,
+    "requires": "crusader",
+    "description": "Passiva: +32% vida, +38% defesa e +18% ataque.",
+    "mods": {
+      "hp": 1.32,
+      "defense": 1.38,
+      "attack": 1.19
+    }
+  },
+  {
+    "id": "war_titan",
+    "vocation": "warrior",
+    "name": "Titã da Guerra",
+    "master": "Gorak",
+    "tier": 3,
+    "requires": "warlord",
+    "description": "Passiva: +40% ataque e golpes 18% mais rápidos, mas −5% defesa.",
+    "mods": {
+      "attack": 1.26,
+      "speed": 0.82,
+      "defense": 0.95
+    }
+  },
+  {
+    "id": "death_lord",
+    "vocation": "warrior",
+    "name": "Senhor da Morte",
+    "master": "Kael'Vor",
+    "tier": 3,
+    "requires": "death_knight",
+    "description": "Passiva: rouba 20% do dano como vida e +26% ataque.",
+    "mods": {
+      "lifesteal": 0.2,
+      "attack": 1.26
+    }
+  },
+  {
+    "id": "storm_eye",
+    "vocation": "hunter",
+    "name": "Olho da Tempestade",
+    "master": "Ifigenia",
+    "tier": 3,
+    "requires": "sniper",
+    "description": "Passiva: +33% ataque e +15% chance de crítico.",
+    "mods": {
+      "attack": 1.33,
+      "crit": 0.15
+    }
+  },
+  {
+    "id": "void_reaper",
+    "vocation": "hunter",
+    "name": "Ceifadora do Vazio",
+    "master": "Zylvara",
+    "tier": 3,
+    "requires": "specter",
+    "description": "Passiva: críticos causam +85% de dano, +13% de chance e rouba 8% do dano como vida.",
+    "mods": {
+      "critMult": 0.85,
+      "crit": 0.13,
+      "lifesteal": 0.08
+    }
+  },
+  {
+    "id": "trigger_king",
+    "vocation": "hunter",
+    "name": "Rei do Gatilho",
+    "master": "Billy",
+    "tier": 3,
+    "requires": "gunslinger_ace",
+    "description": "Passiva: ataques 36% mais rápidos, +25% defesa e +15% vida.",
+    "mods": {
+      "speed": 0.64,
+      "defense": 1.25,
+      "hp": 1.15
+    }
+  },
+  {
+    "id": "arcane_avatar",
+    "vocation": "arcanist",
+    "name": "Avatar Arcano",
+    "master": "Krash",
+    "tier": 3,
+    "requires": "archmage",
+    "description": "Passiva: +45% ataque e +15% mana.",
+    "mods": {
+      "attack": 1.5,
+      "mana": 1.15
+    }
+  },
+  {
+    "id": "ancient_lich",
+    "vocation": "arcanist",
+    "name": "Lich Ancestral",
+    "master": "Sibilus",
+    "tier": 3,
+    "requires": "necromancer",
+    "description": "Passiva: rouba 20% do dano como vida e +18% ataque.",
+    "mods": {
+      "lifesteal": 0.2,
+      "attack": 1.32
+    }
+  },
+  {
+    "id": "winter_heart",
+    "vocation": "arcanist",
+    "name": "Coração do Inverno",
+    "master": "Serafyne",
+    "tier": 3,
+    "requires": "frost_archon",
+    "description": "Passiva: +60% defesa, +25% vida e +18% ataque.",
+    "mods": {
+      "defense": 1.6,
+      "hp": 1.25,
+      "attack": 1.32
+    }
+  },
+  {
+    "id": "miracle_saint",
+    "vocation": "devout",
+    "name": "Santa dos Milagres",
+    "master": "Alva",
+    "tier": 3,
+    "requires": "high_cleric",
+    "description": "Passiva: +22% ataque, rouba 10% do dano como vida, +25% mana e descanso 65% mais rápido.",
+    "mods": {
+      "attack": 1.22,
+      "lifesteal": 0.1,
+      "mana": 1.25,
+      "regen": 2.8
+    }
+  },
+  {
+    "id": "archangel",
+    "vocation": "devout",
+    "name": "Arcanjo",
+    "master": "Hyo",
+    "tier": 3,
+    "requires": "ascendant",
+    "description": "Passiva: +38% vida, +32% defesa e +18% ataque.",
+    "mods": {
+      "hp": 1.38,
+      "defense": 1.32,
+      "attack": 1.18
+    }
+  },
+  {
+    "id": "celestial_judge",
+    "vocation": "devout",
+    "name": "Juiz Celestial",
+    "master": "Valdric",
+    "tier": 3,
+    "requires": "avenger",
+    "description": "Passiva: +36% ataque e +10% chance de crítico.",
+    "mods": {
+      "attack": 1.34,
+      "crit": 0.1
+    }
+  },
+  {
+    "id": "eternal_aegis",
+    "vocation": "warrior",
+    "name": "Égide Eterna",
+    "master": "Hellel",
+    "tier": 4,
+    "requires": "celestial_paladin",
+    "description": "Passiva: +39% vida, +46% defesa, +26% ataque. Ultimate: Muralha Divina.",
+    "mods": {
+      "hp": 1.39,
+      "defense": 1.46,
+      "attack": 1.6
+    }
+  },
+  {
+    "id": "war_avatar",
+    "vocation": "warrior",
+    "name": "Avatar da Guerra",
+    "master": "Gorak",
+    "tier": 4,
+    "requires": "war_titan",
+    "description": "Passiva: +50% ataque, 21% mais rápido, +0% defesa. Ultimate: Cataclismo.",
+    "mods": {
+      "attack": 1.65,
+      "speed": 0.79,
+      "defense": 1.0
+    }
+  },
+  {
+    "id": "perpetual_king",
+    "vocation": "warrior",
+    "name": "Rei Perpétuo",
+    "master": "Kael'Vor",
+    "tier": 4,
+    "requires": "death_lord",
+    "description": "Passiva: 25% roubo de vida, +34% ataque. Ultimate: Colheita Sombria.",
+    "mods": {
+      "lifesteal": 0.25,
+      "attack": 1.6
+    }
+  },
+  {
+    "id": "sky_eye",
+    "vocation": "hunter",
+    "name": "Olho do Céu",
+    "master": "Ifigenia",
+    "tier": 4,
+    "requires": "storm_eye",
+    "description": "Passiva: +41% ataque, +18% chance de crítico. Ultimate: Tiro Celestial.",
+    "mods": {
+      "attack": 1.41,
+      "crit": 0.18
+    }
+  },
+  {
+    "id": "void_queen",
+    "vocation": "hunter",
+    "name": "Rainha do Vazio",
+    "master": "Zylvara",
+    "tier": 4,
+    "requires": "void_reaper",
+    "description": "Passiva: +100% de dano crítico, +16% chance de crítico, 10% roubo de vida. Ultimate: Mil Lâminas.",
+    "mods": {
+      "critMult": 1.0,
+      "crit": 0.16,
+      "lifesteal": 0.1
+    }
+  },
+  {
+    "id": "hail_lord",
+    "vocation": "hunter",
+    "name": "Senhor da Saraivada",
+    "master": "Billy",
+    "tier": 4,
+    "requires": "trigger_king",
+    "description": "Passiva: 42% mais rápido, +30% defesa, +20% vida. Ultimate: Saraivada Infinita.",
+    "mods": {
+      "speed": 0.58,
+      "defense": 1.3,
+      "hp": 1.2
+    }
+  },
+  {
+    "id": "star_mind",
+    "vocation": "arcanist",
+    "name": "Mente Estelar",
+    "master": "Krash",
+    "tier": 4,
+    "requires": "arcane_avatar",
+    "description": "Passiva: +90% ataque, +20% mana. Ultimate: Supernova.",
+    "mods": {
+      "attack": 1.9,
+      "mana": 1.2
+    }
+  },
+  {
+    "id": "lich_emperor",
+    "vocation": "arcanist",
+    "name": "Imperador Lich",
+    "master": "Sibilus",
+    "tier": 4,
+    "requires": "ancient_lich",
+    "description": "Passiva: 24% roubo de vida, +26% ataque. Ultimate: Dreno da Alma.",
+    "mods": {
+      "lifesteal": 0.24,
+      "attack": 1.6
+    }
+  },
+  {
+    "id": "glacial_era",
+    "vocation": "arcanist",
+    "name": "Era Glacial",
+    "master": "Serafyne",
+    "tier": 4,
+    "requires": "winter_heart",
+    "description": "Passiva: +70% defesa, +32% vida, +26% ataque. Ultimate: Zero Absoluto.",
+    "mods": {
+      "defense": 1.7,
+      "hp": 1.32,
+      "attack": 1.6
+    }
+  },
+  {
+    "id": "living_miracle",
+    "vocation": "devout",
+    "name": "Milagre Vivo",
+    "master": "Alva",
+    "tier": 4,
+    "requires": "miracle_saint",
+    "description": "Passiva: +100% ataque, +25% velocidade de ataque, 12% roubo de vida, +30% mana, +210% regeneração. Ultimate: Ressurreição.",
+    "mods": {
+      "attack": 2.0,
+      "lifesteal": 0.12,
+      "mana": 1.3,
+      "regen": 3.1,
+      "speed": 0.8
+    }
+  },
+  {
+    "id": "seraph",
+    "vocation": "devout",
+    "name": "Serafim",
+    "master": "Hyo",
+    "tier": 4,
+    "requires": "archangel",
+    "description": "Passiva: +46% vida, +39% defesa, +26% ataque. Ultimate: Asas do Serafim.",
+    "mods": {
+      "hp": 1.46,
+      "defense": 1.39,
+      "attack": 1.6
+    }
+  },
+  {
+    "id": "hand_of_god",
+    "vocation": "devout",
+    "name": "Mão de Deus",
+    "master": "Valdric",
+    "tier": 4,
+    "requires": "celestial_judge",
+    "description": "Passiva: +34% ataque, +12% chance de crítico. Ultimate: Juízo Final.",
+    "mods": {
+      "attack": 1.34,
+      "crit": 0.12
+    }
+  }
+]

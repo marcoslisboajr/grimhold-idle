@@ -1,0 +1,23 @@
+[
+  {"id": "cook_shrimp", "name": "Camarão Frito", "level": 1, "intervalMs": 2000, "xp": 136, "inputs": {"raw_shrimp": 1}, "output": "cooked_shrimp"},
+  {"id": "cook_trout", "name": "Truta Assada", "level": 10, "intervalMs": 3000, "xp": 299, "inputs": {"raw_trout": 1}, "output": "cooked_trout"},
+  {"id": "cook_salmon", "name": "Salmão Assado", "level": 20, "intervalMs": 3000, "xp": 476, "inputs": {"raw_salmon": 1}, "output": "cooked_salmon"},
+  {"id": "cook_lobster", "name": "Lagosta Cozida", "level": 35, "intervalMs": 3500, "xp": 748, "inputs": {"raw_lobster": 1}, "output": "cooked_lobster"},
+  {"id": "cook_tuna", "name": "Atum Grelhado", "level": 45, "intervalMs": 3500, "xp": 952, "inputs": {"raw_tuna": 1}, "output": "cooked_tuna"},
+  {"id": "cook_shark", "name": "Tubarão Assado", "level": 60, "intervalMs": 4000, "xp": 1292, "inputs": {"raw_shark": 1}, "output": "cooked_shark"},
+  {"id": "cook_eel", "name": "Enguia Defumada", "level": 75, "intervalMs": 4000, "xp": 1768, "inputs": {"raw_eel": 1}, "output": "cooked_eel"},
+  {"id": "cook_crab", "name": "Caranguejo Cozido", "level": 28, "intervalMs": 3000, "xp": 666, "inputs": {"raw_crab": 1}, "output": "cooked_crab"},
+  {"id": "cook_swordfish", "name": "Espadarte Grelhado", "level": 52, "intervalMs": 3500, "xp": 1238, "inputs": {"raw_swordfish": 1}, "output": "cooked_swordfish"},
+  {"id": "cook_monkfish", "name": "Tamboril Assado", "level": 68, "intervalMs": 4000, "xp": 1618, "inputs": {"raw_monkfish": 1}, "output": "cooked_monkfish"},
+  {"id": "cook_dragonfish", "name": "Peixe-dragão Flamejado", "level": 85, "intervalMs": 4000, "xp": 2026, "inputs": {"raw_dragonfish": 1}, "output": "cooked_dragonfish"},
+  {"id": "cook_dark_crab", "name": "Caranguejo Sombrio Cozido", "level": 95, "intervalMs": 4500, "xp": 2258, "inputs": {"raw_dark_crab": 1}, "output": "cooked_dark_crab"},
+  {"id": "cook_serpent", "name": "Serpente Defumada", "level": 105, "intervalMs": 4500, "xp": 2502, "inputs": {"raw_serpent": 1}, "output": "cooked_serpent"},
+  {"id": "cook_manta", "name": "Arraia ao Fogo Abissal", "level": 115, "intervalMs": 4500, "xp": 2734, "inputs": {"raw_manta": 1}, "output": "cooked_manta"},
+  {"id": "cook_trout_pie", "name": "Torta de Truta", "level": 18, "intervalMs": 4500, "xp": 639, "inputs": {"raw_trout": 2, "green_herb": 1}, "output": "trout_pie"},
+  {"id": "cook_lobster_stew", "name": "Ensopado de Lagosta", "level": 40, "intervalMs": 5000, "xp": 1414, "inputs": {"raw_lobster": 1, "raw_crab": 1, "golden_root": 1}, "output": "lobster_stew"},
+  {"id": "cook_sea_chowder", "name": "Caldeirada do Mar", "level": 58, "intervalMs": 5000, "xp": 2054, "inputs": {"raw_tuna": 1, "raw_swordfish": 1, "mint_leaf": 2}, "output": "sea_chowder"},
+  {"id": "cook_hunter_feast", "name": "Banquete do Caçador", "level": 78, "intervalMs": 5000, "xp": 2761, "inputs": {"raw_shark": 1, "raw_monkfish": 1, "moon_clover": 1}, "output": "hunter_feast"},
+  {"id": "cook_dragonfish_pie", "name": "Torta de Peixe-dragão", "level": 98, "intervalMs": 5500, "xp": 3468, "inputs": {"raw_dragonfish": 1, "fire_lotus": 1}, "output": "dragonfish_pie"},
+  {"id": "cook_royal_feast", "name": "Banquete Real", "level": 112, "intervalMs": 5500, "xp": 3958, "inputs": {"raw_serpent": 1, "raw_dark_crab": 1, "star_moss": 1}, "output": "royal_feast"},
+  {"id": "cook_celestial_feast", "name": "Festim Celestial", "level": 120, "intervalMs": 6000, "xp": 4243, "inputs": {"raw_manta": 1, "celestial_lily": 1, "dragon_thistle": 1}, "output": "celestial_feast"}
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "warrior",
+    "name": "Guerreiro",
+    "role": "Corpo a corpo, aguenta dano",
+    "master": "Hellel",
+    "promotions": [
+      "paladin",
+      "berserker",
+      "dreadlord"
+    ],
+    "base": {
+      "hp": 150,
+      "mana": 30,
+      "attack": 17,
+      "defense": 10,
+      "attackSpeedMs": 1100
+    }
+  },
+  {
+    "id": "hunter",
+    "name": "Caçador",
+    "role": "Distância, dano constante",
+    "master": "Ifigenia",
+    "promotions": [
+      "archer",
+      "shadow_archer",
+      "gunslinger"
+    ],
+    "endgameAttack": 0.6, "base": {
+      "hp": 110,
+      "mana": 50,
+      "attack": 12,
+      "defense": 6,
+      "attackSpeedMs": 1000
+    }
+  },
+  {
+    "id": "arcanist",
+    "name": "Arcanista",
+    "role": "Magia em área, gasta mana",
+    "master": "Krash",
+    "promotions": [
+      "mage",
+      "warlock",
+      "frost_warden"
+    ],
+    "base": {
+      "hp": 100,
+      "mana": 120,
+      "attack": 21,
+      "defense": 4,
+      "attackSpeedMs": 1300
+    }
+  },
+  {
+    "id": "devout",
+    "name": "Devoto",
+    "role": "Cura a si mesmo, caçadas longas",
+    "master": "Alva",
+    "promotions": [
+      "cleric",
+      "priest",
+      "inquisitor"
+    ],
+    "endgameAttack": 0.6, "base": {
+      "hp": 120,
+      "mana": 100,
+      "attack": 20,
+      "defense": 7,
+      "attackSpeedMs": 1100
+    }
+  }
+]

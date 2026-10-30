@@ -1,0 +1,3150 @@
+[
+  {
+    "id": "river_bank",
+    "name": "Margem do Rio",
+    "region": "Ravina Selvagem",
+    "level": 1,
+    "monsters": [
+      "rat",
+      "frog"
+    ],
+    "focus": "balanced"
+  },
+  {
+    "id": "city_cellars",
+    "name": "Porões da Cidade",
+    "region": "Ravina Selvagem",
+    "level": 2,
+    "monsters": [
+      "sewer_rat",
+      "cellar_bat",
+      "sewer_slime"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "mill_fields",
+    "name": "Campos do Moinho",
+    "region": "Ravina Selvagem",
+    "level": 3,
+    "monsters": [
+      "field_rat",
+      "wild_piglet",
+      "bullfrog"
+    ],
+    "focus": "balanced"
+  },
+  {
+    "id": "goblin_den",
+    "name": "Toca dos Goblins",
+    "region": "Ravina Selvagem",
+    "level": 5,
+    "monsters": [
+      "goblin",
+      "goblin_archer",
+      "goblin_shaman"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "boar_grove",
+    "name": "Bosque dos Javalis",
+    "region": "Ravina Selvagem",
+    "level": 6,
+    "monsters": [
+      "young_boar",
+      "grove_beetle",
+      "marsh_toad"
+    ],
+    "focus": "loot"
+  },
+  {
+    "id": "spider_nest",
+    "name": "Ninho das Aranhas",
+    "region": "Terras Selvagens",
+    "level": 8,
+    "monsters": [
+      "spider",
+      "venom_spider",
+      "wasp",
+      "beetle",
+      "slime"
+    ],
+    "focus": "loot",
+    "xpMult": 0.76
+  },
+  {
+    "id": "wasp_grove",
+    "name": "Bosque das Vespas",
+    "region": "Terras Selvagens",
+    "level": 10,
+    "monsters": [
+      "giant_wasp",
+      "horned_beetle",
+      "moss_slime"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "goblin_king_hall",
+    "name": "Salão do Rei Goblin",
+    "region": "Ravina Selvagem",
+    "level": 10,
+    "monsters": [
+      "goblin_warlord",
+      "goblin_king"
+    ],
+    "trash": [
+      "goblin",
+      "goblin_archer",
+      "goblin_shaman"
+    ],
+    "boss": true,
+    "key": "goblin_key"
+  },
+  {
+    "id": "boar_den",
+    "name": "Toca do Javali Rei",
+    "region": "Covis do Bastião",
+    "level": 10,
+    "monsters": [
+      "boar_king"
+    ],
+    "lair": true
+  },
+  {
+    "id": "tribal_lands",
+    "name": "Território das Tribos",
+    "region": "Ravina Selvagem",
+    "level": 12,
+    "monsters": [
+      "wolf",
+      "boar",
+      "wolf_tribe",
+      "fox_tribe"
+    ],
+    "focus": "loot",
+    "xpMult": 0.79
+  },
+  {
+    "id": "falcon_cliffs",
+    "name": "Escarpas dos Falcões",
+    "region": "Terras Selvagens",
+    "level": 12,
+    "monsters": [
+      "falcon",
+      "crow"
+    ],
+    "focus": "loot",
+    "xpMult": 0.74
+  },
+  {
+    "id": "kobold_camp",
+    "name": "Acampamento Kobold",
+    "region": "Terras Selvagens",
+    "level": 14,
+    "monsters": [
+      "kobold",
+      "kobold_slinger",
+      "kobold_mystic",
+      "camp_wolf"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.83
+  },
+  {
+    "id": "weaver_web",
+    "name": "Teia da Tecelã Sombria",
+    "region": "Covis do Bastião",
+    "level": 15,
+    "monsters": [
+      "shadow_weaver"
+    ],
+    "lair": true
+  },
+  {
+    "id": "orc_fortress",
+    "name": "Fortaleza Orc",
+    "region": "Terras Selvagens",
+    "level": 16,
+    "monsters": [
+      "orc",
+      "orc_spearman",
+      "orc_warrior",
+      "orc_berserker"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "raider_camp",
+    "name": "Acampamento dos Saqueadores",
+    "region": "Terras Selvagens",
+    "level": 18,
+    "monsters": [
+      "goblin_raider",
+      "goblin_marksman",
+      "goblin_hexer"
+    ],
+    "focus": "loot",
+    "xpMult": 0.64
+  },
+  {
+    "id": "orc_warchief_keep",
+    "name": "Fortaleza do Chefe de Guerra",
+    "region": "Terras Selvagens",
+    "level": 18,
+    "monsters": [
+      "orc_captain",
+      "orc_warchief"
+    ],
+    "trash": [
+      "orc",
+      "orc_spearman",
+      "orc_warrior",
+      "orc_berserker"
+    ],
+    "boss": true,
+    "key": "orc_key"
+  },
+  {
+    "id": "old_cemetery",
+    "name": "Cemitério Velho",
+    "region": "Catacumbas de Ashfen",
+    "level": 20,
+    "monsters": [
+      "skeleton",
+      "ghoul",
+      "bat",
+      "floating_skull"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.69
+  },
+  {
+    "id": "lizard_swamp",
+    "name": "Pântano dos Lagartos",
+    "region": "Terras Selvagens",
+    "level": 24,
+    "monsters": [
+      "lizard",
+      "lizard_tribe",
+      "raptor",
+      "medusa"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "spider_mother_nest",
+    "name": "Ninho da Aranha-Mãe",
+    "region": "Covis do Bastião",
+    "level": 25,
+    "monsters": [
+      "spider_mother"
+    ],
+    "lair": true
+  },
+  {
+    "id": "crab_coast",
+    "name": "Costa dos Caranguejos",
+    "region": "Costa dos Afogados",
+    "level": 26,
+    "monsters": [
+      "giant_crab",
+      "fishman",
+      "stinging_jelly"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "medusa_lair",
+    "name": "Covil da Medusa",
+    "region": "Terras Selvagens",
+    "level": 26,
+    "monsters": [
+      "lizard_queen",
+      "elder_medusa"
+    ],
+    "trash": [
+      "lizard",
+      "lizard_tribe",
+      "raptor",
+      "medusa"
+    ],
+    "boss": true,
+    "key": "medusa_key"
+  },
+  {
+    "id": "ashfen_barracks",
+    "name": "Quartel de Ashfen",
+    "region": "Catacumbas de Ashfen",
+    "level": 28,
+    "monsters": [
+      "ashfen_soldier",
+      "ashfen_veteran",
+      "skeleton_spearman",
+      "skeleton_guard"
+    ],
+    "focus": "loot",
+    "xpMult": 0.72
+  },
+  {
+    "id": "witch_bog",
+    "name": "Pântano das Bruxas",
+    "region": "Terras Selvagens",
+    "level": 30,
+    "monsters": [
+      "mire_lizard",
+      "bog_toad",
+      "bog_spider",
+      "bog_witch"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.92
+  },
+  {
+    "id": "rat_king_throne",
+    "name": "Trono do Rei dos Porões",
+    "region": "Covis do Bastião",
+    "level": 30,
+    "monsters": [
+      "cellar_king"
+    ],
+    "lair": true
+  },
+  {
+    "id": "general_crypt",
+    "name": "Cripta do General",
+    "region": "Catacumbas de Ashfen",
+    "level": 32,
+    "monsters": [
+      "bone_general",
+      "cerberus"
+    ],
+    "boss": true,
+    "key": "crypt_key",
+    "trash": [
+      "ashfen_soldier",
+      "ashfen_veteran",
+      "skeleton_spearman",
+      "skeleton_guard"
+    ]
+  },
+  {
+    "id": "minotaur_maze",
+    "name": "Labirinto dos Minotauros",
+    "region": "Montanhas de Ferro",
+    "level": 32,
+    "monsters": [
+      "minotaur",
+      "minotaur_archer",
+      "minotaur_guard",
+      "minotaur_warrior"
+    ],
+    "focus": "xp",
+    "requires": "minotaur_pass"
+  },
+  {
+    "id": "ember_peak",
+    "name": "Pico das Brasas",
+    "region": "Montanhas de Ferro",
+    "level": 34,
+    "monsters": [
+      "vulture",
+      "ember_phoenix"
+    ],
+    "focus": "loot",
+    "xpMult": 0.68
+  },
+  {
+    "id": "deep_tomb",
+    "name": "Tumba Profunda",
+    "region": "Catacumbas de Ashfen",
+    "level": 36,
+    "monsters": [
+      "wight",
+      "mummy",
+      "ghost",
+      "lich"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.73
+  },
+  {
+    "id": "minotaur_throne",
+    "name": "Trono do Rei Minotauro",
+    "region": "Montanhas de Ferro",
+    "level": 38,
+    "monsters": [
+      "minotaur_royal",
+      "minotaur_king"
+    ],
+    "boss": true,
+    "key": "minotaur_key",
+    "trash": [
+      "minotaur",
+      "minotaur_archer",
+      "minotaur_guard",
+      "minotaur_warrior"
+    ]
+  },
+  {
+    "id": "grey_wolf_lair",
+    "name": "Covil do Lobo Cinzento",
+    "region": "Covis do Bastião",
+    "level": 38,
+    "monsters": [
+      "grey_claw"
+    ],
+    "lair": true
+  },
+  {
+    "id": "shipwreck_beach",
+    "name": "Praia dos Naufrágios",
+    "region": "Costa dos Afogados",
+    "level": 40,
+    "monsters": [
+      "shore_crab",
+      "fire_crab",
+      "sea_turtle",
+      "drowned"
+    ],
+    "focus": "loot",
+    "xpMult": 0.82
+  },
+  {
+    "id": "abandoned_mine",
+    "name": "Mina Abandonada",
+    "region": "Montanhas de Ferro",
+    "level": 42,
+    "monsters": [
+      "mine_golem",
+      "young_rock_elemental",
+      "gallery_bat"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "cyclops_lair",
+    "name": "Covil dos Ciclopes",
+    "region": "Montanhas de Ferro",
+    "level": 44,
+    "monsters": [
+      "cyclops",
+      "cyclops_thrower",
+      "ogre",
+      "ogre_berserker"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "old_mine_depths",
+    "name": "Fundo da Mina Velha",
+    "region": "Covis do Bastião",
+    "level": 45,
+    "monsters": [
+      "old_mine_golem"
+    ],
+    "lair": true
+  },
+  {
+    "id": "cyclops_forge",
+    "name": "Forja dos Ciclopes",
+    "region": "Montanhas de Ferro",
+    "level": 46,
+    "monsters": [
+      "ogre_chieftain",
+      "brontes"
+    ],
+    "trash": [
+      "cyclops",
+      "cyclops_thrower",
+      "ogre",
+      "ogre_berserker"
+    ],
+    "boss": true,
+    "key": "forge_key"
+  },
+  {
+    "id": "hungry_ogre_cave",
+    "name": "Caverna do Ogro Faminto",
+    "region": "Covis do Bastião",
+    "level": 46,
+    "monsters": [
+      "grumm"
+    ],
+    "lair": true
+  },
+  {
+    "id": "broken_reef",
+    "name": "Recife Partido",
+    "region": "Costa dos Afogados",
+    "level": 48,
+    "monsters": [
+      "fishfolk",
+      "fishfolk_shaman",
+      "jellyfish",
+      "sea_serpent"
+    ],
+    "focus": "loot",
+    "xpMult": 0.67
+  },
+  {
+    "id": "raven_isle",
+    "name": "Ilha dos Corvos",
+    "region": "Costa dos Afogados",
+    "level": 50,
+    "monsters": [
+      "isle_raven",
+      "isle_harpy",
+      "royal_falcon"
+    ],
+    "focus": "loot",
+    "xpMult": 0.79
+  },
+  {
+    "id": "coral_depths",
+    "name": "Profundezas de Coral",
+    "region": "Costa dos Afogados",
+    "level": 52,
+    "monsters": [
+      "sea_serpent",
+      "jellyfish",
+      "deepling_scout",
+      "drowned_veteran"
+    ],
+    "focus": "balanced"
+  },
+  {
+    "id": "tide_heart",
+    "name": "Coração da Maré",
+    "region": "Costa dos Afogados",
+    "level": 55,
+    "monsters": [
+      "drowned_captain",
+      "kraken"
+    ],
+    "boss": true,
+    "key": "tide_shell",
+    "trash": [
+      "fishfolk",
+      "fishfolk_shaman",
+      "jellyfish",
+      "sea_serpent",
+      "deepling_scout",
+      "deepling_warrior",
+      "drowned_veteran"
+    ]
+  },
+  {
+    "id": "abyssal_trench",
+    "name": "Fossa Abissal",
+    "region": "Costa dos Afogados",
+    "level": 56,
+    "monsters": [
+      "deepling_scout",
+      "deepling_warrior",
+      "drowned_veteran"
+    ],
+    "focus": "loot",
+    "requires": "abyssal_key_quest",
+    "xpMult": 0.91
+  },
+  {
+    "id": "wyvern_slope",
+    "name": "Encosta dos Wyverns",
+    "region": "Montanhas de Fogo",
+    "level": 57,
+    "monsters": [
+      "wyvern",
+      "dragon_hatchling",
+      "cyclops_thrower",
+      "fire_elemental"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "dragon_nest",
+    "name": "Ninho dos Dragões",
+    "region": "Montanhas de Fogo",
+    "level": 60,
+    "monsters": [
+      "dragon_hatchling",
+      "dragon",
+      "wyvern",
+      "fire_elemental"
+    ],
+    "focus": "xp",
+    "requires": "dragon_seal"
+  },
+  {
+    "id": "profane_chapel",
+    "name": "Capela Afogada",
+    "region": "Costa dos Afogados",
+    "level": 60,
+    "monsters": [
+      "herald_crimson"
+    ],
+    "boss": true,
+    "quest": "inquisition",
+    "trash": [
+      "deepling_scout",
+      "deepling_warrior",
+      "drowned_veteran"
+    ]
+  },
+  {
+    "id": "haunted_ruins",
+    "name": "Ruínas Assombradas",
+    "region": "Terras Sombrias",
+    "level": 62,
+    "monsters": [
+      "nightstalker",
+      "banshee",
+      "lich",
+      "wight"
+    ],
+    "focus": "balanced"
+  },
+  {
+    "id": "vampire_crypt",
+    "name": "Cripta Vampírica",
+    "region": "Terras Sombrias",
+    "level": 64,
+    "monsters": [
+      "vampire",
+      "dhampir",
+      "nightstalker",
+      "banshee"
+    ],
+    "focus": "loot",
+    "requires": "vampire_blood_quest",
+    "xpMult": 0.74
+  },
+  {
+    "id": "forgotten_knight_crypt",
+    "name": "Cripta do Cavaleiro Esquecido",
+    "region": "Covis do Bastião",
+    "level": 65,
+    "monsters": [
+      "sir_aldric"
+    ],
+    "lair": true
+  },
+  {
+    "id": "vampire_lord_crypt",
+    "name": "Cripta do Conde",
+    "region": "Terras Sombrias",
+    "level": 66,
+    "monsters": [
+      "vampire_bride",
+      "count_varnak"
+    ],
+    "trash": [
+      "vampire",
+      "dhampir",
+      "nightstalker",
+      "banshee"
+    ],
+    "boss": true,
+    "key": "count_key"
+  },
+  {
+    "id": "scorched_hollow",
+    "name": "Vale Calcinado",
+    "region": "Montanhas de Fogo",
+    "level": 66,
+    "monsters": [
+      "dragon",
+      "fire_elemental",
+      "wyvern",
+      "sulfur_golem"
+    ],
+    "focus": "loot",
+    "xpMult": 0.83
+  },
+  {
+    "id": "sulfur_mines",
+    "name": "Minas de Enxofre",
+    "region": "Terras Sombrias",
+    "level": 70,
+    "monsters": [
+      "sulfur_golem",
+      "fire_devil",
+      "imp",
+      "lesser_demon"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.89
+  },
+  {
+    "id": "damned_rift",
+    "name": "Fenda dos Condenados",
+    "region": "Terras Sombrias",
+    "level": 70,
+    "monsters": [
+      "herald_blood"
+    ],
+    "boss": true,
+    "quest": "inquisition",
+    "trash": [
+      "imp",
+      "lesser_demon",
+      "fire_devil"
+    ]
+  },
+  {
+    "id": "demon_rift",
+    "name": "Fendas Demoníacas",
+    "region": "Terras Sombrias",
+    "level": 72,
+    "monsters": [
+      "imp",
+      "lesser_demon",
+      "fire_devil",
+      "demon"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "dragon_throne",
+    "name": "Trono do Senhor dos Dragões",
+    "region": "Montanhas de Fogo",
+    "level": 75,
+    "monsters": [
+      "fire_dragon",
+      "dragon_lord"
+    ],
+    "boss": true,
+    "key": "dragon_key",
+    "trash": [
+      "dragon_hatchling",
+      "dragon",
+      "wyvern",
+      "fire_elemental"
+    ]
+  },
+  {
+    "id": "infernal_trench",
+    "name": "Fosso Infernal",
+    "region": "Terras Sombrias",
+    "level": 76,
+    "monsters": [
+      "lesser_demon",
+      "fire_devil",
+      "demon",
+      "banshee"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "giant_peaks",
+    "name": "Montanha dos Gigantes",
+    "region": "Picos da Tempestade",
+    "level": 80,
+    "monsters": [
+      "stone_guardian",
+      "earth_elemental",
+      "harpy"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "black_knight_crypt",
+    "name": "Cripta dos Cavaleiros Negros",
+    "region": "Picos da Tempestade",
+    "level": 80,
+    "monsters": [
+      "black_knight",
+      "fallen_knight",
+      "death_knight"
+    ],
+    "focus": "balanced"
+  },
+  {
+    "id": "lumira_chapel",
+    "name": "Capela do Alvorecer",
+    "region": "Domínio de Lumira",
+    "level": 80,
+    "monsters": [
+      "elisande"
+    ],
+    "lair": true
+  },
+  {
+    "id": "fallen_cathedral",
+    "name": "Catedral Caída",
+    "region": "Picos da Tempestade",
+    "level": 80,
+    "monsters": [
+      "herald_shadow"
+    ],
+    "boss": true,
+    "quest": "inquisition",
+    "trash": [
+      "black_knight",
+      "fallen_knight",
+      "death_knight"
+    ]
+  },
+  {
+    "id": "ash_pit",
+    "name": "Fosso das Cinzas",
+    "region": "Fossos de Kharvos",
+    "level": 80,
+    "monsters": [
+      "ash_lord"
+    ],
+    "boss": true,
+    "quest": "pits_kharvos",
+    "trash": [
+      "black_knight",
+      "fallen_knight",
+      "death_knight"
+    ]
+  },
+  {
+    "id": "fallen_knights_hall",
+    "name": "Salão dos Cavaleiros Caídos",
+    "region": "Picos da Tempestade",
+    "level": 84,
+    "monsters": [
+      "profane_knight",
+      "mordrek"
+    ],
+    "trash": [
+      "black_knight",
+      "fallen_knight",
+      "death_knight"
+    ],
+    "boss": true,
+    "key": "knight_key"
+  },
+  {
+    "id": "eye_pit",
+    "name": "Fosso dos Olhos",
+    "region": "Fossos de Kharvos",
+    "level": 85,
+    "monsters": [
+      "eye_lord"
+    ],
+    "boss": true,
+    "quest": "pits_kharvos",
+    "trash": [
+      "harpy",
+      "stone_guardian",
+      "earth_elemental"
+    ]
+  },
+  {
+    "id": "knights_ravine",
+    "name": "Ravina dos Cavaleiros",
+    "region": "Picos da Tempestade",
+    "level": 85,
+    "monsters": [
+      "black_knight",
+      "death_knight",
+      "harpy",
+      "earth_elemental"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.92
+  },
+  {
+    "id": "eternal_glacier",
+    "name": "Geleira Eterna",
+    "region": "Geleiras do Norte",
+    "level": 90,
+    "monsters": [
+      "ice_witch",
+      "frost_dragon",
+      "centaur_archer"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "hydra_swamp",
+    "name": "Pântano das Hidras",
+    "region": "Geleiras do Norte",
+    "level": 90,
+    "monsters": [
+      "hydra",
+      "chimera",
+      "centaur_archer"
+    ],
+    "focus": "loot",
+    "xpMult": 0.93
+  },
+  {
+    "id": "frost_citadel",
+    "name": "Cidadela Glacial",
+    "region": "Geleiras do Norte",
+    "level": 90,
+    "monsters": [
+      "ice_witch",
+      "frost_dragon"
+    ],
+    "boss": true,
+    "key": "frost_key",
+    "trash": [
+      "ice_witch",
+      "frost_dragon",
+      "centaur_archer"
+    ]
+  },
+  {
+    "id": "rotten_grove",
+    "name": "Bosque Apodrecido",
+    "region": "Domínio de Sylveth",
+    "level": 90,
+    "monsters": [
+      "ashfen_oak"
+    ],
+    "boss": true,
+    "quest": "ashfen_oak",
+    "trash": [
+      "corrupted_beast",
+      "twisted_branch"
+    ]
+  },
+  {
+    "id": "frozen_sanctum",
+    "name": "Santuário Gélido",
+    "region": "Geleiras do Norte",
+    "level": 90,
+    "monsters": [
+      "herald_void"
+    ],
+    "boss": true,
+    "quest": "inquisition",
+    "trash": [
+      "ice_witch",
+      "frost_dragon",
+      "centaur_archer"
+    ]
+  },
+  {
+    "id": "hound_pit",
+    "name": "Fosso da Matilha",
+    "region": "Fossos de Kharvos",
+    "level": 90,
+    "monsters": [
+      "pit_cerberus"
+    ],
+    "boss": true,
+    "quest": "pits_kharvos",
+    "trash": [
+      "chimera",
+      "hydra",
+      "centaur_archer"
+    ]
+  },
+  {
+    "id": "sylveth_glade",
+    "name": "Clareira dos Uivos",
+    "region": "Domínio de Sylveth",
+    "level": 95,
+    "monsters": [
+      "fenra"
+    ],
+    "lair": true
+  },
+  {
+    "id": "damned_pit",
+    "name": "Fosso dos Condenados",
+    "region": "Fossos de Kharvos",
+    "level": 95,
+    "monsters": [
+      "damned_knight"
+    ],
+    "boss": true,
+    "quest": "pits_kharvos",
+    "trash": [
+      "chimera",
+      "frost_dragon",
+      "centaur_archer"
+    ]
+  },
+  {
+    "id": "twisted_grove",
+    "name": "Bosque Retorcido",
+    "region": "Geleiras do Norte",
+    "level": 95,
+    "monsters": [
+      "corrupted_beast",
+      "twisted_branch",
+      "chimera",
+      "centaur_archer"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.95
+  },
+  {
+    "id": "shadow_cathedral",
+    "name": "Catedral das Sombras",
+    "region": "Dimensão Sombria",
+    "level": 100,
+    "monsters": [
+      "beholder",
+      "bonelord",
+      "mind_flayer"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "nightmare_valley",
+    "name": "Vale dos Pesadelos",
+    "region": "Dimensão Sombria",
+    "level": 100,
+    "monsters": [
+      "nightmare",
+      "shadow_beast",
+      "grim_reaper"
+    ],
+    "focus": "loot"
+  },
+  {
+    "id": "beholder_chamber",
+    "name": "Câmara do Olho Ancião",
+    "region": "Dimensão Sombria",
+    "level": 100,
+    "monsters": [
+      "elder_bonelord",
+      "xyloth"
+    ],
+    "trash": [
+      "beholder",
+      "bonelord",
+      "mind_flayer"
+    ],
+    "boss": true,
+    "key": "eye_key"
+  },
+  {
+    "id": "belghazar_throne",
+    "name": "Trono de Belghazar",
+    "region": "Dimensão Sombria",
+    "level": 100,
+    "monsters": [
+      "herald_seraph"
+    ],
+    "boss": true,
+    "quest": "inquisition",
+    "trash": [
+      "nightmare",
+      "shadow_beast",
+      "grim_reaper"
+    ]
+  },
+  {
+    "id": "pit_forge",
+    "name": "Forja dos Condenados",
+    "region": "Fossos de Kharvos",
+    "level": 100,
+    "monsters": [
+      "pit_brakka"
+    ],
+    "boss": true,
+    "quest": "pits_kharvos",
+    "trash": [
+      "nightmare",
+      "shadow_beast",
+      "grim_reaper"
+    ]
+  },
+  {
+    "id": "aethon_tower",
+    "name": "Torre dos Raios",
+    "region": "Domínio de Aethon",
+    "level": 105,
+    "monsters": [
+      "kael"
+    ],
+    "lair": true
+  },
+  {
+    "id": "fury_pit",
+    "name": "Fosso da Fúria",
+    "region": "Fossos de Kharvos",
+    "level": 105,
+    "monsters": [
+      "pit_gorrak"
+    ],
+    "boss": true,
+    "quest": "pits_kharvos",
+    "trash": [
+      "beholder",
+      "mind_flayer",
+      "bonelord"
+    ]
+  },
+  {
+    "id": "shadow_threshold",
+    "name": "Limiar das Sombras",
+    "region": "Dimensão Sombria",
+    "level": 105,
+    "monsters": [
+      "bonelord",
+      "shadow_beast",
+      "mind_flayer",
+      "grim_reaper"
+    ],
+    "focus": "loot",
+    "xpMult": 0.87
+  },
+  {
+    "id": "infernal_abyss",
+    "name": "Abismo Infernal",
+    "region": "Abismo do Fogo",
+    "level": 110,
+    "monsters": [
+      "lord_demon",
+      "demon_skeleton",
+      "demon_eyes"
+    ],
+    "focus": "xp",
+    "xpMult": 0.75,
+    "statMult": {
+      "hp": 1.3,
+      "attack": 1.3
+    }
+  },
+  {
+    "id": "ghazbaran_lair",
+    "name": "Covil de Belghazar",
+    "region": "Abismo do Fogo",
+    "level": 110,
+    "monsters": [
+      "cultista_vermelho",
+      "demon_eyes",
+      "lord_demon"
+    ],
+    "focus": "loot",
+    "xpMult": 0.62
+  },
+  {
+    "id": "ghazbaran_temple",
+    "name": "Templo de Belghazar",
+    "region": "Abismo do Fogo",
+    "level": 110,
+    "monsters": [
+      "lord_demon",
+      "ghazbaran"
+    ],
+    "boss": true,
+    "key": "infernal_key",
+    "trash": [
+      "cultista_vermelho",
+      "demon_eyes",
+      "lord_demon"
+    ]
+  },
+  {
+    "id": "abyss_pit",
+    "name": "Fosso do Abismo",
+    "region": "Fossos de Kharvos",
+    "level": 110,
+    "monsters": [
+      "pit_abyss_lord"
+    ],
+    "boss": true,
+    "quest": "pits_kharvos",
+    "trash": [
+      "demon_skeleton",
+      "demon_eyes",
+      "lord_demon"
+    ]
+  },
+  {
+    "id": "ruin_portal",
+    "name": "Portal da Ruína",
+    "region": "Abismo do Fogo",
+    "level": 115,
+    "monsters": [
+      "demon_skeleton",
+      "demon_eyes",
+      "void_stalker"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.5
+  },
+  {
+    "id": "kharvos_throne",
+    "name": "Trono de Kharvos",
+    "region": "Fossos de Kharvos",
+    "level": 115,
+    "monsters": [
+      "pit_kharvos"
+    ],
+    "boss": true,
+    "quest": "pits_kharvos",
+    "trash": [
+      "demon_skeleton",
+      "demon_eyes",
+      "lord_demon",
+      "cultista_vermelho"
+    ]
+  },
+  {
+    "id": "void_core",
+    "name": "Coração do Vazio",
+    "region": "O Vazio Primordial",
+    "level": 120,
+    "monsters": [
+      "void_herald",
+      "void_stalker",
+      "wraith"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "primordial_sanctum",
+    "name": "Santuário das Trevas Primordiais",
+    "region": "O Vazio Primordial",
+    "level": 120,
+    "monsters": [
+      "anjo_sombrio",
+      "fallen_seraph",
+      "wraith"
+    ],
+    "focus": "loot",
+    "xpMult": 0.95
+  },
+  {
+    "id": "zathroth_throne",
+    "name": "Trono de Xarthor",
+    "region": "O Vazio Primordial",
+    "level": 120,
+    "monsters": [
+      "fallen_seraph",
+      "zathroth"
+    ],
+    "boss": true,
+    "key": "void_key",
+    "trash": [
+      "anjo_sombrio",
+      "fallen_seraph",
+      "wraith"
+    ]
+  },
+  {
+    "id": "kharvos_arena",
+    "name": "Arena de Kharvos",
+    "region": "Domínio de Kharvos",
+    "level": 120,
+    "monsters": [
+      "brakka"
+    ],
+    "lair": true
+  },
+  {
+    "id": "ember_rift",
+    "name": "Fenda das Brasas",
+    "region": "Ermos de Cinzas",
+    "level": 125,
+    "monsters": [
+      "wraith",
+      "cinder_fiend",
+      "lava_hound"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.532
+  },
+  {
+    "id": "ashen_wastes",
+    "name": "Ermos de Cinzas",
+    "region": "Ermos de Cinzas",
+    "level": 130,
+    "monsters": [
+      "ash_titan",
+      "magma_wyrm",
+      "cinder_fiend"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "damned_forge",
+    "name": "Forja dos Condenados",
+    "region": "Ermos de Cinzas",
+    "level": 130,
+    "monsters": [
+      "damned_smith",
+      "lava_hound",
+      "cinder_fiend"
+    ],
+    "focus": "loot",
+    "xpMult": 0.84
+  },
+  {
+    "id": "furnace_heart",
+    "name": "Coração da Fornalha",
+    "region": "Ermos de Cinzas",
+    "level": 130,
+    "monsters": [
+      "master_smith",
+      "pyrgoth"
+    ],
+    "trash": [
+      "ash_titan",
+      "magma_wyrm",
+      "cinder_fiend",
+      "damned_smith",
+      "lava_hound"
+    ],
+    "boss": true,
+    "key": "furnace_key"
+  },
+  {
+    "id": "lumira_cathedral",
+    "name": "Catedral da Aurora",
+    "region": "Domínio de Lumira",
+    "level": 130,
+    "monsters": [
+      "irael"
+    ],
+    "lair": true
+  },
+  {
+    "id": "molten_grottoes",
+    "name": "Grutas Fundidas",
+    "region": "Profundezas Cristalinas",
+    "level": 135,
+    "monsters": [
+      "magma_wyrm",
+      "cave_wyvern",
+      "deep_watcher"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.48
+  },
+  {
+    "id": "crystal_caverns",
+    "name": "Cavernas de Cristal",
+    "region": "Profundezas Cristalinas",
+    "level": 140,
+    "monsters": [
+      "crystal_colossus",
+      "deep_watcher",
+      "cave_wyvern"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "black_diamond_mines",
+    "name": "Minas de Diamante Negro",
+    "region": "Profundezas Cristalinas",
+    "level": 140,
+    "monsters": [
+      "abyssal_miner",
+      "cyclops_tyrant",
+      "crystal_colossus"
+    ],
+    "focus": "loot",
+    "xpMult": 0.94
+  },
+  {
+    "id": "crystal_throne",
+    "name": "Trono Cristalino",
+    "region": "Profundezas Cristalinas",
+    "level": 140,
+    "monsters": [
+      "crystal_colossus",
+      "gorvath"
+    ],
+    "boss": true,
+    "key": "crystal_key",
+    "trash": [
+      "crystal_colossus",
+      "deep_watcher",
+      "cave_wyvern"
+    ]
+  },
+  {
+    "id": "sylveth_grove",
+    "name": "Bosque do Luar",
+    "region": "Domínio de Sylveth",
+    "level": 140,
+    "monsters": [
+      "vhessa"
+    ],
+    "lair": true
+  },
+  {
+    "id": "frostbite_pass",
+    "name": "Passo Gelado",
+    "region": "Confins Gelados",
+    "level": 145,
+    "monsters": [
+      "deep_watcher",
+      "frozen_knight",
+      "boreal_wyrm"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.451
+  },
+  {
+    "id": "forgotten_tundra",
+    "name": "Tundra dos Esquecidos",
+    "region": "Confins Gelados",
+    "level": 150,
+    "monsters": [
+      "frost_giant",
+      "glacial_lich",
+      "boreal_wyrm"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "frozen_fortress",
+    "name": "Fortaleza Congelada",
+    "region": "Confins Gelados",
+    "level": 150,
+    "monsters": [
+      "frozen_knight",
+      "frost_matriarch",
+      "frost_giant"
+    ],
+    "focus": "loot",
+    "xpMult": 0.88
+  },
+  {
+    "id": "frost_giant_throne",
+    "name": "Trono do Gigante de Gelo",
+    "region": "Confins Gelados",
+    "level": 150,
+    "monsters": [
+      "winter_lich",
+      "ymrak"
+    ],
+    "trash": [
+      "frost_giant",
+      "glacial_lich",
+      "boreal_wyrm",
+      "frozen_knight",
+      "frost_matriarch"
+    ],
+    "boss": true,
+    "key": "frostgiant_key"
+  },
+  {
+    "id": "zharvos_sanctum",
+    "name": "Santuário do Arquimago",
+    "region": "Santuário de Zharvos",
+    "level": 150,
+    "monsters": [
+      "zharvos_warden",
+      "zharvos_shell"
+    ],
+    "boss": true,
+    "key": "zharvos_key",
+    "trash": [
+      "arcane_demon",
+      "hex_fiend",
+      "spellfire_devil",
+      "rune_imp",
+      "bound_skeleton"
+    ]
+  },
+  {
+    "id": "silent_barrow",
+    "name": "Túmulo Silencioso",
+    "region": "Vale dos Reis Mortos",
+    "level": 155,
+    "monsters": [
+      "glacial_lich",
+      "soul_reaper",
+      "banshee_queen"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.5
+  },
+  {
+    "id": "kings_necropolis",
+    "name": "Necrópole dos Reis",
+    "region": "Vale dos Reis Mortos",
+    "level": 160,
+    "monsters": [
+      "elder_vampire",
+      "bone_colossus",
+      "soul_reaper"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "pharaoh_crypt",
+    "name": "Cripta dos Faraós",
+    "region": "Vale dos Reis Mortos",
+    "level": 160,
+    "monsters": [
+      "risen_pharaoh",
+      "banshee_queen",
+      "soul_reaper"
+    ],
+    "focus": "loot",
+    "xpMult": 0.99
+  },
+  {
+    "id": "eternal_tomb",
+    "name": "Tumba do Rei Eterno",
+    "region": "Vale dos Reis Mortos",
+    "level": 160,
+    "monsters": [
+      "risen_pharaoh",
+      "nekhart"
+    ],
+    "boss": true,
+    "key": "necro_key",
+    "trash": [
+      "risen_pharaoh",
+      "banshee_queen",
+      "soul_reaper"
+    ]
+  },
+  {
+    "id": "aethon_spire",
+    "name": "Espiral da Tempestade",
+    "region": "Domínio de Aethon",
+    "level": 160,
+    "monsters": [
+      "oruun"
+    ],
+    "lair": true
+  },
+  {
+    "id": "burning_catacombs",
+    "name": "Catacumbas em Chamas",
+    "region": "Círculos Infernais",
+    "level": 165,
+    "monsters": [
+      "elder_vampire",
+      "pit_fiend",
+      "alpha_hellhound"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.513
+  },
+  {
+    "id": "hell_furnace",
+    "name": "Fornalha do Inferno",
+    "region": "Círculos Infernais",
+    "level": 170,
+    "monsters": [
+      "archdemon",
+      "hellfire_lord",
+      "pit_fiend"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "soul_market",
+    "name": "Mercado das Almas",
+    "region": "Círculos Infernais",
+    "level": 170,
+    "monsters": [
+      "soul_merchant",
+      "alpha_hellhound",
+      "pit_fiend"
+    ],
+    "focus": "loot",
+    "xpMult": 0.84
+  },
+  {
+    "id": "infernal_pit",
+    "name": "Fosso dos Condenados",
+    "region": "Círculos Infernais",
+    "level": 170,
+    "monsters": [
+      "pit_warden",
+      "malphas"
+    ],
+    "trash": [
+      "archdemon",
+      "hellfire_lord",
+      "pit_fiend",
+      "soul_merchant",
+      "alpha_hellhound"
+    ],
+    "boss": true,
+    "key": "pit_key"
+  },
+  {
+    "id": "kharvos_fortress",
+    "name": "Fortaleza de Kharvos",
+    "region": "Domínio de Kharvos",
+    "level": 170,
+    "monsters": [
+      "gorrak"
+    ],
+    "lair": true
+  },
+  {
+    "id": "celestial_breach",
+    "name": "Brecha Celeste",
+    "region": "Plano Astral",
+    "level": 175,
+    "monsters": [
+      "hellfire_lord",
+      "shadow_scribe",
+      "star_eater"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.52
+  },
+  {
+    "id": "astral_rift",
+    "name": "Fenda Astral",
+    "region": "Plano Astral",
+    "level": 180,
+    "monsters": [
+      "astral_watcher",
+      "star_eater",
+      "void_titan"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "forgotten_library",
+    "name": "Biblioteca Esquecida",
+    "region": "Plano Astral",
+    "level": 180,
+    "monsters": [
+      "mind_lord",
+      "shadow_scribe",
+      "star_eater"
+    ],
+    "focus": "loot",
+    "xpMult": 0.98
+  },
+  {
+    "id": "fallen_star_sanctum",
+    "name": "Santuário da Estrela Caída",
+    "region": "Plano Astral",
+    "level": 180,
+    "monsters": [
+      "mind_lord",
+      "aelthra"
+    ],
+    "boss": true,
+    "key": "astral_key",
+    "trash": [
+      "mind_lord",
+      "shadow_scribe",
+      "star_eater"
+    ]
+  },
+  {
+    "id": "dragon_observatory",
+    "name": "Observatório Dracônico",
+    "region": "Picos do Dragão Primordial",
+    "level": 185,
+    "monsters": [
+      "mind_lord",
+      "golden_wyvern",
+      "elder_wyrm"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.585
+  },
+  {
+    "id": "primordial_nest",
+    "name": "Ninho dos Primordiais",
+    "region": "Picos do Dragão Primordial",
+    "level": 190,
+    "monsters": [
+      "primordial_dragon",
+      "elder_wyrm",
+      "draconic_priest"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "dragon_hoard",
+    "name": "Tesouro do Dragão",
+    "region": "Picos do Dragão Primordial",
+    "level": 190,
+    "monsters": [
+      "hoard_hydra",
+      "golden_wyvern",
+      "elder_wyrm"
+    ],
+    "focus": "loot",
+    "xpMult": 0.87
+  },
+  {
+    "id": "primordial_lair",
+    "name": "Covil do Primeiro Dragão",
+    "region": "Picos do Dragão Primordial",
+    "level": 190,
+    "monsters": [
+      "dragon_priest",
+      "vyrathos"
+    ],
+    "trash": [
+      "primordial_dragon",
+      "elder_wyrm",
+      "draconic_priest",
+      "hoard_hydra",
+      "golden_wyvern"
+    ],
+    "boss": true,
+    "key": "firstdragon_key"
+  },
+  {
+    "id": "edge_of_ending",
+    "name": "Beira do Fim",
+    "region": "O Fim de Tudo",
+    "level": 195,
+    "monsters": [
+      "primordial_dragon",
+      "draconic_priest",
+      "entropy_stalker"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.58
+  },
+  {
+    "id": "chaos_throne",
+    "name": "Trono do Caos",
+    "region": "O Fim de Tudo",
+    "level": 200,
+    "monsters": [
+      "chaos_avatar",
+      "ruin_seraph",
+      "entropy_stalker"
+    ],
+    "focus": "xp"
+  },
+  {
+    "id": "gods_vault",
+    "name": "Cofre dos Deuses",
+    "region": "O Fim de Tudo",
+    "level": 200,
+    "monsters": [
+      "god_guardian",
+      "celestial_golem",
+      "ruin_seraph"
+    ],
+    "focus": "loot",
+    "xpMult": 0.94
+  },
+  {
+    "id": "ozzarak_end",
+    "name": "O Fim de Ozzarak",
+    "region": "O Fim de Tudo",
+    "level": 200,
+    "monsters": [
+      "ruin_seraph",
+      "ozzarak"
+    ],
+    "boss": true,
+    "key": "chaos_key",
+    "trash": [
+      "chaos_avatar",
+      "ruin_seraph",
+      "entropy_stalker"
+    ]
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "valdeferro_walls",
+    "name": "Muralhas de Valdeferro",
+    "level": 205,
+    "monsters": [
+      "falcon_squire",
+      "falcon_archer",
+      "lion_sentinel"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "ramparts_of_oath",
+    "name": "Baluarte do Juramento",
+    "level": 218,
+    "monsters": [
+      "falcon_archer",
+      "falcon_cleric",
+      "falcon_knight"
+    ],
+    "focus": "xp",
+    "xpMult": 1.45
+  },
+  {
+    "id": "void_citadel",
+    "name": "Cidadela do Vazio",
+    "region": "Além do Fim",
+    "level": 210,
+    "monsters": [
+      "void_warden",
+      "nyxara"
+    ],
+    "boss": true,
+    "key": "void_citadel_key",
+    "trash": [
+      "null_wraith",
+      "void_reaver",
+      "starless_eye",
+      "abyss_herald"
+    ]
+  },
+  {
+    "id": "lion_bastion",
+    "name": "Bastião do Leão",
+    "region": "Domínio de Valdeferro",
+    "level": 210,
+    "monsters": [
+      "drevan_free"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "oath_courtyard",
+    "name": "Pátio dos Juramentos",
+    "level": 215,
+    "monsters": [
+      "falcon_knight",
+      "falcon_cleric",
+      "lion_sentinel"
+    ],
+    "focus": "loot",
+    "xpMult": 0.36
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "falcon_gates",
+    "name": "Portões de Valdeferro",
+    "level": 220,
+    "monsters": [
+      "q_falcon_marshal"
+    ],
+    "boss": true,
+    "quest": "falcon_war",
+    "trash": [
+      "falcon_squire",
+      "falcon_archer",
+      "falcon_knight"
+    ]
+  },
+  {
+    "id": "shattered_heaven",
+    "name": "Céu Estilhaçado",
+    "region": "Além do Fim",
+    "level": 225,
+    "monsters": [
+      "herald_of_silence",
+      "aurelion"
+    ],
+    "boss": true,
+    "key": "shattered_key",
+    "trash": [
+      "fallen_archon",
+      "ruin_colossus",
+      "shattered_hound",
+      "ashen_cherub"
+    ]
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "lion_hall",
+    "name": "Salão do Leão",
+    "level": 225,
+    "monsters": [
+      "falcon_marshal",
+      "drevan"
+    ],
+    "boss": true,
+    "key": "lion_key",
+    "trash": [
+      "falcon_knight",
+      "falcon_paladin",
+      "lion_sentinel"
+    ]
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "order_hall",
+    "name": "Salão da Ordem",
+    "level": 230,
+    "monsters": [
+      "falcon_paladin",
+      "falcon_herald",
+      "falcon_knight"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "heralds_corridor",
+    "name": "Corredor dos Arautos",
+    "level": 243,
+    "monsters": [
+      "falcon_herald",
+      "falcon_paladin",
+      "knight_specter"
+    ],
+    "focus": "xp",
+    "xpMult": 0.58
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "oath_chamber",
+    "name": "Câmara do Juramento",
+    "level": 235,
+    "monsters": [
+      "q_drevan"
+    ],
+    "boss": true,
+    "quest": "falcon_war",
+    "trash": [
+      "falcon_paladin",
+      "falcon_herald",
+      "lion_sentinel"
+    ]
+  },
+  {
+    "id": "primal_chaos",
+    "name": "Coração do Caos Primordial",
+    "region": "Além do Fim",
+    "level": 240,
+    "monsters": [
+      "ozzarak_heir",
+      "vorhaal"
+    ],
+    "boss": true,
+    "key": "primal_key",
+    "trash": [
+      "chaos_spawn",
+      "entropy_hydra",
+      "unmade_knight",
+      "maw_of_ruin",
+      "chaos_lich"
+    ]
+  },
+  {
+    "id": "falcon_nest",
+    "name": "Ninho do Gavião",
+    "region": "Domínio de Valdeferro",
+    "level": 240,
+    "monsters": [
+      "aldoran_risen"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "masters_crypt",
+    "name": "Cripta dos Mestres",
+    "level": 245,
+    "monsters": [
+      "fallen_lion_knight",
+      "knight_specter",
+      "falcon_paladin"
+    ],
+    "focus": "loot",
+    "xpMult": 0.52
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "falcon_throne",
+    "name": "Trono do Gavião",
+    "level": 250,
+    "monsters": [
+      "aldoran"
+    ],
+    "boss": true,
+    "quest": "falcon_war",
+    "trash": [
+      "fallen_lion_knight",
+      "knight_specter",
+      "falcon_paladin"
+    ]
+  },
+  {
+    "region": "Fortaleza de Valdeferro",
+    "id": "fallen_gallery",
+    "name": "Galeria dos Caídos",
+    "level": 250,
+    "monsters": [
+      "fallen_lion_knight",
+      "knight_specter",
+      "falcon_herald"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.5
+  },
+  {
+    "region": "Biblioteca Proibida",
+    "id": "burning_stacks",
+    "name": "Estantes em Chamas",
+    "level": 255,
+    "monsters": [
+      "burning_scribe",
+      "frost_librarian",
+      "living_flame"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Biblioteca Proibida",
+    "id": "whispering_shelves",
+    "name": "Prateleiras Sussurrantes",
+    "level": 268,
+    "monsters": [
+      "frost_wisp",
+      "storm_wisp",
+      "frost_librarian"
+    ],
+    "focus": "xp",
+    "xpMult": 0.83
+  },
+  {
+    "region": "Biblioteca Proibida",
+    "id": "frozen_archive",
+    "name": "Arquivo Congelado",
+    "level": 263,
+    "monsters": [
+      "frost_librarian",
+      "frost_wisp",
+      "living_flame"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.78
+  },
+  {
+    "region": "Biblioteca Proibida",
+    "id": "index_vault",
+    "name": "Cofre do Índice",
+    "level": 265,
+    "monsters": [
+      "index_keeper",
+      "golden_archlibrarian"
+    ],
+    "boss": true,
+    "key": "index_key",
+    "trash": [
+      "burning_scribe",
+      "frost_librarian",
+      "storm_arcanist"
+    ]
+  },
+  {
+    "region": "Biblioteca Proibida",
+    "id": "storm_reading_room",
+    "name": "Sala de Leitura da Tempestade",
+    "level": 272,
+    "monsters": [
+      "storm_arcanist",
+      "storm_wisp",
+      "burning_scribe"
+    ],
+    "focus": "loot",
+    "xpMult": 0.46
+  },
+  {
+    "id": "golden_reading_hall",
+    "name": "Salão Dourado",
+    "region": "Domínio da Biblioteca",
+    "level": 275,
+    "monsters": [
+      "archlibrarian_awakened"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Catacumbas Esquecidas",
+    "id": "bone_legion_halls",
+    "name": "Salões da Legião de Ossos",
+    "level": 280,
+    "monsters": [
+      "bone_legionary",
+      "bone_guard",
+      "bone_swordsman"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Catacumbas Esquecidas",
+    "id": "wailing_ossuary",
+    "name": "Ossário dos Lamentos",
+    "level": 293,
+    "monsters": [
+      "catacomb_wraith",
+      "catacomb_mummy",
+      "bone_priest"
+    ],
+    "focus": "xp",
+    "xpMult": 0.8
+  },
+  {
+    "region": "Catacumbas Esquecidas",
+    "id": "embalmers_crypt",
+    "name": "Cripta dos Embalsamadores",
+    "level": 288,
+    "monsters": [
+      "bone_shieldbearer",
+      "catacomb_mummy",
+      "catacomb_wraith"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.84
+  },
+  {
+    "region": "Catacumbas Esquecidas",
+    "id": "royal_ossuary",
+    "name": "Ossuário Real",
+    "level": 290,
+    "monsters": [
+      "ossuary_demon",
+      "catacomb_king"
+    ],
+    "boss": true,
+    "key": "ossuary_key",
+    "trash": [
+      "bone_guard",
+      "catacomb_mummy",
+      "grave_necromancer"
+    ]
+  },
+  {
+    "region": "Catacumbas Esquecidas",
+    "id": "necromancer_sanctum",
+    "name": "Santuário Necromante",
+    "level": 296,
+    "monsters": [
+      "bone_priest",
+      "grave_necromancer",
+      "catacomb_demon"
+    ],
+    "focus": "loot",
+    "xpMult": 0.53
+  },
+  {
+    "id": "kings_tomb",
+    "name": "Tumba do Rei",
+    "region": "Domínio das Catacumbas",
+    "level": 300,
+    "monsters": [
+      "catacomb_king_risen"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Palácio das Asuras",
+    "id": "dawnfire_terrace",
+    "name": "Terraço da Aurora",
+    "level": 305,
+    "monsters": [
+      "dawnfire_asura",
+      "dawnfire_dancer",
+      "midnight_asura"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Palácio das Asuras",
+    "id": "moonlit_cloister",
+    "name": "Claustro do Luar",
+    "level": 318,
+    "monsters": [
+      "frost_maiden",
+      "frost_asura",
+      "asura_sentinel"
+    ],
+    "focus": "xp",
+    "xpMult": 0.8
+  },
+  {
+    "region": "Palácio das Asuras",
+    "id": "frozen_gardens",
+    "name": "Jardins Gelados",
+    "level": 313,
+    "monsters": [
+      "midnight_stalker",
+      "frost_asura",
+      "frost_maiden"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.89
+  },
+  {
+    "region": "Palácio das Asuras",
+    "id": "queens_chamber",
+    "name": "Câmara da Rainha",
+    "level": 315,
+    "monsters": [
+      "asura_guardian",
+      "asura_queen"
+    ],
+    "boss": true,
+    "key": "asura_key",
+    "trash": [
+      "dawnfire_dancer",
+      "frost_asura",
+      "true_asura"
+    ]
+  },
+  {
+    "region": "Palácio das Asuras",
+    "id": "true_asura_court",
+    "name": "Corte das Asuras Verdadeiras",
+    "level": 321,
+    "monsters": [
+      "true_asura",
+      "asura_sentinel",
+      "asura_matriarch"
+    ],
+    "focus": "loot",
+    "xpMult": 0.6
+  },
+  {
+    "id": "asura_throne",
+    "name": "Trono Asura",
+    "region": "Domínio das Asuras",
+    "level": 325,
+    "monsters": [
+      "asura_queen_enthroned"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Abismo Afogado",
+    "id": "sunken_ruins",
+    "name": "Ruínas Submersas",
+    "level": 330,
+    "monsters": [
+      "abyss_warrior",
+      "abyss_spearman",
+      "abyssal_jelly"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Abismo Afogado",
+    "id": "coral_grotto",
+    "name": "Gruta de Coral",
+    "level": 343,
+    "monsters": [
+      "abyssal_turtle",
+      "sea_hydra",
+      "abyssal_siren"
+    ],
+    "focus": "xp",
+    "xpMult": 0.86
+  },
+  {
+    "region": "Abismo Afogado",
+    "id": "drowned_rift",
+    "name": "Fenda Afogada",
+    "level": 338,
+    "monsters": [
+      "abyss_tidecaller",
+      "abyssal_turtle",
+      "sea_hydra"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.89
+  },
+  {
+    "region": "Abismo Afogado",
+    "id": "drowned_sanctum",
+    "name": "Santuário Afogado",
+    "level": 340,
+    "monsters": [
+      "sanctum_turtle",
+      "abyssal_priestess"
+    ],
+    "boss": true,
+    "key": "drowned_key",
+    "trash": [
+      "abyss_spearman",
+      "abyssal_turtle",
+      "abyssal_siren"
+    ]
+  },
+  {
+    "region": "Abismo Afogado",
+    "id": "leviathan_reef",
+    "name": "Recife do Leviatã",
+    "level": 346,
+    "monsters": [
+      "abyssal_siren",
+      "elder_hydra",
+      "abyss_champion"
+    ],
+    "focus": "loot",
+    "xpMult": 0.64
+  },
+  {
+    "id": "leviathan_maw",
+    "name": "Garganta do Leviatã",
+    "region": "Profundezas do Leviatã",
+    "level": 350,
+    "monsters": [
+      "ancient_leviathan"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Vale Primevo",
+    "id": "raptor_plains",
+    "name": "Planície dos Raptores",
+    "level": 355,
+    "monsters": [
+      "primal_raptor",
+      "raptor_alpha",
+      "megaloceros"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Vale Primevo",
+    "id": "pterosaur_cliffs",
+    "name": "Penhascos dos Pterossauros",
+    "level": 368,
+    "monsters": [
+      "sky_pterosaur",
+      "cave_brute",
+      "fire_pterosaur"
+    ],
+    "focus": "xp",
+    "xpMult": 0.92
+  },
+  {
+    "region": "Vale Primevo",
+    "id": "primeval_jungle",
+    "name": "Selva Primeva",
+    "level": 363,
+    "monsters": [
+      "valley_sauropod",
+      "sky_pterosaur",
+      "cave_brute"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.87
+  },
+  {
+    "region": "Vale Primevo",
+    "id": "tyrant_nest",
+    "name": "Ninho dos Tiranos",
+    "level": 365,
+    "monsters": [
+      "pterosaur_matriarch",
+      "tyrant_mother"
+    ],
+    "boss": true,
+    "key": "tyrant_key",
+    "trash": [
+      "raptor_alpha",
+      "valley_sauropod",
+      "fire_pterosaur"
+    ]
+  },
+  {
+    "region": "Vale Primevo",
+    "id": "tyrant_caldera",
+    "name": "Caldeira dos Tiranos",
+    "level": 371,
+    "monsters": [
+      "young_tyrant",
+      "fire_pterosaur",
+      "primal_shaman"
+    ],
+    "focus": "loot",
+    "xpMult": 0.61
+  },
+  {
+    "id": "tyrant_throne",
+    "name": "Trono do Rei Tirano",
+    "region": "Domínio do Rei Tirano",
+    "level": 375,
+    "monsters": [
+      "primal_rex"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Jardim Corrompido",
+    "id": "pinecone_woods",
+    "name": "Bosque das Pinhas",
+    "level": 380,
+    "monsters": [
+      "raging_pinecoon",
+      "moss_golem",
+      "wandering_lantern"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Jardim Corrompido",
+    "id": "rotting_orchard",
+    "name": "Pomar Apodrecido",
+    "level": 393,
+    "monsters": [
+      "thorn_pinecoon",
+      "rotten_golem",
+      "corrupted_lantern"
+    ],
+    "focus": "xp",
+    "xpMult": 0.9
+  },
+  {
+    "region": "Jardim Corrompido",
+    "id": "haunted_greenhouse",
+    "name": "Estufa Assombrada",
+    "level": 388,
+    "monsters": [
+      "thorn_cactus",
+      "rotten_golem",
+      "thorn_pinecoon"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.86
+  },
+  {
+    "region": "Jardim Corrompido",
+    "id": "garden_heart",
+    "name": "Coração do Jardim",
+    "level": 390,
+    "monsters": [
+      "lantern_warden",
+      "spore_mother"
+    ],
+    "boss": true,
+    "key": "garden_key",
+    "trash": [
+      "moss_golem",
+      "thorn_cactus",
+      "corrupted_lantern"
+    ]
+  },
+  {
+    "region": "Jardim Corrompido",
+    "id": "rotten_roots",
+    "name": "Raízes Podres",
+    "level": 396,
+    "monsters": [
+      "blight_cactus",
+      "corrupted_lantern",
+      "venom_pinecoon"
+    ],
+    "focus": "loot",
+    "xpMult": 0.62
+  },
+  {
+    "id": "end_hollow",
+    "name": "Oco da Árvore do Fim",
+    "region": "Raízes do Fim",
+    "level": 400,
+    "monsters": [
+      "end_tree"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Cidadela do Usurpador",
+    "id": "usurper_walls",
+    "name": "Muralhas do Usurpador",
+    "level": 405,
+    "monsters": [
+      "usurper_knight",
+      "usurper_archer",
+      "usurper_warlock"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Cidadela do Usurpador",
+    "id": "officers_quarters",
+    "name": "Alojamento dos Oficiais",
+    "level": 418,
+    "monsters": [
+      "usurper_legionary",
+      "usurper_officer",
+      "usurper_shadowcaster"
+    ],
+    "focus": "xp",
+    "xpMult": 0.9
+  },
+  {
+    "region": "Cidadela do Usurpador",
+    "id": "usurper_barracks",
+    "name": "Quartel Usurpador",
+    "level": 413,
+    "monsters": [
+      "usurper_legionary",
+      "factory_bandit",
+      "usurper_officer"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.84
+  },
+  {
+    "region": "Cidadela do Usurpador",
+    "id": "usurper_council",
+    "name": "Conselho dos Usurpadores",
+    "level": 415,
+    "monsters": [
+      "usurper_archmage",
+      "usurper_general"
+    ],
+    "boss": true,
+    "key": "usurper_key",
+    "trash": [
+      "usurper_knight",
+      "usurper_legionary",
+      "usurper_shadowcaster"
+    ]
+  },
+  {
+    "region": "Cidadela do Usurpador",
+    "id": "usurped_hall",
+    "name": "Salão do Trono Usurpado",
+    "level": 421,
+    "monsters": [
+      "usurper_elite",
+      "usurper_shadowcaster",
+      "usurper_marshal"
+    ],
+    "focus": "loot",
+    "xpMult": 0.66
+  },
+  {
+    "id": "usurper_throne",
+    "name": "Trono do Usurpador",
+    "region": "Trono Usurpado",
+    "level": 425,
+    "monsters": [
+      "usurper_king"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Templo da Cobra",
+    "id": "serpent_courtyard",
+    "name": "Pátio das Serpentes",
+    "level": 430,
+    "monsters": [
+      "cobra_warrior",
+      "cobra_scout",
+      "cobra_assassin"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Templo da Cobra",
+    "id": "serpent_cloister",
+    "name": "Claustro da Serpente",
+    "level": 443,
+    "monsters": [
+      "cobra_thrall",
+      "cobra_blade",
+      "cobra_oracle"
+    ],
+    "focus": "xp",
+    "xpMult": 0.85
+  },
+  {
+    "region": "Templo da Cobra",
+    "id": "serpent_market",
+    "name": "Mercado das Serpentes",
+    "level": 438,
+    "monsters": [
+      "cobra_venomancer",
+      "cobra_thrall",
+      "cobra_blade"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.85
+  },
+  {
+    "region": "Templo da Cobra",
+    "id": "serpent_sanctum",
+    "name": "Santuário da Serpente",
+    "level": 440,
+    "monsters": [
+      "cobra_matriarch",
+      "cobra_grand_vizier"
+    ],
+    "boss": true,
+    "key": "serpent_key",
+    "trash": [
+      "cobra_warrior",
+      "cobra_blade",
+      "cobra_oracle"
+    ]
+  },
+  {
+    "region": "Templo da Cobra",
+    "id": "venom_chamber",
+    "name": "Câmara do Veneno",
+    "level": 446,
+    "monsters": [
+      "cobra_vizier",
+      "cobra_oracle",
+      "cobra_executioner"
+    ],
+    "focus": "loot",
+    "xpMult": 0.5
+  },
+  {
+    "id": "serpent_throne",
+    "name": "Trono da Rainha Serpente",
+    "region": "Ninho da Rainha Serpente",
+    "level": 450,
+    "monsters": [
+      "serpent_queen"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Torre dos Bruxos",
+    "id": "warlock_library",
+    "name": "Biblioteca dos Bruxos",
+    "level": 455,
+    "monsters": [
+      "tower_warlock",
+      "arcane_apprentice",
+      "devoted_guard"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Torre dos Bruxos",
+    "id": "ember_halls",
+    "name": "Salões da Brasa",
+    "level": 468,
+    "monsters": [
+      "ember_acolyte",
+      "tower_devoted",
+      "void_warlock"
+    ],
+    "focus": "xp",
+    "xpMult": 0.93
+  },
+  {
+    "region": "Torre dos Bruxos",
+    "id": "infernal_furnace",
+    "name": "Fornalha Infernal",
+    "level": 463,
+    "monsters": [
+      "infernalist",
+      "ember_acolyte",
+      "tower_devoted"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.81
+  },
+  {
+    "region": "Torre dos Bruxos",
+    "id": "tower_council",
+    "name": "Conselho da Torre",
+    "level": 465,
+    "monsters": [
+      "devoted_high_priest",
+      "archwarlock"
+    ],
+    "boss": true,
+    "key": "tower_key",
+    "trash": [
+      "devoted_guard",
+      "infernalist",
+      "void_warlock"
+    ]
+  },
+  {
+    "region": "Torre dos Bruxos",
+    "id": "fanatic_altar",
+    "name": "Altar dos Fanáticos",
+    "level": 471,
+    "monsters": [
+      "tower_fanatic",
+      "void_warlock",
+      "grand_devoted"
+    ],
+    "focus": "loot",
+    "xpMult": 0.64
+  },
+  {
+    "id": "flame_throne",
+    "name": "Trono das Chamas",
+    "region": "Cume da Torre",
+    "level": 475,
+    "monsters": [
+      "grand_infernalist"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Caverna dos Heróis",
+    "id": "fallen_heroes_hall",
+    "name": "Salão dos Heróis Caídos",
+    "level": 480,
+    "monsters": [
+      "fallen_warrior",
+      "fallen_ranger",
+      "fallen_mage"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Caverna dos Heróis",
+    "id": "champions_gallery",
+    "name": "Galeria dos Campeões",
+    "level": 488,
+    "monsters": [
+      "fallen_cleric",
+      "hero_vigilante",
+      "hero_monk"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.81
+  },
+  {
+    "region": "Caverna dos Heróis",
+    "id": "oath_hall",
+    "name": "Salão do Juramento",
+    "level": 490,
+    "monsters": [
+      "heroine_archmage",
+      "hero_captain"
+    ],
+    "boss": true,
+    "key": "oath_key",
+    "trash": [
+      "fallen_warrior",
+      "fallen_cleric",
+      "shadow_heroine"
+    ]
+  },
+  {
+    "region": "Caverna dos Heróis",
+    "id": "legends_crypt",
+    "name": "Cripta das Lendas",
+    "level": 496,
+    "monsters": [
+      "champion_knight",
+      "shadow_heroine",
+      "lost_paladin"
+    ],
+    "focus": "loot",
+    "xpMult": 0.77
+  },
+  {
+    "id": "champion_throne",
+    "name": "Trono do Campeão Caído",
+    "region": "Fim da Jornada",
+    "level": 500,
+    "monsters": [
+      "fallen_champion"
+    ],
+    "lair": true
+  },
+  {
+    "region": "Abismo Estelar",
+    "id": "starlit_rift",
+    "name": "Fenda Estelar",
+    "level": 505,
+    "monsters": [
+      "star_herald",
+      "void_hound",
+      "astral_chimera"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Abismo Estelar",
+    "id": "cosmic_scriptorium",
+    "name": "Escritório do Cosmo",
+    "level": 513,
+    "monsters": [
+      "star_warlock",
+      "cosmic_scribe",
+      "fallen_star_angel"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.81
+  },
+  {
+    "region": "Abismo Estelar",
+    "id": "nebula_nest",
+    "name": "Ninho da Nebulosa",
+    "level": 518,
+    "monsters": [
+      "star_phoenix",
+      "void_harpy",
+      "star_lantern"
+    ],
+    "focus": "xp",
+    "xpMult": 0.93
+  },
+  {
+    "region": "Abismo Estelar",
+    "id": "celestial_vault",
+    "name": "Abóbada Celeste",
+    "level": 521,
+    "monsters": [
+      "astral_lich",
+      "celestial_sentinel",
+      "star_medusa"
+    ],
+    "focus": "loot",
+    "xpMult": 0.7
+  },
+  {
+    "region": "Reino Gelado do Norte",
+    "id": "winter_steppe",
+    "name": "Estepe do Inverno",
+    "level": 530,
+    "monsters": [
+      "winter_wolf",
+      "snow_raptor",
+      "frost_giant"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Reino Gelado do Norte",
+    "id": "frozen_bastion",
+    "name": "Bastião Congelado",
+    "level": 538,
+    "monsters": [
+      "blizzard_asura",
+      "frost_knight",
+      "glacial_mammoth"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.81
+  },
+  {
+    "region": "Reino Gelado do Norte",
+    "id": "frostwyrm_peaks",
+    "name": "Picos do Dragão Eterno",
+    "level": 543,
+    "monsters": [
+      "eternal_frost_dragon",
+      "ice_pterosaur",
+      "polar_boar"
+    ],
+    "focus": "xp",
+    "xpMult": 0.93
+  },
+  {
+    "region": "Reino Gelado do Norte",
+    "id": "glacier_heart",
+    "name": "Coração da Geleira",
+    "level": 546,
+    "monsters": [
+      "glacial_hydra",
+      "ice_golem",
+      "glacial_beast"
+    ],
+    "focus": "loot",
+    "xpMult": 0.7
+  },
+  {
+    "region": "Necrópole do Rei Lich",
+    "id": "necropolis_gates",
+    "name": "Portões da Necrópole",
+    "level": 555,
+    "monsters": [
+      "necro_legionary",
+      "bone_duelist",
+      "plague_bat"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Necrópole do Rei Lich",
+    "id": "royal_mausoleum",
+    "name": "Mausoléu Real",
+    "level": 563,
+    "monsters": [
+      "royal_mummy",
+      "royal_wraith",
+      "bone_high_priest"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.81
+  },
+  {
+    "region": "Necrópole do Rei Lich",
+    "id": "necromancer_spire",
+    "name": "Torre do Necromante",
+    "level": 568,
+    "monsters": [
+      "supreme_necromancer",
+      "bone_warden",
+      "spectral_knight"
+    ],
+    "focus": "xp",
+    "xpMult": 0.93
+  },
+  {
+    "region": "Necrópole do Rei Lich",
+    "id": "lich_king_vault",
+    "name": "Cofre do Rei Lich",
+    "level": 571,
+    "monsters": [
+      "elder_lich",
+      "catacomb_monarch",
+      "bone_shield_warden"
+    ],
+    "focus": "loot",
+    "xpMult": 0.7
+  },
+  {
+    "region": "Trono do Caos",
+    "id": "chaos_wastes",
+    "name": "Ermos do Caos",
+    "level": 580,
+    "monsters": [
+      "chaos_dragon",
+      "hell_cerberus",
+      "chaos_cultist"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Trono do Caos",
+    "id": "abyssal_forge",
+    "name": "Forja do Abismo",
+    "level": 588,
+    "monsters": [
+      "chaos_infernalist",
+      "abyss_acolyte",
+      "ash_cherub"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.81
+  },
+  {
+    "region": "Trono do Caos",
+    "id": "defiled_sanctum",
+    "name": "Santuário Profanado",
+    "level": 593,
+    "monsters": [
+      "dark_archangel",
+      "chaos_chimera",
+      "chaos_fanatic"
+    ],
+    "focus": "xp",
+    "xpMult": 0.93
+  },
+  {
+    "region": "Trono do Caos",
+    "id": "chaos_throne_hall",
+    "name": "Salão do Trono do Caos",
+    "level": 596,
+    "monsters": [
+      "chaos_knight",
+      "chaos_lord",
+      "chaos_marshal"
+    ],
+    "focus": "loot",
+    "xpMult": 0.7
+  },
+  {
+    "region": "Abismo do Vazio Primordial",
+    "id": "primordial_rift",
+    "name": "Fenda Primordial",
+    "level": 605,
+    "monsters": [
+      "primordial_stalker",
+      "primordial_drake",
+      "abyss_watcher"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Abismo do Vazio Primordial",
+    "id": "void_archive",
+    "name": "Arquivo do Vazio",
+    "level": 613,
+    "monsters": [
+      "void_arcanist",
+      "shadow_inquisitor",
+      "void_gargoyle"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.81
+  },
+  {
+    "region": "Abismo do Vazio Primordial",
+    "id": "astral_eclipse",
+    "name": "Eclipse Astral",
+    "level": 618,
+    "monsters": [
+      "eclipse_harpy",
+      "shadow_seraph",
+      "void_manticore"
+    ],
+    "focus": "xp",
+    "xpMult": 0.93
+  },
+  {
+    "region": "Abismo do Vazio Primordial",
+    "id": "primordial_vault",
+    "name": "Abóbada Primordial",
+    "level": 621,
+    "monsters": [
+      "void_sovereign",
+      "null_sentinel",
+      "abyssal_eidolon"
+    ],
+    "focus": "loot",
+    "xpMult": 0.7
+  },
+  {
+    "region": "Planalto dos Titãs",
+    "id": "titan_ridge",
+    "name": "Cordilheira dos Titãs",
+    "level": 630,
+    "monsters": [
+      "stone_titan",
+      "crag_claw",
+      "granite_beast"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Planalto dos Titãs",
+    "id": "ancient_quarry",
+    "name": "Pedreira Ancestral",
+    "level": 638,
+    "monsters": [
+      "colossus_sentinel",
+      "earth_shaman",
+      "basalt_guardian"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.81
+  },
+  {
+    "region": "Planalto dos Titãs",
+    "id": "thunder_peaks",
+    "name": "Picos do Trovão",
+    "level": 643,
+    "monsters": [
+      "storm_pterosaur",
+      "thunder_elemental",
+      "mountain_wyvern"
+    ],
+    "focus": "xp",
+    "xpMult": 0.93
+  },
+  {
+    "region": "Planalto dos Titãs",
+    "id": "titan_forge",
+    "name": "Forja dos Titãs",
+    "level": 646,
+    "monsters": [
+      "titan_overlord",
+      "obsidian_golem",
+      "forge_master_spirit"
+    ],
+    "focus": "loot",
+    "xpMult": 0.7
+  },
+  {
+    "region": "Ruínas do Sol Negro",
+    "id": "scorched_bastion",
+    "name": "Bastião Calcinado",
+    "level": 655,
+    "monsters": [
+      "black_sun_crusader",
+      "solar_hellhound",
+      "flame_strider"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Ruínas do Sol Negro",
+    "id": "ashen_sepulcher",
+    "name": "Sepulcro de Cinzas",
+    "level": 663,
+    "monsters": [
+      "ashen_hierophant",
+      "dread_catacomb_guard",
+      "cinder_wraith"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.81
+  },
+  {
+    "region": "Ruínas do Sol Negro",
+    "id": "pyre_spire",
+    "name": "Pináculo da Pira",
+    "level": 668,
+    "monsters": [
+      "solar_phoenix",
+      "darkflame_cultist",
+      "ashen_dreadnought"
+    ],
+    "focus": "xp",
+    "xpMult": 0.93
+  },
+  {
+    "region": "Ruínas do Sol Negro",
+    "id": "black_sun_altar",
+    "name": "Altar do Sol Negro",
+    "level": 671,
+    "monsters": [
+      "black_sun_avatar",
+      "flame_monarch",
+      "cinder_gargoyle"
+    ],
+    "focus": "loot",
+    "xpMult": 0.7
+  },
+  {
+    "region": "Cidadela do Crepúsculo Eterno",
+    "id": "twilight_gates",
+    "name": "Portões do Crepúsculo",
+    "level": 680,
+    "monsters": [
+      "twilight_vanguard",
+      "twilight_stalker",
+      "ethereal_herald"
+    ],
+    "focus": "xp"
+  },
+  {
+    "region": "Cidadela do Crepúsculo Eterno",
+    "id": "moonlit_sanctuary",
+    "name": "Santuário Enluarado",
+    "level": 688,
+    "monsters": [
+      "twilight_archon",
+      "lunar_sorceress",
+      "celestial_lion"
+    ],
+    "focus": "balanced",
+    "xpMult": 0.81
+  },
+  {
+    "region": "Cidadela do Crepúsculo Eterno",
+    "id": "astral_highlands",
+    "name": "Terras Altas Astrais",
+    "level": 693,
+    "monsters": [
+      "twilight_dragon",
+      "astral_gryphon",
+      "twilight_valkyrie"
+    ],
+    "focus": "xp",
+    "xpMult": 0.93
+  },
+  {
+    "region": "Cidadela do Crepúsculo Eterno",
+    "id": "eternal_twilight_throne",
+    "name": "Trono do Crepúsculo Eterno",
+    "level": 696,
+    "monsters": [
+      "twilight_emperor",
+      "astral_templar",
+      "twilight_oracle"
+    ],
+    "focus": "loot",
+    "xpMult": 0.7
+  }
+]

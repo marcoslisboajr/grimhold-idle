@@ -1,0 +1,17 @@
+[
+  {"id": "sigil_rat", "name": "Sigilo do Rato", "level": 1, "intervalMs": 5060, "xp": 292, "inputs": {"bone_dust": 10}, "output": "sigil_rat", "kills": {"monster": "rat", "count": 50}},
+  {"id": "sigil_spider", "name": "Sigilo da Aranha", "level": 8, "intervalMs": 5480, "xp": 640, "inputs": {"bone_dust": 20}, "output": "sigil_spider", "kills": {"monster": "spider", "count": 50}},
+  {"id": "sigil_wolf", "name": "Sigilo do Lobo", "level": 12, "intervalMs": 5720, "xp": 850, "inputs": {"bone_dust": 30}, "output": "sigil_wolf", "kills": {"monster": "wolf", "count": 50}},
+  {"id": "sigil_orc", "name": "Sigilo do Orc", "level": 16, "intervalMs": 5960, "xp": 1061, "inputs": {"dark_essence": 10, "bone_dust": 10}, "output": "sigil_orc", "kills": {"monster": "orc_berserker", "count": 50}},
+  {"id": "sigil_skeleton", "name": "Sigilo do Esqueleto", "level": 20, "intervalMs": 6200, "xp": 1280, "inputs": {"dark_essence": 20}, "output": "sigil_skeleton", "kills": {"monster": "skeleton", "count": 50}},
+  {"id": "sigil_bat", "name": "Sigilo do Morcego", "level": 24, "intervalMs": 6440, "xp": 1507, "inputs": {"dark_essence": 30}, "output": "sigil_bat", "kills": {"monster": "bat", "count": 50}},
+  {"id": "sigil_minotaur", "name": "Sigilo do Minotauro", "level": 32, "intervalMs": 6920, "xp": 1960, "inputs": {"spectral_tear": 15, "dark_essence": 10}, "output": "sigil_minotaur", "kills": {"monster": "minotaur", "count": 1000}},
+  {"id": "sigil_lich", "name": "Sigilo do Lich", "level": 36, "intervalMs": 7160, "xp": 2203, "inputs": {"spectral_tear": 25}, "output": "sigil_lich", "kills": {"monster": "lich", "count": 1000}},
+  {"id": "sigil_kraken", "name": "Sigilo do Kraken", "level": 44, "intervalMs": 7640, "xp": 2697, "inputs": {"spectral_tear": 35}, "output": "sigil_kraken", "kills": {"monster": "sea_serpent", "count": 1000}},
+  {"id": "sigil_dragon", "name": "Sigilo do Dragão", "level": 50, "intervalMs": 8000, "xp": 3078, "inputs": {"ancient_ash": 15, "spectral_tear": 10}, "output": "sigil_dragon", "kills": {"monster": "dragon", "count": 1000}},
+  {"id": "sigil_vampire", "name": "Sigilo do Vampiro", "level": 55, "intervalMs": 8300, "xp": 3402, "inputs": {"ancient_ash": 25}, "output": "sigil_vampire", "kills": {"monster": "vampire", "count": 1000}},
+  {"id": "sigil_demon", "name": "Sigilo do Demônio", "level": 60, "intervalMs": 8600, "xp": 3742, "inputs": {"abyssal_soul": 10, "ancient_ash": 10}, "output": "sigil_demon", "kills": {"monster": "demon", "count": 1000}},
+  {"id": "sigil_death_knight", "name": "Sigilo do Cavaleiro da Morte", "level": 70, "intervalMs": 9200, "xp": 4439, "inputs": {"abyssal_soul": 20}, "output": "sigil_death_knight", "kills": {"monster": "death_knight", "count": 1000}},
+  {"id": "sigil_hydra", "name": "Sigilo da Hidra", "level": 80, "intervalMs": 9800, "xp": 5168, "inputs": {"abyssal_soul": 30}, "output": "sigil_hydra", "kills": {"monster": "hydra", "count": 1000}},
+  {"id": "sigil_reaper", "name": "Sigilo do Ceifador", "level": 90, "intervalMs": 10400, "xp": 5929, "inputs": {"abyssal_soul": 45, "ancient_ash": 20}, "output": "sigil_reaper", "kills": {"monster": "grim_reaper", "count": 1000}}
+]

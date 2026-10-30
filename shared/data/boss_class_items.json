@@ -1,0 +1,261 @@
+[
+ {
+  "id": "orc_hunting_bow",
+  "name": "Arco de Caça do Chefe Orc",
+  "en": "Orc Warchief's Hunting Bow",
+  "icon": "orc_hunting_bow_boss",
+  "boss": "orc_warchief",
+  "chance": 0.12,
+  "template": "oak_bow",
+  "templateIcon": "oak_bow",
+  "hue": 90,
+  "value": 200,
+  "equip": {
+   "slot": "weapon",
+   "level": 16,
+   "vocations": [
+    "hunter"
+   ],
+   "attack": 14,
+   "crit": 0.03
+  }
+ },
+ {
+  "id": "orc_shaman_staff",
+  "name": "Cajado do Xamã Orc",
+  "en": "Orc Shaman Staff",
+  "icon": "orc_shaman_staff_boss",
+  "boss": "orc_warchief",
+  "chance": 0.12,
+  "template": "oak_staff",
+  "templateIcon": "oak_staff",
+  "hue": 90,
+  "value": 200,
+  "equip": {
+   "slot": "weapon",
+   "level": 16,
+   "vocations": [
+    "arcanist"
+   ],
+   "attack": 14,
+   "mana": 0.05
+  }
+ },
+ {
+  "id": "silkweaver_bow",
+  "name": "Arco de Seda da Aranha-Mãe",
+  "en": "Spider Mother's Silk Bow",
+  "icon": "silkweaver_bow_boss",
+  "boss": "spider_mother",
+  "chance": 0.12,
+  "template": "willow_bow",
+  "templateIcon": "willow_bow",
+  "hue": 270,
+  "value": 200,
+  "equip": {
+   "slot": "weapon",
+   "level": 23,
+   "vocations": [
+    "hunter"
+   ],
+   "attack": 16,
+   "crit": 0.03
+  }
+ },
+ {
+  "id": "venom_staff",
+  "name": "Cajado Peçonhento",
+  "en": "Venom Staff",
+  "icon": "venom_staff_boss",
+  "boss": "spider_mother",
+  "chance": 0.12,
+  "template": "willow_staff",
+  "templateIcon": "willow_staff",
+  "hue": 270,
+  "value": 200,
+  "equip": {
+   "slot": "weapon",
+   "level": 23,
+   "vocations": [
+    "arcanist"
+   ],
+   "attack": 16,
+   "mana": 0.06
+  }
+ },
+ {
+  "id": "scaled_hood",
+  "name": "Capuz da Rainha Lagarto",
+  "en": "Lizard Queen's Hood",
+  "icon": "scaled_hood_boss",
+  "boss": "lizard_queen",
+  "chance": 0.1,
+  "template": "lizard_leather_helmet",
+  "templateIcon": "lizard_leather_helmet",
+  "hue": 120,
+  "value": 200,
+  "equip": {
+   "slot": "helmet",
+   "level": 26,
+   "vocations": [
+    "hunter"
+   ],
+   "defense": 6,
+   "crit": 0.037
+  }
+ },
+ {
+  "id": "scaled_hat",
+  "name": "Chapéu da Rainha Lagarto",
+  "en": "Lizard Queen's Hat",
+  "icon": "scaled_hat_boss",
+  "boss": "lizard_queen",
+  "chance": 0.1,
+  "template": "shaman_robe_helmet",
+  "templateIcon": "shaman_robe_helmet",
+  "hue": 120,
+  "value": 200,
+  "equip": {
+   "slot": "helmet",
+   "level": 26,
+   "vocations": [
+    "arcanist"
+   ],
+   "defense": 3,
+   "regen": 0.126,
+   "attack": 5,
+   "mana": 0.096
+  }
+ },
+ {
+  "id": "labyrinth_crossbow",
+  "name": "Besta do Labirinto",
+  "en": "Labyrinth Crossbow",
+  "icon": "labyrinth_crossbow_boss",
+  "boss": "minotaur_king",
+  "chance": 0.12,
+  "template": "yew_bow",
+  "templateIcon": "yew_bow",
+  "hue": 25,
+  "value": 508,
+  "equip": {
+   "slot": "weapon",
+   "level": 36,
+   "vocations": [
+    "hunter"
+   ],
+   "attack": 21,
+   "crit": 0.04
+  }
+ },
+ {
+  "id": "horned_staff",
+  "name": "Cajado Chifrudo",
+  "en": "Horned Staff",
+  "icon": "horned_staff_boss",
+  "boss": "minotaur_king",
+  "chance": 0.12,
+  "template": "yew_staff",
+  "templateIcon": "yew_staff",
+  "hue": 25,
+  "value": 460,
+  "equip": {
+   "slot": "weapon",
+   "level": 36,
+   "vocations": [
+    "arcanist"
+   ],
+   "attack": 21,
+   "mana": 0.07
+  }
+ },
+ {
+  "id": "cyclops_eye_bow",
+  "name": "Arco do Olho do Ciclope",
+  "en": "Cyclops Eye Bow",
+  "icon": "cyclops_eye_bow_boss",
+  "boss": "brontes",
+  "chance": 0.12,
+  "template": "yew_bow",
+  "templateIcon": "yew_bow",
+  "hue": 330,
+  "value": 508,
+  "equip": {
+   "slot": "weapon",
+   "level": 44,
+   "vocations": [
+    "hunter"
+   ],
+   "attack": 23,
+   "crit": 0.04
+  }
+ },
+ {
+  "id": "forge_ember_staff",
+  "name": "Cajado da Brasa da Forja",
+  "en": "Forge Ember Staff",
+  "icon": "forge_ember_staff_boss",
+  "boss": "brontes",
+  "chance": 0.12,
+  "template": "yew_staff",
+  "templateIcon": "yew_staff",
+  "hue": 330,
+  "value": 460,
+  "equip": {
+   "slot": "weapon",
+   "level": 44,
+   "vocations": [
+    "arcanist"
+   ],
+   "attack": 23,
+   "mana": 0.08
+  }
+ },
+ {
+  "id": "drowned_harpoon",
+  "name": "Arpão-Besta do Afogado",
+  "en": "Drowned Harpoon Crossbow",
+  "icon": "drowned_harpoon_boss",
+  "boss": "drowned_captain",
+  "chance": 0.12,
+  "template": "abyssal_crossbow",
+  "templateIcon": "abyssal_crossbow",
+  "hue": 180,
+  "value": 984,
+  "equip": {
+   "slot": "weapon",
+   "level": 52,
+   "vocations": [
+    "hunter"
+   ],
+   "attack": 28,
+   "element": "water",
+   "elementAttack": 7,
+   "speed": 0.2,
+   "crit": 0.05
+  }
+ },
+ {
+  "id": "abyssal_tide_staff",
+  "name": "Cajado da Maré Funda",
+  "en": "Deep Tide Staff",
+  "icon": "abyssal_tide_staff_boss",
+  "boss": "drowned_captain",
+  "chance": 0.12,
+  "template": "abyssal_staff",
+  "templateIcon": "abyssal_staff",
+  "hue": 180,
+  "value": 1672,
+  "equip": {
+   "slot": "weapon",
+   "level": 52,
+   "vocations": [
+    "arcanist"
+   ],
+   "attack": 22,
+   "element": "water",
+   "elementAttack": 5,
+   "mana": 0.09
+  }
+ }
+]

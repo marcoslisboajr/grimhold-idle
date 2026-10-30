@@ -1,0 +1,14 @@
+[
+  {"id": "green_herb_patch", "name": "Canteiro de Erva Verde", "region": "Campos do Bastião", "level": 1, "intervalMs": 3000, "xp": 318, "item": "green_herb"},
+  {"id": "mint_patch", "name": "Canteiro de Hortelã", "region": "Campos do Bastião", "level": 8, "intervalMs": 3500, "xp": 509, "item": "mint_leaf"},
+  {"id": "golden_root_patch", "name": "Raízes Douradas", "region": "Bosque Antigo", "level": 15, "intervalMs": 4000, "xp": 678, "item": "golden_root"},
+  {"id": "blood_flower_patch", "name": "Jardim de Sangue", "region": "Cemitério Velho", "level": 30, "intervalMs": 5000, "xp": 1060, "item": "blood_flower"},
+  {"id": "moon_clover_patch", "name": "Clareira Lunar", "region": "Coração da Floresta", "level": 45, "intervalMs": 6000, "xp": 1590, "item": "moon_clover"},
+  {"id": "abyss_lotus_patch", "name": "Lago do Abismo", "region": "Fossa Abissal", "level": 60, "intervalMs": 7000, "xp": 2332, "item": "abyss_lotus"},
+  {"id": "ghost_bloom_patch", "name": "Jardim Espectral", "region": "Vale dos Pesadelos", "level": 70, "intervalMs": 8000, "xp": 3286, "item": "ghost_bloom"},
+  {"id": "fire_lotus_patch", "name": "Pântano de Fogo", "region": "Abismo Infernal", "level": 80, "intervalMs": 9000, "xp": 4558, "item": "fire_lotus"},
+  {"id": "void_orchid_patch", "name": "Fenda do Vazio", "region": "Coração do Vazio", "level": 90, "intervalMs": 10000, "xp": 6148, "item": "void_orchid"},
+  {"id": "star_moss_patch", "name": "Prado Estelar", "region": "Picos Celestes", "level": 100, "intervalMs": 11000, "xp": 8056, "item": "star_moss"},
+  {"id": "dragon_thistle_patch", "name": "Encosta do Dragão", "region": "Abismo Infernal", "level": 110, "intervalMs": 12000, "xp": 10176, "item": "dragon_thistle"},
+  {"id": "celestial_lily_patch", "name": "Jardim Celestial", "region": "Picos Celestes", "level": 120, "intervalMs": 13000, "xp": 12720, "item": "celestial_lily"}
+]

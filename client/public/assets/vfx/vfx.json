@@ -1,0 +1,72 @@
+{
+ "fireball": {
+  "w": 72,
+  "h": 72,
+  "frames": 15
+ },
+ "dagger": {
+  "w": 72,
+  "h": 72,
+  "frames": 15
+ },
+ "burst": {
+  "w": 120,
+  "h": 87,
+  "frames": 27
+ },
+ "aura": {
+  "w": 110,
+  "h": 81,
+  "frames": 30
+ },
+ "holy": {
+  "w": 28,
+  "h": 150,
+  "frames": 27
+ },
+ "orb": {
+  "w": 80,
+  "h": 79,
+  "frames": 30
+ },
+ "lightning": {
+  "w": 117,
+  "h": 130,
+  "frames": 17
+ },
+ "ice": {
+  "w": 150,
+  "h": 101,
+  "frames": 30
+ },
+ "impact": {
+  "w": 120,
+  "h": 120,
+  "frames": 22
+ },
+ "swords": {
+  "w": 86,
+  "h": 130,
+  "frames": 27
+ },
+ "heal": {
+  "w": 130,
+  "h": 95,
+  "frames": 26
+ },
+ "shield": {
+  "w": 103,
+  "h": 120,
+  "frames": 26
+ },
+ "focus": {
+  "w": 108,
+  "h": 120,
+  "frames": 35
+ },
+ "coin": {
+  "w": 48,
+  "h": 48,
+  "frames": 8
+ }
+}

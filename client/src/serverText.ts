@@ -1,0 +1,203 @@
+import { DISCORD_TEXT, DISCORD_URL } from '@grimhold/shared';
+/**
+ * Mensagens que vêm do servidor (avisos de erro e anúncios no chat) chegam em
+ * português, porque o chat é o mesmo para todos. Quem joga em inglês vê a
+ * tradução aqui, na própria tela: frases fixas pela tabela, e as que têm
+ * nomes ou números pelas regras.
+ */
+import { getLang, itemName, storyText } from './i18n.ts';
+
+const FIXED: Record<string, string> = {
+  [DISCORD_TEXT]: `Want the patch notes and what is coming next? Join the Grimhold Discord: ${DISCORD_URL}`,
+  'Os monstros do Bastião acordaram... pequenos? Começou o Dia das Crianças! Até o fim de 14/10: +25% de XP e doces em tudo o que você fizer. A Tia Jujuba espera na fonte da praça.':
+    "The Bastion's monsters woke up... tiny? Children's Day has begun! Until the end of Oct 14: +25% XP and candies from everything you do. Aunt Jujuba waits at the square fountain.",
+  'Dia das Crianças: troque seus doces com a Tia Jujuba, na frente da fonte da praça!': "Children's Day: trade your candies with Aunt Jujuba, in front of the square fountain!",
+  'Dia das Crianças: +25% de XP no combate, +50% nas profissões e doces em toda atividade até o fim de 14/10.': "Children's Day: +25% combat XP, +50% profession XP and candies from every activity until the end of Oct 14.",
+  'Faltam 3 horas para o fim do Dia das Crianças. Gaste seus doces com a Tia Jujuba, na fonte da praça!': "3 hours left of Children's Day. Spend your candies with Aunt Jujuba at the square fountain!",
+  'A loja do Dia das Crianças está fechada.': "The Children's Day shop is closed.",
+  'Dia das Crianças: +25% de XP no combate, +50% nas profissões e doces em toda atividade. Troque com a Tia Jujuba, na fonte da praça. Mímico Gigante às 12h, 18h e 22h. Até o fim de 14/10!':
+    "Children's Day: +25% combat XP, +50% profession XP and candies from every activity. Trade them with Aunt Jujuba at the square fountain. Giant Mimic at 12:00, 18:00 and 22:00 (Brasília). Until the end of Oct 14!",
+  'Presente do Dia das Crianças: stamina cheia (42 h) para todos! E agora as profissões rendem +50% de XP (combate +25%).': "Children's Day gift: full stamina (42 h) for everyone! And professions now give +50% XP (combat +25%).",
+  'Um baú enorme abriu a boca no meio do Bastião... é o Mímico Gigante! Derrotem ele e ele cospe doces!':
+    "A huge chest opened its mouth in the middle of the Bastion... it's the Giant Mimic! Defeat it and it spits out candy!",
+  'Um baú estranho apareceu na praça e está... roncando? O Mímico Gigante acorda em 1 hora!': 'A strange chest appeared in the square and it is... snoring? The Giant Mimic wakes up in 1 hour!',
+  'O Mímico Gigante está abrindo a boca! Em 10 minutos ele ataca o Bastião. Venham buscar doces!': 'The Giant Mimic is opening its mouth! In 10 minutes it attacks the Bastion. Come get candy!',
+  'Você já tem este mascote.': 'You already have this pet.',
+  'Precisa de 200 doces.': 'You need 200 candies.',
+  'Precisa de 150 doces.': 'You need 150 candies.',
+  'Precisa de 400 doces.': 'You need 400 candies.',
+  'Você já tem este traje.': 'You already have this outfit.',
+  'Traje inválido.': 'Invalid outfit.',
+  'Esse item está trancado. Destranque no depósito para vender.': 'This item is locked. Unlock it in the depot to sell.',
+  'A Poção Doce de XP é uma por conta.': 'The Sweet XP Potion is one per account.',
+  'A Poção das Bruxas é uma por dia. Volte amanhã.': 'The Witches Potion is one per day. Come back tomorrow.',
+  'A fila do chefe abre 5 minutos antes dele aparecer.': 'The boss queue opens 5 minutes before it appears.',
+  'Ainda falta cumprir o pedido.': 'The request is not complete yet.',
+  'As senhas não batem.': 'The passwords do not match.',
+  'Esse usuário já existe.': 'That username is already taken.',
+  'Essa conta já tem login.': 'This account already has a login.',
+  'Muitas tentativas. Espere alguns minutos.': 'Too many attempts. Wait a few minutes.',
+  'Usuário ou senha errados.': 'Wrong username or password.',
+  'Usuário inválido.': 'Invalid username.',
+  'Senha inválida.': 'Invalid password.',
+  'Senha longa demais.': 'Password is too long.',
+  'Use só letras, números, ponto, hífen e sublinhado.': 'Use only letters, numbers, dot, hyphen and underscore.',
+  'Alvo inválido para negociação.': 'Invalid trade target.',
+  'Aparência inválida.': 'Invalid appearance.',
+  'Apenas o Caçador pode usar flechas especiais.': 'Only the Hunter can use special arrows.',
+  'Arma de arena inválida.': 'Invalid arena weapon.',
+  'Calma: uma mensagem por segundo.': 'Easy: one message per second.',
+  'Charm inválido.': 'Invalid charm.',
+  'Conheça melhor a espécie antes (50 abates).': 'Get to know the species first (50 kills).',
+  'Encantamento desconhecido.': 'Unknown imbuement.',
+  'Escolha inválida.': 'Invalid choice.',
+  'Essa arena não existe.': 'That arena does not exist.',
+  'Essa ascensão não corresponde à sua subclasse atual.': 'That ascension does not match your current subclass.',
+  'Essa caçada não existe.': 'That hunt does not exist.',
+  'Essa história já terminou.': 'That story is already over.',
+  'Essa oferta não é sua.': 'That offer is not yours.',
+  'Essa quest ainda não está pronta.': 'That quest is not ready yet.',
+  'Essa quest já foi entregue.': 'That quest was already turned in.',
+  'Essa receita não existe.': 'That recipe does not exist.',
+  'Essa tarefa ainda não está pronta.': 'That task is not ready yet.',
+  'Essa meta ainda não foi cumprida.': 'That goal is not done yet.',
+  'Essa recompensa já foi resgatada.': 'That reward was already claimed.',
+  'Meta inválida.': 'Invalid goal.',
+  'Essa tarefa já está em andamento.': 'That task is already in progress.',
+  'Essa tarefa já foi entregue.': 'That task was already turned in.',
+  'Essa tarefa não pode ser entregue.': 'That task cannot be turned in.',
+  'Esse boneco de treino não existe.': 'That training dummy does not exist.',
+  'Esse lugar não existe.': 'That place does not exist.',
+  'Este item não pode ser desmanchado em materiais.': 'This item cannot be dismantled into materials.',
+  'Este item não pode ser refinado mais ou não possui refino.': 'This item cannot be refined further or has no refining.',
+  'Faltam materiais.': 'Missing materials.',
+  'História inválida.': 'Invalid story.',
+  'Isso não se equipa.': 'That cannot be equipped.',
+  'Isso não se vende.': 'That cannot be sold.',
+  'Isso não é comida.': 'That is not food.',
+  'Isso não é uma flecha válida.': 'That is not a valid arrow.',
+  'Isso não é uma poção de caçada.': 'That is not a hunting potion.',
+  'Isso não é uma poção de mana.': 'That is not a mana potion.',
+  'Isso não é uma runa.': 'That is not a rune.',
+  'Jogador não encontrado ou offline.': 'Player not found or offline.',
+  'Libere o charm antes.': 'Unlock the charm first.',
+  'Magias inválidas.': 'Invalid spells.',
+  'Mascote inválido.': 'Invalid pet.',
+  'Nada para vender.': 'Nothing to sell.',
+  'Nenhuma espécie disponível.': 'No species available.',
+  'Ninguém vende isso aqui.': 'Nobody sells that here.',
+  'Não há chefe global agora.': 'There is no world boss right now.',
+  'O Colecionador não vende este item.': 'The Collector does not sell this item.',
+  'O Mercador não compra isso.': 'The Merchant does not buy that.',
+  'O portal para o chefe global já foi selado nesta fase final!': 'The world boss portal has already been sealed in this final phase!',
+  'Ouro insuficiente.': 'Not enough gold.',
+  'Personagem não encontrado.': 'Character not found.',
+  'Personagem não existe.': 'Character does not exist.',
+  'Precisa da primeira promoção antes de ascender.': 'You need the first promotion before ascending.',
+  'Preço inválido.': 'Invalid price.',
+  'Promoção inválida.': 'Invalid promotion.',
+  'Quantidade inválida.': 'Invalid quantity.',
+  'Quest inválida.': 'Invalid quest.',
+  'Rashid só compra relíquias, joias, troféus e equipamentos raros.': 'Rashid only buys relics, jewelry, trophies and rare equipment.',
+  'Sessão inválida.': 'Invalid session.',
+  'Sua conta foi conectada em outra janela ou dispositivo.': 'Your account was connected in another window or device.',
+  'Sua vocação não usa isso.': 'Your vocation does not use that.',
+  'Tarefa desconhecida.': 'Unknown task.',
+  'Tarefa inválida.': 'Invalid task.',
+  'Troca realizada com sucesso!': 'Trade completed successfully!',
+  'Vaga inválida.': 'Invalid slot.',
+  'Você ainda não desbloqueou este mascote.': 'You have not unlocked this pet yet.',
+  'Você ainda não venceu a arena para resgatar a recompensa.': 'You have not won the arena yet to claim the reward.',
+  'Você já alcançou a Segunda Promoção.': 'You have already reached the Second Promotion.',
+  'Você já conquistou essa arena!': 'You have already conquered this arena!',
+  'Você já está abençoado.': 'You are already blessed.',
+  'Você já foi promovido.': 'You have already been promoted.',
+  'Você já tem 3 tarefas ativas. Conclua ou cancele uma antes.': 'You already have 3 active tasks. Finish or cancel one first.',
+  'Você já tem esse charm.': 'You already have that charm.',
+  'Você já venceu a arena! Escolha sua arma de recompensa.': 'You already won the arena! Choose your reward weapon.',
+  'Você não está em um grupo.': 'You are not in a party.',
+  'Você não está em uma negociação ativa.': 'You are not in an active trade.',
+  'Você não possui mais essa quantidade no banco.': 'You no longer have that amount in your bank.',
+  'Você não tem essa quantia de ouro no banco.': 'You do not have that much gold in your bank.',
+  'Você não tem essa quantidade no banco.': 'You do not have that amount in your bank.',
+  'Você não tem essa quantidade no depósito.': 'You do not have that amount in your depot.',
+  'Você não tem esse item.': 'You do not have that item.',
+  'Você não tem tudo isso.': 'You do not have all of that.',
+  'Você precisa concluir a Provação dos Campeões para ascender.': 'You must complete the Trial of Champions to ascend.',
+  'Você precisa concluir a Provação das Lendas para ascender.': 'You must complete the Trial of Legends to ascend.',
+  'Os sinos do Bastião tocam sozinhos... Malgoroth, o Senhor Caído, desperta em 3 horas!': 'The Bastion bells ring on their own... Malgoroth, the Fallen Lord, awakens in 3 hours!',
+  'O céu escurece sobre o Bastião. Malgoroth, o Senhor Caído, chega em 2 horas!': 'The sky darkens over the Bastion. Malgoroth, the Fallen Lord, arrives in 2 hours!',
+  'A terra treme e os servos de Malgoroth rondam os portões. Falta 1 hora!': 'The ground shakes and the servants of Malgoroth prowl the gates. 1 hour left!',
+  'As trevas tomam o Bastião! Malgoroth, o Senhor Caído, surge em 10 minutos. Preparem-se!': 'Darkness takes the Bastion! Malgoroth, the Fallen Lord, rises in 10 minutes. Get ready!',
+  'O céu queima sobre o Bastião: a Cria do Dragão Ancestral despertou!': 'The sky burns over the Bastion: the Brood of the Ancient Dragon has awakened!',
+  'Os mortos se levantam: a Sombra do Rei Lich marcha sobre o Bastião!': 'The dead rise: the Shadow of the Lich King marches on the Bastion!',
+  'As águas tremem: a Cria do Kraken Abissal emergiu do abismo!': 'The waters tremble: the Spawn of the Abyssal Kraken has risen from the deep!',
+  'Uma fenda se abriu no Bastião: o Emissário do Senhor do Abismo chegou!': 'A rift has opened in the Bastion: the Envoy of the Lord of the Abyss has arrived!',
+  'Uma risada ecoa pelo Bastião: o Avatar de Ferathos surgiu com os seus demônios!': 'A laugh echoes through the Bastion: the Avatar of Ferathos has appeared with his demons!',
+  'O portão do inferno se entreabre no Bastião: o Arauto de Ghazrael marcha com a legião!': 'The gate of hell cracks open in the Bastion: the Herald of Ghazrael marches with the legion!',
+  'Teias cobrem os portões do Bastião: a Filha da Viúva Ancestral saiu do ninho!': 'Webs cover the Bastion gates: the Daughter of the Ancient Widow has left the nest!',
+  'Tambores de guerra sacodem o Bastião: o Avatar de Kharvos, o Senhor da Guerra, desceu para a batalha!': 'War drums shake the Bastion: the Avatar of Kharvos, the Warlord, has come down to battle!',
+  'A lua cheia nasce vermelha sobre o Bastião: o Avatar de Sylveth, a Caçadora da Lua, começou a caçada!': 'The full moon rises red over the Bastion: the Avatar of Sylveth, the Moon Huntress, has begun the hunt!',
+  'Raios rasgam o céu do Bastião: o Avatar de Aethon, o Tecelão de Tempestades, chegou com a tormenta!': 'Lightning tears the Bastion sky: the Avatar of Aethon, the Stormweaver, has arrived with the storm!',
+  'Uma luz dourada cega o Bastião: o Avatar de Lumira, a Chama Sagrada, desceu para julgar os vivos!': 'A golden light blinds the Bastion: the Avatar of Lumira, the Sacred Flame, has come down to judge the living!',
+  'O chão do Bastião racha e a escuridão sobe: Malgoroth, o Senhor Caído, chegou com os seus servos!': 'The Bastion floor cracks and darkness rises: Malgoroth, the Fallen Lord, has arrived with his servants!',
+  'Você já alcançou a Ascensão Lendária.': 'You have already reached the Legendary Ascension.',
+  'Faça a ascensão anterior antes.': 'Complete the previous ascension first.',
+  'Você precisa de pelo menos 2 unidades deste item no depósito para refinar.': 'You need at least 2 of this item in your depot to refine.',
+};
+
+/** Nome que veio do servidor (item, monstro, caçada, skill): traduz se souber. */
+const name = (s: string) => {
+  const asItem = itemName(s);
+  return asItem !== s ? asItem : storyText(s);
+};
+
+const RULES: [RegExp, (m: RegExpMatchArray) => string][] = [
+  [/^O usuário precisa ter de (\d+) a (\d+) caracteres\.$/, (m) => `The username must be ${m[1]} to ${m[2]} characters long.`],
+  [/^A senha precisa ter pelo menos (\d+) caracteres\.$/, (m) => `The password must be at least ${m[1]} characters long.`],
+  [/^Faltam (\d+) pontos de charm\.$/, (m) => `${m[1]} more charm points needed.`],
+  [/^Faltam abates \((\d+)\/(\d+)\)\.$/, (m) => `More kills needed (${m[1]}/${m[2]}).`],
+  [/^Faltam materiais \((.+)\)\.$/, (m) => `Missing materials (${name(m[1])}).`],
+  [/^Faltam moedas \((\d+) de ouro no depósito\)\.$/, (m) => `Not enough coins (${m[1]} gold in the depot).`],
+  [/^Fichas do Chefe insuficientes \(necessário (\d+)\)\.$/, (m) => `Not enough Boss Tokens (${m[1]} needed).`],
+  [/^Ouro insuficiente \(necessário (\d+) moedas\)\.$/, (m) => `Not enough gold (${m[1]} coins needed).`],
+  [/^Precisa concluir a quest (.+)\.$/, (m) => `You must complete the quest ${name(m[1])}.`],
+  [/^Precisa de nível (\d+) de combate para entrar nesta arena\.$/, (m) => `Requires combat level ${m[1]} to enter this arena.`],
+  [/^Precisa de nível (\d+) de combate\.$/, (m) => `Requires combat level ${m[1]}.`],
+  [/^Precisa de nível (\d+) de (.+)\.$/, (m) => `Requires level ${m[1]} in ${name(m[2])}.`],
+  [/^Precisa de nível (\d+)\.$/, (m) => `Requires level ${m[1]}.`],
+  [/^Precisa de (.+)\.$/, (m) => `Requires ${name(m[1])}.`],
+  // Anúncios no chat
+  [/^(.+) encontrou um mascote lendário enquanto treinava (.+)!$/, (m) => `${m[1]} found a legendary pet while training ${name(m[2])}!`],
+  [/^O jogador (.+) alcançou o nível 30 de combate e pode escolher uma promoção!$/, (m) => `${m[1]} reached combat level 30 and can choose a promotion!`],
+  [/^O bravo herói (.+) alcançou o grandioso nível 100 de combate!$/, (m) => `The brave hero ${m[1]} reached the mighty combat level 100!`],
+  [/^O lendário guerreiro (.+) alcançou o nível 120 de combate!$/, (m) => `The legendary warrior ${m[1]} reached combat level 120!`],
+  [/^O jogador (.+) alcançou o nível (\d+) de combate!$/, (m) => `${m[1]} reached combat level ${m[2]}!`],
+  [/^(.+) ultrapassou os limites e alcançou o nível (\d+) de combate!$/, (m) => `${m[1]} broke the limits and reached combat level ${m[2]}!`],
+  [/^(🎉 )?(.+) é o primeiro do servidor a alcançar o nível 99 em (.+)!$/, (m) => `${m[1] ?? ''}${m[2]} is the first on the server to reach level 99 in ${name(m[3])}!`],
+  [/^(.+) alcançou a maestria máxima \(Nv 120\) em (.+)!$/, (m) => `${m[1]} reached max mastery (Lv 120) in ${name(m[2])}!`],
+  [/^(.+) encontrou um item lendário: (.+?) \((.+)\) \(\+(\d+)\)!$/, (m) => `${m[1]} found a legendary item: ${name(m[2])} (+${m[4]})!`],
+  [/^(.+) encontrou um item lendário: (.+) \(\+(\d+)\)!$/, (m) => `${m[1]} found a legendary item: ${name(m[2])} (+${m[3]})!`],
+  [/^(.+) encontrou um item épico: (.+?) \((.+)\) \(\+(\d+)\)!$/, (m) => `${m[1]} found an epic item: ${name(m[2])} (+${m[4]})!`],
+  [/^(.+) encontrou um item épico: (.+) \(\+(\d+)\)!$/, (m) => `${m[1]} found an epic item: ${name(m[2])} (+${m[3]})!`],
+  [/^(.+) encontrou um item valioso: (.+)!$/, (m) => `${m[1]} found a valuable item: ${name(m[2])}!`],
+  [/^(.+) derrotou o temível chefe (.+)!$/, (m) => `${m[1]} defeated the fearsome boss ${name(m[2])}!`],
+  [/^(.+) venceu (.+)!$/, (m) => `${m[1]} won ${name(m[2])}!`],
+  [/^(.+) concluiu a quest (.+)!$/, (m) => `${m[1]} completed the quest ${name(m[2])}!`],
+  [/^O gladiador (.+) conquistou a vitória na (.+)!$/, (m) => `The gladiator ${m[1]} claimed victory in the ${m[2] === 'Arena dos Guerreiros' ? 'Warriors Arena' : m[2] === 'Arena dos Campeões' ? 'Arena of Champions' : m[2]}!`],
+];
+
+const EMOJI = /[\u{1F300}-\u{1FAFF}\u{2600}-\u{26FF}\u{2728}\u{2B50}\u{23E9}-\u{23FA}\u{231A}\u{231B}\u{1F000}-\u{1F2FF}]\u{FE0F}? ?/gu;
+
+/** Texto do servidor no idioma do jogador (português passa direto). */
+export function serverText(raw: string): string {
+  // Emojis de mensagens antigas (já gravadas no chat) saem: o jogo usa só ícones em pixel.
+  const text = raw ? raw.replace(EMOJI, '') : raw;
+  if (getLang() === 'pt' || !text) return text;
+  if (FIXED[text]) return FIXED[text];
+  for (const [re, fn] of RULES) {
+    const m = text.match(re);
+    if (m) return fn(m);
+  }
+  return storyText(text);
+}

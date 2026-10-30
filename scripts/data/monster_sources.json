@@ -1,0 +1,446 @@
+{
+ "agua_viva": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/action_monsters/monsters/jelsquid/rpgmaker/jelsquid_8sheet.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   0,
+   1
+  ],
+  "scale": 2
+ },
+ "anjo_sombrio": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_lichcrusades_v2/100/angel.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   1,
+   1
+  ],
+  "scale": 2
+ },
+ "aranha": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster1.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   2,
+   0
+  ],
+  "scale": 2
+ },
+ "caranguejo": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/action_monsters/monsters/crab/rpgmaker/crab_sheet_rm_1x.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   1,
+   0
+  ],
+  "scale": 2
+ },
+ "cavaleiro_negro": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster_dknight1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "centaur_archer": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_mythicalbosses/100/centaur_c_1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "cerbero": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_mythicalbosses/100/cerberus_1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "cultista_vermelho": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/elements_cultists/100/e_cultistsB.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   2,
+   0
+  ],
+  "scale": 2
+ },
+ "esqueleto6_escudo": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_lichcrusades_v2/100/skeletonarmy.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   0,
+   1
+  ],
+  "scale": 2
+ },
+ "esqueleto6_lanca": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_lichcrusades_v2/100/skeletonarmy.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   2,
+   0
+  ],
+  "scale": 2
+ },
+ "fire_dragon": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/2017patronbundle/2017/1x/dragon_red_reg.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "harpy": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/2017patronbundle/2017/1x/harpy_a_fly_1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "inseto": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/beast_tribes_2/100/insects.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "javali": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster_boar.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "kraken": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_mythicalbosses_v2/100/boss_kraken_1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "lagarto": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster_lizardman1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "lagarto_tribo": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/beast_tribes/100/beast_tribe_3.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "lich5": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster_lich.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "lobo": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster_wolf1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "medusa": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_mythicalbosses/100/medusa_1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "morcego": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/action_monsters/monsters/bat/rpgmaker/bat_fly_2x.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 1
+ },
+ "mumia": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/2017patronbundle/2017/1x/mummy_1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "quimera": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_mythicalbosses_v2/100/boss_chimera_1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "raptor": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster_raptor1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "rato": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/beast_tribes_2/100/rats.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "sapo": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/beast_tribes_2/100/frogs.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "soldado_ashfen": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/2017patronbundle/2017/1x/knight_factions_1.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "soldado_ashfen_b": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/2017patronbundle/2017/1x/knight_factions_1.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   1,
+   0
+  ],
+  "scale": 2
+ },
+ "tribo_lobo": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/beast_tribes/100/beast_tribe_1.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "tribo_peixe": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/beast_tribes/100/beast_tribe_5.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "tribo_peixe_b": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/beast_tribes/100/beast_tribe_5.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   1,
+   0
+  ],
+  "scale": 2
+ },
+ "tribo_raposa": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/beast_tribes/100/beast_tribe_2.png",
+  "grid": [
+   12,
+   8
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "vespa": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/action_monsters/monsters/wasp/rpgmaker/wasps_1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ },
+ "falcao": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster_bird1.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 1
+ },
+ "corvo": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster_bird2.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 1
+ },
+ "abutre": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster_bird3.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 1
+ },
+ "fenix": {
+  "sheet": "grimhold v0.7/assets-pixel/personagens/tf_monsters_assetpack/TimeFantasy_Monsters/1x/monster_phoenix.png",
+  "grid": [
+   3,
+   4
+  ],
+  "block": [
+   0,
+   0
+  ],
+  "scale": 2
+ }
+}

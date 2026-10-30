@@ -1,0 +1,314 @@
+[
+  {
+    "id": "make_arrow_shaft",
+    "name": "Hastes de Madeira",
+    "level": 1,
+    "intervalMs": 2000,
+    "xp": 152,
+    "inputs": {
+      "logs": 1
+    },
+    "output": "arrow_shaft",
+    "outputQty": 15
+  },
+  {
+    "id": "make_arrow_shaft_oak",
+    "name": "Hastes de Carvalho",
+    "level": 15,
+    "intervalMs": 2000,
+    "xp": 266,
+    "inputs": {
+      "oak_logs": 1
+    },
+    "output": "arrow_shaft",
+    "outputQty": 15
+  },
+  {
+    "id": "pluck_harpy_feather",
+    "name": "Desfiar Pluma de Harpia",
+    "level": 40,
+    "intervalMs": 2000,
+    "xp": 400,
+    "inputs": {
+      "harpy_feather": 1
+    },
+    "output": "feather",
+    "outputQty": 10
+  },
+  {
+    "id": "pluck_dark_feather",
+    "name": "Desfiar Pena do Anjo Sombrio",
+    "level": 70,
+    "intervalMs": 2000,
+    "xp": 900,
+    "inputs": {
+      "dark_feather": 1
+    },
+    "output": "feather",
+    "outputQty": 20
+  },
+  {
+    "id": "craft_bronze_arrow",
+    "name": "Flechas de Bronze",
+    "level": 1,
+    "intervalMs": 3000,
+    "xp": 285,
+    "inputs": {
+      "arrow_shaft": 15,
+      "feather": 15,
+      "bronze_bar": 1
+    },
+    "output": "bronze_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_iron_arrow",
+    "name": "Flechas de Ferro",
+    "level": 15,
+    "intervalMs": 3500,
+    "xp": 570,
+    "inputs": {
+      "arrow_shaft": 15,
+      "feather": 15,
+      "iron_bar": 1
+    },
+    "output": "iron_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_steel_arrow",
+    "name": "Flechas de Aço",
+    "level": 30,
+    "intervalMs": 4000,
+    "xp": 950,
+    "inputs": {
+      "arrow_shaft": 15,
+      "feather": 15,
+      "steel_bar": 1
+    },
+    "output": "steel_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_fire_arrow",
+    "name": "Flechas Flamejantes",
+    "level": 45,
+    "intervalMs": 4500,
+    "xp": 1330,
+    "inputs": {
+      "steel_arrow": 15,
+      "coal": 2
+    },
+    "output": "fire_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_mithril_arrow",
+    "name": "Flechas de Mithril",
+    "level": 60,
+    "intervalMs": 5000,
+    "xp": 1805,
+    "inputs": {
+      "arrow_shaft": 15,
+      "feather": 15,
+      "mithril_bar": 1
+    },
+    "output": "mithril_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_poison_arrow",
+    "name": "Flechas Envenenadas",
+    "level": 75,
+    "intervalMs": 5500,
+    "xp": 2375,
+    "inputs": {
+      "mithril_arrow": 15,
+      "green_herb": 2
+    },
+    "output": "poison_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_void_arrow",
+    "name": "Flechas do Vazio",
+    "level": 90,
+    "intervalMs": 6000,
+    "xp": 3040,
+    "inputs": {
+      "arrow_shaft": 15,
+      "dark_feather": 5,
+      "adamant_bar": 1
+    },
+    "output": "void_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "make_arrow_shaft_maple",
+    "name": "Hastes (Bordo)",
+    "level": 25,
+    "intervalMs": 2000,
+    "xp": 266,
+    "inputs": {
+      "maple_logs": 1
+    },
+    "output": "arrow_shaft",
+    "outputQty": 20
+  },
+  {
+    "id": "make_arrow_shaft_mahogany",
+    "name": "Hastes (Mogno)",
+    "level": 38,
+    "intervalMs": 2000,
+    "xp": 342,
+    "inputs": {
+      "mahogany_logs": 1
+    },
+    "output": "arrow_shaft",
+    "outputQty": 25
+  },
+  {
+    "id": "make_arrow_shaft_magic",
+    "name": "Hastes (Mágica)",
+    "level": 70,
+    "intervalMs": 2000,
+    "xp": 551,
+    "inputs": {
+      "magic_logs": 1
+    },
+    "output": "arrow_shaft",
+    "outputQty": 30
+  },
+  {
+    "id": "make_arrow_shaft_ironwood",
+    "name": "Hastes (Pau-ferro)",
+    "level": 80,
+    "intervalMs": 2000,
+    "xp": 627,
+    "inputs": {
+      "ironwood_logs": 1
+    },
+    "output": "arrow_shaft",
+    "outputQty": 35
+  },
+  {
+    "id": "make_arrow_shaft_redwood",
+    "name": "Hastes (Sequoia)",
+    "level": 90,
+    "intervalMs": 2000,
+    "xp": 684,
+    "inputs": {
+      "redwood_logs": 1
+    },
+    "output": "arrow_shaft",
+    "outputQty": 40
+  },
+  {
+    "id": "make_arrow_shaft_spirit",
+    "name": "Hastes (Espiritual)",
+    "level": 100,
+    "intervalMs": 2000,
+    "xp": 760,
+    "inputs": {
+      "spirit_logs": 1
+    },
+    "output": "arrow_shaft",
+    "outputQty": 45
+  },
+  {
+    "id": "make_arrow_shaft_worldtree",
+    "name": "Hastes (Árvore do Mundo)",
+    "level": 112,
+    "intervalMs": 2000,
+    "xp": 836,
+    "inputs": {
+      "worldtree_logs": 1
+    },
+    "output": "arrow_shaft",
+    "outputQty": 50
+  },
+  {
+    "id": "craft_runite_arrow",
+    "name": "Flechas de Runita",
+    "level": 72,
+    "intervalMs": 5000,
+    "xp": 2470,
+    "inputs": {
+      "arrow_shaft": 15,
+      "feather": 15,
+      "runite_bar": 1
+    },
+    "output": "runite_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_orichalcum_arrow",
+    "name": "Flechas de Oricalco",
+    "level": 82,
+    "intervalMs": 5000,
+    "xp": 2812,
+    "inputs": {
+      "arrow_shaft": 15,
+      "feather": 15,
+      "orichalcum_bar": 1
+    },
+    "output": "orichalcum_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_luminite_arrow",
+    "name": "Flechas de Luminita",
+    "level": 92,
+    "intervalMs": 5500,
+    "xp": 3154,
+    "inputs": {
+      "arrow_shaft": 15,
+      "feather": 15,
+      "luminite_bar": 1
+    },
+    "output": "luminite_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_dragonite_arrow",
+    "name": "Flechas de Dragonita",
+    "level": 102,
+    "intervalMs": 5500,
+    "xp": 3496,
+    "inputs": {
+      "arrow_shaft": 15,
+      "feather": 15,
+      "dragonite_bar": 1
+    },
+    "output": "dragonite_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_starmetal_arrow",
+    "name": "Flechas Estelares",
+    "level": 110,
+    "intervalMs": 5500,
+    "xp": 3762,
+    "inputs": {
+      "arrow_shaft": 15,
+      "feather": 15,
+      "starmetal_bar": 1
+    },
+    "output": "starmetal_arrow",
+    "outputQty": 15
+  },
+  {
+    "id": "craft_primordial_arrow",
+    "name": "Flechas Primordiais",
+    "level": 118,
+    "intervalMs": 5500,
+    "xp": 4028,
+    "inputs": {
+      "arrow_shaft": 15,
+      "feather": 15,
+      "primordial_bar": 1
+    },
+    "output": "primordial_arrow",
+    "outputQty": 15
+  }
+]

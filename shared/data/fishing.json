@@ -1,0 +1,16 @@
+[
+  {"id": "shrimp_spot", "name": "Rede de Camarão", "region": "Ravina Selvagem", "level": 1, "intervalMs": 3000, "xp": 314, "item": "raw_shrimp"},
+  {"id": "trout_spot", "name": "Poço de Trutas", "region": "Ravina Selvagem", "level": 10, "intervalMs": 4000, "xp": 627, "item": "raw_trout"},
+  {"id": "salmon_spot", "name": "Corredeira do Salmão", "region": "Ravina Selvagem", "level": 20, "intervalMs": 5000, "xp": 940, "item": "raw_salmon"},
+  {"id": "crab_spot", "name": "Toca dos Caranguejos", "region": "Costa do Naufrágio", "level": 28, "intervalMs": 4900, "xp": 1003, "item": "raw_crab"},
+  {"id": "lobster_spot", "name": "Covo de Lagosta", "region": "Costa do Naufrágio", "level": 35, "intervalMs": 5500, "xp": 1358, "item": "raw_lobster"},
+  {"id": "tuna_spot", "name": "Cardume de Atum", "region": "Mar Aberto", "level": 45, "intervalMs": 6000, "xp": 1776, "item": "raw_tuna"},
+  {"id": "swordfish_spot", "name": "Rota do Espadarte", "region": "Mar Aberto", "level": 52, "intervalMs": 6500, "xp": 1902, "item": "raw_swordfish"},
+  {"id": "shark_spot", "name": "Águas do Tubarão", "region": "Recife Partido", "level": 60, "intervalMs": 7000, "xp": 2508, "item": "raw_shark"},
+  {"id": "monkfish_spot", "name": "Fundo do Tamboril", "region": "Recife Partido", "level": 68, "intervalMs": 7800, "xp": 3051, "item": "raw_monkfish"},
+  {"id": "eel_spot", "name": "Poço da Enguia", "region": "Fossa Abissal", "level": 75, "intervalMs": 8000, "xp": 3344, "item": "raw_eel"},
+  {"id": "dragonfish_spot", "name": "Águas Ferventes", "region": "Abismo Infernal", "level": 85, "intervalMs": 9500, "xp": 5267, "item": "raw_dragonfish"},
+  {"id": "dark_crab_spot", "name": "Toca Sombria", "region": "Fossa Abissal", "level": 95, "intervalMs": 10500, "xp": 7001, "item": "raw_dark_crab"},
+  {"id": "serpent_spot", "name": "Covil da Serpente", "region": "Mar Aberto", "level": 105, "intervalMs": 11500, "xp": 8987, "item": "raw_serpent"},
+  {"id": "manta_spot", "name": "Fossa da Arraia", "region": "Fossa Abissal", "level": 115, "intervalMs": 12500, "xp": 11286, "item": "raw_manta"}
+]
